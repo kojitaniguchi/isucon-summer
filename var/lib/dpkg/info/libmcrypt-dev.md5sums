@@ -1,0 +1,14 @@
+59ebd4bfd74b4a4b881098e0dad63b13  usr/bin/libmcrypt-config
+50f8a3eddaf9a98ed3d3b52c40c3becd  usr/include/mcrypt.h
+1fc7c999efe9e7c57b589c3ccd792148  usr/include/mutils/mcrypt.h
+5832fe39b8052c6a5a7d6a28a77339e1  usr/lib/libmcrypt.a
+a53bb6ad1f45a6146523f64bc3b16440  usr/lib/libmcrypt.la
+10f88637afde1db899548a7a0e7867c3  usr/share/aclocal/libmcrypt.m4
+d61fbe37e9d14c24a0ad1166b0740d59  usr/share/doc/libmcrypt-dev/README
+5b3f0477c066552f4c0e3a2c8f34b56d  usr/share/doc/libmcrypt-dev/README.key
+230ed514668612344f3dea3ab1ce253b  usr/share/doc/libmcrypt-dev/README.xtea
+3b9ff878c95d5260addd1f97d8474cd6  usr/share/doc/libmcrypt-dev/TODO
+19bb6c7fb6463c81acb0778f2b63e40c  usr/share/doc/libmcrypt-dev/copyright
+4d44226d1b5ded84c6586272246c1578  usr/share/doc/libmcrypt-dev/examples/example.c
+15b8e8012f495de3d325becf7938bc66  usr/share/man/man1/libmcrypt-config.1.gz
+890ee1aa05bfde410304f7535e58145e  usr/share/man/man3/libmcrypt.3.gz

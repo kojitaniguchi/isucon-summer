@@ -1,0 +1,14 @@
+09b83c0b9c8e9cf11b438140c1e885df  usr/bin/wsdump3
+879ed16e8bcbf351b8d18c0b757d9b6b  usr/lib/python3/dist-packages/websocket/__init__.py
+c9e90ee556e43df775252a9fe8f28e3b  usr/lib/python3/dist-packages/websocket/_abnf.py
+86f7c93672d1f8a57f449599979cfccd  usr/lib/python3/dist-packages/websocket/_app.py
+dde9b852219abd4553cc42332c979c3a  usr/lib/python3/dist-packages/websocket/_core.py
+47be28a5f967140f7e36269c24d10549  usr/lib/python3/dist-packages/websocket/_exceptions.py
+6a3fbb730134add1d988fbe8197ed2a8  usr/lib/python3/dist-packages/websocket/_utils.py
+6e6743956ee0f3fa5094489673bedc54  usr/lib/python3/dist-packages/websocket/cacert.pem
+c0adbc46774facece4b063f22a8b6512  usr/lib/python3/dist-packages/websocket_client-0.18.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/websocket_client-0.18.0.egg-info/dependency_links.txt
+5d2dfbea120f23e84e689374aa2ba84f  usr/lib/python3/dist-packages/websocket_client-0.18.0.egg-info/requires.txt
+71c6c146d1cd29f93bb2183d9500b500  usr/lib/python3/dist-packages/websocket_client-0.18.0.egg-info/top_level.txt
+6561e622bb6e04e9f04b2d5ad15e1e7a  usr/share/doc/python3-websocket/changelog.Debian.gz
+40074fcaffcfb34f25183eefd5d99397  usr/share/doc/python3-websocket/copyright

@@ -1,0 +1,11 @@
+dacc1f6da973cf01bf64b90521cea1bd  usr/include/mhash.h
+00f7962926e396adb6eb8c619c59a230  usr/include/mutils/mglobal.h
+50c826eda57bf5d4bb42325491962d02  usr/include/mutils/mhash.h
+4a95f0011a43ead84e176a98e201085b  usr/include/mutils/mhash_config.h
+ce8455d622b8eeb6a868b21402afb98b  usr/include/mutils/mincludes.h
+4ac33b26132dde176016778e80e4744e  usr/include/mutils/mtypes.h
+4a38fab02c026ce706dc6de80dee30aa  usr/include/mutils/mutils.h
+21870a21799a2a9797d27c5095afb594  usr/lib/x86_64-linux-gnu/libmhash.a
+9146451960d1313a55e87f9682d7679b  usr/lib/x86_64-linux-gnu/pkgconfig/mhash.pc
+2747d1c726af50e26272b78fc71fc041  usr/share/doc/libmhash-dev/copyright
+ebb0ba6e89e691e32c560846b3f6d1e8  usr/share/man/man3/mhash.3.gz

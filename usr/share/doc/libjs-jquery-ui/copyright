@@ -1,0 +1,230 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: jQueryUI
+Source: http://jqueryui.com/
+
+Files: *
+Homepage: http://jqueryui.com/
+Copyright: 2008 Paul Bakaus (ui.jquery.com)
+  Brandon Aaron
+  David Bolter
+  Rich Caloggero
+  Chi Cheng (cloudream@gmail.com)
+  Colin Clark (http://colin.atrc.utoronto.ca/)
+  Michelle D'Souza
+  Aaron Eisenberger (aaronchi@gmail.com)
+  Ariel Flesler
+  Bohdan Ganicky
+  Scott González
+  Marc Grabanski (m@marcgrabanski.com)
+  Klaus Hartl (stilbuero.de)
+  Scott Jehl
+  Cody Lindley
+  Eduardo Lundgren (eduardolundgren@gmail.com)
+  Todd Parker
+  John Resig
+  Patty Toland
+  Ca-Phun Ung (yelotofu.com)
+  Keith Wood (kbwood@virginbroadband.com.au)
+  Maggie Costello Wachs
+  Richard D. Worth (rdworth.org)
+  Jörn Zaefferer (bassistance.de)
+License: GPL-2 or MIT
+
+Files: development-bundle/jquery-1.3.2.js
+Copyright:  Copyright (c) 2008 John Resig (jquery.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/theme/ui.all.css
+Copyright: Scott Jehl, scott@filamentgroup.com, http://www.filamentgroup.com
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ar.js
+Copyright: Khaled Al Horani -- koko.dw@gmail.com
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-bg.js
+Copyright: Stoyan Kyosev (http://svest.org)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ca.js
+Copyright: joan.leon@gmail.com
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-cs.js
+Copyright: Tomas Muller (tomas@tomas-muller.net)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-da.js
+Copyright: Jan Christensen ( deletestuff@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-de.js
+Copyright: Milian Wolff (mail@milianw.de)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-el.js
+Copyright: Alex Cicovic (http://www.alexcicovic.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-eo.js
+Copyright: Olivier M. (olivierweb@ifrance.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-es.js
+Copyright: Vester (xvester@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-fa.js
+Copyright: Javad Mowlanezhad -- jmowla@gmail.com
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-fi.js
+Copyright: Harri Kilpi� (harrikilpio@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-fr.js
+Copyright: Keith Wood (kbwood@virginbroadband.com.au) and Stéphane Nahmani (sholby@sholby.net)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-he.js
+Copyright: Amir Hardon (ahardon at gmail dot com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-hr.js
+Copyright: Vjekoslav Nesek
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-hu.js
+Copyright: Istvan Karaszi (jquerycalendar@spam.raszi.hu)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-hu.js
+Copyright: Levon Zakaryan (levon.zakaryan@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-id.js
+Copyright: Deden Fathurahman (dedenf@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-is.js
+Copyright: Haukur H. Thorsson (haukur@eskill.is)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-it.js
+Copyright: paella (apaella@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ja.js
+Copyright: Kentaro SATO (kentaro@ranvis.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ko.js
+Copyright: DaeKwon Kang (ncrash.dk@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-lt.js
+Copyright: Arturas Paleicikas <arturas@avalon.lt>
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-lv.js
+Copyright: Arturas Paleicikas <arturas.paleicikas@metasite.net> 
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ms.js
+Copyright: Mohd Nawawi Mohamad Jamili (nawawi@ronggeng.net)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-nl.js
+Copyright: Mathias Bynens <http://mathiasbynens.be/>
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-no.js
+Copyright: Naimdjon Takhirov (naimdjon@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-pl.js
+Copyright: Jacek Wysocki (jacek.wysocki@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-pt-BR.js
+Copyright: Leonildo Costa Silva (leocsilva@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ro.js
+Copyright: Edmond L. (ll_edmond@walla.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-ru.js
+Copyright: Andrew Stromnov (stromnov@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-sk.js
+Copyright: Vojtech Rinik (vojto@hmm.sk)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-sl.js
+Copyright: Jaka Jancar (jaka@kubje.org)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-sq.js
+Copyright: Flakron Bytyqi (flakron@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-sv.js
+Copyright: Anders Ekdahl ( anders@nomadiz.se)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-th.js
+Copyright: pipo (pipo@sixhead.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-tr.js
+Copyright: Izzet Emre Erkan (kara@karalamalar.net)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-uk.js
+Copyright: Maxim Drogobitskiy (maxdao@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-zh-CN.js
+Copyright: Cloudream (cloudream@gmail.com)
+License: GPL-2 or MIT
+
+Files: development-bundle/ui/i18n/ui.datepicker-zh-TW.js
+Copyright: Ressol (ressol@gmail.com)
+License: GPL-2 or MIT
+
+Files: debian/*
+Copyright: (c) 2009, Walter Cruz <walter@waltercruz.com>
+License: GPL-2 or MIT
+
+License: GPL-2
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
+
+License: MIT
+  Copyright (c) 2009 Paul Bakaus, http://ui.jquery.com/
+  .
+  This software consists of voluntary contributions made by many
+  individuals (AUTHORS.txt, http://ui.jquery.com/about) For exact
+  contribution history, see the revision history and logs, available
+  at http://jquery-ui.googlecode.com/svn/
+  .
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+  .
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

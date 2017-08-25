@@ -1,0 +1,28 @@
+sysv-rc-conf - Copyright 2004 Joe Oppegaard <joe@pidone.org>
+
+Why?
+I made this program because other "terminal gui" run-level configuration 
+programs I used lacked features I wanted. I decided not to patch the others
+because I wanted something quite a bit different from the current offerings,
+though I used quite a few ideas from those programs. Plus it seemed like they
+were tied to the system they were being used on. (Like rcconf is a front-end
+to debian's update-rc.d).
+
+sysv-rc-conf's goal is to be a replacement for tools such as ntsysv (popular on
+RedHat systems) or rcconf (from Debian).
+
+sysv-rc-conf should be compatible with any system that uses SysV style rc*.d 
+symlinks. I've really only tested it on Linux systems though, so any feedback
+would be appreciated.
+
+sysv-rc-conf is released under the GNU GPL. See COPYING for more information.
+
+Report bugs to Joe Oppegaard <joe@pidone.org>
+
+Web: http://sysv-rc-conf.sourceforge.net
+FTP: ftp://ftp.pidone.org/sysv-rc-conf
+
+Thanks to Thomas Hood for many suggestions and ideas.
+
+-Joe Oppegaard
+joe@pidone.org

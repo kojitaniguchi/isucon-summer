@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+includedir=/usr/include
+libdir=/usr/lib/x86_64-linux-gnu
+
+Name: mhash
+Description: MHASH
+URL: 
+Version: 0.9.9
+Cflags: -I/usr/include
+Libs: -L/usr/lib/x86_64-linux-gnu -lmhash
+Libs.private: -Wl,-Bsymbolic-functions -Wl,-z,relro 

@@ -1,0 +1,14 @@
+58caedad4f598e68b2c98bfc4f17c36d  usr/lib/python2.7/dist-packages/ecdsa-0.13.egg-info
+80ce271586b6766bb3fb0707b8ddf239  usr/lib/python2.7/dist-packages/ecdsa/__init__.py
+12f1046b386e4b420fa696cdc8323818  usr/lib/python2.7/dist-packages/ecdsa/_version.py
+ad09f73a834b5c6b8f686b870c357227  usr/lib/python2.7/dist-packages/ecdsa/curves.py
+22901ebacdaf4d2106ff2b36d223c394  usr/lib/python2.7/dist-packages/ecdsa/der.py
+11b67f3197d80b0612c68a270c81c871  usr/lib/python2.7/dist-packages/ecdsa/ecdsa.py
+4be11078afa7d07629427caf62b2fe80  usr/lib/python2.7/dist-packages/ecdsa/ellipticcurve.py
+492cb1c705f680e00ee637e53529aa59  usr/lib/python2.7/dist-packages/ecdsa/keys.py
+8476fe2250be0fa14036541bd4347d02  usr/lib/python2.7/dist-packages/ecdsa/numbertheory.py
+3b39db4c617a2ccef8c5eefe568c1047  usr/lib/python2.7/dist-packages/ecdsa/rfc6979.py
+1402502c27ccc3c0ed81bd993a789814  usr/lib/python2.7/dist-packages/ecdsa/test_pyecdsa.py
+1af992e327da4735cb579ab28b0f0720  usr/lib/python2.7/dist-packages/ecdsa/util.py
+f5ce38177b9f05cf81fb7e4f44483da7  usr/share/doc/python-ecdsa/changelog.Debian.gz
+2cc86ea807ce21075432790c41fc1f81  usr/share/doc/python-ecdsa/copyright

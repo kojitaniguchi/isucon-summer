@@ -1,0 +1,1543 @@
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Linux version 4.4.0-79-generic (buildd@lcy01-30) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #100-Ubuntu SMP Wed May 17 19:58:14 UTC 2017 (Ubuntu 4.4.0-79.100-generic 4.4.67)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-79-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] KERNEL supported cpus:
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   Intel GenuineIntel
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   AMD AuthenticAMD
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   Centaur CentaurHauls
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Disabled fast string operations
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dbff] usable
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009dc00-0x000000000009ffff] reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffcfff] usable
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x000000003fffd000-0x000000003fffffff] reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] NX (Execute Disable) protection: active
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] SMBIOS 2.4 present.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] DMI: SAKURA Internet Inc. SAKURA CLOUD KVM, BIOS 2.4 05/17/2017
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Hypervisor detected: KVM
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] e820: last_pfn = 0x3fffd max_arch_pfn = 0x400000000
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] MTRR default type: write-back
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] MTRR fixed ranges enabled:
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   00000-9FFFF write-back
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   A0000-BFFFF uncachable
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   C0000-FFFFF write-protect
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] MTRR variable ranges enabled:
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   0 base 0000E0000000 mask 3FFFE0000000 uncachable
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   1 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   2 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   3 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   4 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   5 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   6 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   7 disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] found SMP MP-table at [mem 0x000fda50-0x000fda5f] mapped at [ffff8800000fda50]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Using GB pages for direct mapping
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BRK [0x0220b000, 0x0220bfff] PGTABLE
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BRK [0x0220c000, 0x0220cfff] PGTABLE
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BRK [0x0220d000, 0x0220dfff] PGTABLE
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] BRK [0x0220e000, 0x0220efff] PGTABLE
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] RAMDISK: [mem 0x33ef0000-0x35f6ffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: RSDP 0x00000000000FDA00 000014 (v00 BOCHS )
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: RSDT 0x000000003FFFD630 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: FACP 0x000000003FFFFE20 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: DSDT 0x000000003FFFD910 0024A2 (v01 BXPC   BXDSDT   00000001 INTL 20090123)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: FACS 0x000000003FFFFDC0 000040
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: SSDT 0x000000003FFFD870 00009E (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: APIC 0x000000003FFFD780 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: SSDT 0x000000003FFFD670 00010F (v01 BXPC   BXSSDTPC 00000001 INTL 20090123)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] No NUMA configuration found
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003fffcfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3fff8000-0x3fffcfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3fff0001, primary cpu clock
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Zone ranges:
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003fffcfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   Normal   empty
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   Device   empty
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Movable zone start for each node
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Early memory node ranges
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009cfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003fffcfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003fffcfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] On node 0 totalpages: 262041
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA zone: 21 pages reserved
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Aug 15 00:21:41 isucon6 kernel: [    0.000000]   DMA32 zone: 258045 pages, LIFO batch:31
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: IRQ5 used by override.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: IRQ10 used by override.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] ACPI: IRQ11 used by override.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] e820: [mem 0x40000000-0xfffbbfff] available for PCI devices
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PERCPU: Embedded 33 pages/cpu @ffff88003fc00000 s98264 r8192 d28712 u2097152
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] pcpu-alloc: s98264 r8192 d28712 u2097152 alloc=1*2097152
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] kvm-stealtime: cpu 0, msr 3fc0d9c0
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257924
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Policy zone: DMA32
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-79-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Memory: 979480K/1048164K available (8469K kernel code, 1294K rwdata, 3984K rodata, 1484K init, 1316K bss, 68684K reserved, 0K cma-reserved)
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Hierarchical RCU implementation.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] Console: colour dummy device 80x25
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] console [tty0] enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.000000] tsc: Detected 2499.998 MHz processor
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=9999992)
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] ACPI: Core revision 20150930
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] ACPI: 3 ACPI AML tables successfully acquired and loaded
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Security Framework initialized
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Yama: becoming mindful.
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] AppArmor: AppArmor initialized
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys io
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys memory
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys devices
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys freezer
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys net_cls
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys perf_event
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys net_prio
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys hugetlb
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Initializing cgroup subsys pids
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Disabled fast string operations
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Aug 15 00:21:41 isucon6 kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Aug 15 00:21:41 isucon6 kernel: [    0.023192] Freeing SMP alternatives memory: 32K (ffffffff820b8000 - ffffffff820c0000)
+Aug 15 00:21:41 isucon6 kernel: [    0.031291] ftrace: allocating 32127 entries in 126 pages
+Aug 15 00:21:41 isucon6 kernel: [    0.044117] smpboot: APIC(0) Converting physical 0 to logical package 0
+Aug 15 00:21:41 isucon6 kernel: [    0.044120] smpboot: Max logical packages: 1
+Aug 15 00:21:41 isucon6 kernel: [    0.044404] x2apic enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.044623] Switched APIC routing to physical x2apic.
+Aug 15 00:21:41 isucon6 kernel: [    0.048899] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 15 00:21:41 isucon6 kernel: [    0.048935] TSC deadline timer enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.048939] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz (family: 0x6, model: 0x2d, stepping: 0x7)
+Aug 15 00:21:41 isucon6 kernel: [    0.048953] Performance Events: 16-deep LBR, SandyBridge events, Intel PMU driver.
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] core: PEBS disabled due to CPU errata, please upgrade microcode
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... version:                2
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... bit width:              48
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... generic registers:      4
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... value mask:             0000ffffffffffff
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... max period:             000000007fffffff
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... fixed-purpose events:   3
+Aug 15 00:21:41 isucon6 kernel: [    0.052000] ... event mask:             000000070000000f
+Aug 15 00:21:41 isucon6 kernel: [    0.052540] x86: Booted up 1 node, 1 CPUs
+Aug 15 00:21:41 isucon6 kernel: [    0.052542] smpboot: Total of 1 processors activated (4999.99 BogoMIPS)
+Aug 15 00:21:41 isucon6 kernel: [    0.052846] devtmpfs: initialized
+Aug 15 00:21:41 isucon6 kernel: [    0.054621] evm: security.selinux
+Aug 15 00:21:41 isucon6 kernel: [    0.054623] evm: security.SMACK64
+Aug 15 00:21:41 isucon6 kernel: [    0.054623] evm: security.SMACK64EXEC
+Aug 15 00:21:41 isucon6 kernel: [    0.054624] evm: security.SMACK64TRANSMUTE
+Aug 15 00:21:41 isucon6 kernel: [    0.054625] evm: security.SMACK64MMAP
+Aug 15 00:21:41 isucon6 kernel: [    0.054625] evm: security.ima
+Aug 15 00:21:41 isucon6 kernel: [    0.054626] evm: security.capability
+Aug 15 00:21:41 isucon6 kernel: [    0.054760] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Aug 15 00:21:41 isucon6 kernel: [    0.054769] futex hash table entries: 256 (order: 2, 16384 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.054838] pinctrl core: initialized pinctrl subsystem
+Aug 15 00:21:41 isucon6 kernel: [    0.054979] RTC time: 15:21:38, date: 08/14/17
+Aug 15 00:21:41 isucon6 kernel: [    0.055108] NET: Registered protocol family 16
+Aug 15 00:21:41 isucon6 kernel: [    0.055283] cpuidle: using governor ladder
+Aug 15 00:21:41 isucon6 kernel: [    0.055286] cpuidle: using governor menu
+Aug 15 00:21:41 isucon6 kernel: [    0.055287] PCCT header not found.
+Aug 15 00:21:41 isucon6 kernel: [    0.055385] ACPI: bus type PCI registered
+Aug 15 00:21:41 isucon6 kernel: [    0.055387] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 15 00:21:41 isucon6 kernel: [    0.055481] PCI: Using configuration type 1 for base access
+Aug 15 00:21:41 isucon6 kernel: [    0.055550] core: PMU erratum BJ122, BV98, HSD29 workaround disabled, HT off
+Aug 15 00:21:41 isucon6 kernel: [    0.057128] ACPI: Added _OSI(Module Device)
+Aug 15 00:21:41 isucon6 kernel: [    0.057130] ACPI: Added _OSI(Processor Device)
+Aug 15 00:21:41 isucon6 kernel: [    0.057132] ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 15 00:21:41 isucon6 kernel: [    0.057134] ACPI: Added _OSI(Processor Aggregator Device)
+Aug 15 00:21:41 isucon6 kernel: [    0.058650] ACPI: Interpreter enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.058659] ACPI: (supports S0 S5)
+Aug 15 00:21:41 isucon6 kernel: [    0.058660] ACPI: Using IOAPIC for interrupt routing
+Aug 15 00:21:41 isucon6 kernel: [    0.058671] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 15 00:21:41 isucon6 kernel: [    0.061332] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 15 00:21:41 isucon6 kernel: [    0.061339] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Aug 15 00:21:41 isucon6 kernel: [    0.061346] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Aug 15 00:21:41 isucon6 kernel: [    0.061356] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Aug 15 00:21:41 isucon6 kernel: [    0.061637] acpiphp: Slot [1] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061659] acpiphp: Slot [2] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061675] acpiphp: Slot [3] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061691] acpiphp: Slot [4] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061706] acpiphp: Slot [5] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061722] acpiphp: Slot [6] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061738] acpiphp: Slot [7] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061753] acpiphp: Slot [8] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061768] acpiphp: Slot [9] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061784] acpiphp: Slot [10] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061800] acpiphp: Slot [11] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061814] acpiphp: Slot [12] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061829] acpiphp: Slot [13] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061844] acpiphp: Slot [14] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061859] acpiphp: Slot [15] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061873] acpiphp: Slot [16] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061889] acpiphp: Slot [17] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061904] acpiphp: Slot [18] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061919] acpiphp: Slot [19] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061934] acpiphp: Slot [20] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061949] acpiphp: Slot [21] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061964] acpiphp: Slot [22] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061979] acpiphp: Slot [23] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.061994] acpiphp: Slot [24] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062009] acpiphp: Slot [25] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062024] acpiphp: Slot [26] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062049] acpiphp: Slot [27] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062070] acpiphp: Slot [28] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062097] acpiphp: Slot [29] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062115] acpiphp: Slot [30] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062131] acpiphp: Slot [31] registered
+Aug 15 00:21:41 isucon6 kernel: [    0.062419] PCI host bridge to bus 0000:00
+Aug 15 00:21:41 isucon6 kernel: [    0.062422] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Aug 15 00:21:41 isucon6 kernel: [    0.062424] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.062425] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.062427] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfebfffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.062429] pci_bus 0000:00: root bus resource [bus 00-ff]
+Aug 15 00:21:41 isucon6 kernel: [    0.062457] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Aug 15 00:21:41 isucon6 kernel: [    0.062769] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Aug 15 00:21:41 isucon6 kernel: [    0.063217] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Aug 15 00:21:41 isucon6 kernel: [    0.063449] pci 0000:00:01.1: reg 0x20: [io  0xc000-0xc00f]
+Aug 15 00:21:41 isucon6 kernel: [    0.063541] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Aug 15 00:21:41 isucon6 kernel: [    0.063542] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Aug 15 00:21:41 isucon6 kernel: [    0.063543] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Aug 15 00:21:41 isucon6 kernel: [    0.063544] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Aug 15 00:21:41 isucon6 kernel: [    0.063675] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Aug 15 00:21:41 isucon6 kernel: [    0.063890] pci 0000:00:01.2: reg 0x20: [io  0xc020-0xc03f]
+Aug 15 00:21:41 isucon6 kernel: [    0.064140] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Aug 15 00:21:41 isucon6 kernel: [    0.064466] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Aug 15 00:21:41 isucon6 kernel: [    0.064474] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Aug 15 00:21:41 isucon6 kernel: [    0.064653] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Aug 15 00:21:41 isucon6 kernel: [    0.076000] pci 0000:00:02.0: reg 0x10: [mem 0xf0000000-0xf1ffffff pref]
+Aug 15 00:21:41 isucon6 kernel: [    0.084019] pci 0000:00:02.0: reg 0x14: [mem 0xf2000000-0xf2000fff]
+Aug 15 00:21:41 isucon6 kernel: [    0.132031] pci 0000:00:02.0: reg 0x30: [mem 0xf2010000-0xf201ffff pref]
+Aug 15 00:21:41 isucon6 kernel: [    0.132378] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+Aug 15 00:21:41 isucon6 kernel: [    0.132574] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc05f]
+Aug 15 00:21:41 isucon6 kernel: [    0.132656] pci 0000:00:03.0: reg 0x14: [mem 0xf2020000-0xf2020fff]
+Aug 15 00:21:41 isucon6 kernel: [    0.133035] pci 0000:00:03.0: reg 0x30: [mem 0xf2030000-0xf203ffff pref]
+Aug 15 00:21:41 isucon6 kernel: [    0.133357] pci 0000:00:04.0: [1af4:1002] type 00 class 0x050000
+Aug 15 00:21:41 isucon6 kernel: [    0.133467] pci 0000:00:04.0: reg 0x10: [io  0xc060-0xc07f]
+Aug 15 00:21:41 isucon6 kernel: [    0.134081] pci 0000:00:05.0: [1af4:1001] type 00 class 0x010000
+Aug 15 00:21:41 isucon6 kernel: [    0.134270] pci 0000:00:05.0: reg 0x10: [io  0xc080-0xc0bf]
+Aug 15 00:21:41 isucon6 kernel: [    0.134354] pci 0000:00:05.0: reg 0x14: [mem 0xf2040000-0xf2040fff]
+Aug 15 00:21:41 isucon6 kernel: [    0.135566] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 15 00:21:41 isucon6 kernel: [    0.135677] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 15 00:21:41 isucon6 kernel: [    0.135784] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 15 00:21:41 isucon6 kernel: [    0.135888] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 15 00:21:41 isucon6 kernel: [    0.135935] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 15 00:21:41 isucon6 kernel: [    0.136334] ACPI: Enabled 16 GPEs in block 00 to 0F
+Aug 15 00:21:41 isucon6 kernel: [    0.136549] vgaarb: setting as boot device: PCI:0000:00:02.0
+Aug 15 00:21:41 isucon6 kernel: [    0.136552] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 15 00:21:41 isucon6 kernel: [    0.136554] vgaarb: loaded
+Aug 15 00:21:41 isucon6 kernel: [    0.136556] vgaarb: bridge control possible 0000:00:02.0
+Aug 15 00:21:41 isucon6 kernel: [    0.136902] SCSI subsystem initialized
+Aug 15 00:21:41 isucon6 kernel: [    0.136964] libata version 3.00 loaded.
+Aug 15 00:21:41 isucon6 kernel: [    0.137001] ACPI: bus type USB registered
+Aug 15 00:21:41 isucon6 kernel: [    0.137025] usbcore: registered new interface driver usbfs
+Aug 15 00:21:41 isucon6 kernel: [    0.137040] usbcore: registered new interface driver hub
+Aug 15 00:21:41 isucon6 kernel: [    0.137057] usbcore: registered new device driver usb
+Aug 15 00:21:41 isucon6 kernel: [    0.137200] ioremap error for 0x3ffff000-0x40000000, requested 0x2, got 0x0
+Aug 15 00:21:41 isucon6 kernel: [    0.137208] dmi: Firmware registration failed.
+Aug 15 00:21:41 isucon6 kernel: [    0.137275] PCI: Using ACPI for IRQ routing
+Aug 15 00:21:41 isucon6 kernel: [    0.137277] PCI: pci_cache_line_size set to 64 bytes
+Aug 15 00:21:41 isucon6 kernel: [    0.137446] e820: reserve RAM buffer [mem 0x0009dc00-0x0009ffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.137449] e820: reserve RAM buffer [mem 0x3fffd000-0x3fffffff]
+Aug 15 00:21:41 isucon6 kernel: [    0.137627] NetLabel: Initializing
+Aug 15 00:21:41 isucon6 kernel: [    0.137629] NetLabel:  domain hash size = 128
+Aug 15 00:21:41 isucon6 kernel: [    0.137630] NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 15 00:21:41 isucon6 kernel: [    0.137643] NetLabel:  unlabeled traffic allowed by default
+Aug 15 00:21:41 isucon6 kernel: [    0.137765] amd_nb: Cannot enumerate AMD northbridges
+Aug 15 00:21:41 isucon6 kernel: [    0.137782] clocksource: Switched to clocksource kvm-clock
+Aug 15 00:21:41 isucon6 kernel: [    0.144902] AppArmor: AppArmor Filesystem Enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.144996] pnp: PnP ACPI init
+Aug 15 00:21:41 isucon6 kernel: [    0.145115] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Aug 15 00:21:41 isucon6 kernel: [    0.145189] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Aug 15 00:21:41 isucon6 kernel: [    0.145240] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Aug 15 00:21:41 isucon6 kernel: [    0.145270] pnp 00:03: [dma 2]
+Aug 15 00:21:41 isucon6 kernel: [    0.145298] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Aug 15 00:21:41 isucon6 kernel: [    0.145437] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Aug 15 00:21:41 isucon6 kernel: [    0.145645] pnp: PnP ACPI: found 5 devices
+Aug 15 00:21:41 isucon6 kernel: [    0.152512] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Aug 15 00:21:41 isucon6 kernel: [    0.152534] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Aug 15 00:21:41 isucon6 kernel: [    0.152537] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.152539] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.152541] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfebfffff window]
+Aug 15 00:21:41 isucon6 kernel: [    0.152588] NET: Registered protocol family 2
+Aug 15 00:21:41 isucon6 kernel: [    0.152802] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.152830] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.152856] TCP: Hash tables configured (established 8192 bind 8192)
+Aug 15 00:21:41 isucon6 kernel: [    0.152892] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.152900] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.152949] NET: Registered protocol family 1
+Aug 15 00:21:41 isucon6 kernel: [    0.152970] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 15 00:21:41 isucon6 kernel: [    0.152990] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 15 00:21:41 isucon6 kernel: [    0.153015] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 15 00:21:41 isucon6 kernel: [    0.153368] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 15 00:21:41 isucon6 kernel: [    0.153659] pci 0000:00:02.0: Video device with shadowed ROM
+Aug 15 00:21:41 isucon6 kernel: [    0.153698] PCI: CLS 0 bytes, default 64
+Aug 15 00:21:41 isucon6 kernel: [    0.153770] Unpacking initramfs...
+Aug 15 00:21:41 isucon6 kernel: [    0.665178] Freeing initrd memory: 33280K (ffff880033ef0000 - ffff880035f70000)
+Aug 15 00:21:41 isucon6 kernel: [    0.666114] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Aug 15 00:21:41 isucon6 kernel: [    0.666116] hw unit of domain pp0-core 2^-0 Joules
+Aug 15 00:21:41 isucon6 kernel: [    0.666117] hw unit of domain package 2^-0 Joules
+Aug 15 00:21:41 isucon6 kernel: [    0.666118] hw unit of domain dram 2^-0 Joules
+Aug 15 00:21:41 isucon6 kernel: [    0.666179] Scanning for low memory corruption every 60 seconds
+Aug 15 00:21:41 isucon6 kernel: [    0.666510] audit: initializing netlink subsys (disabled)
+Aug 15 00:21:41 isucon6 kernel: [    0.666528] audit: type=2000 audit(1502724101.161:1): initialized
+Aug 15 00:21:41 isucon6 kernel: [    0.666824] Initialise system trusted keyring
+Aug 15 00:21:41 isucon6 kernel: [    0.666904] HugeTLB registered 1 GB page size, pre-allocated 0 pages
+Aug 15 00:21:41 isucon6 kernel: [    0.666905] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 15 00:21:41 isucon6 kernel: [    0.668263] zbud: loaded
+Aug 15 00:21:41 isucon6 kernel: [    0.668435] VFS: Disk quotas dquot_6.6.0
+Aug 15 00:21:41 isucon6 kernel: [    0.668464] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 15 00:21:41 isucon6 kernel: [    0.668689] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Aug 15 00:21:41 isucon6 kernel: [    0.668893] fuse init (API version 7.23)
+Aug 15 00:21:41 isucon6 kernel: [    0.669006] Key type big_key registered
+Aug 15 00:21:41 isucon6 kernel: [    0.669021] Allocating IMA MOK and blacklist keyrings.
+Aug 15 00:21:41 isucon6 kernel: [    0.669222] Key type asymmetric registered
+Aug 15 00:21:41 isucon6 kernel: [    0.669225] Asymmetric key parser 'x509' registered
+Aug 15 00:21:41 isucon6 kernel: [    0.669257] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Aug 15 00:21:41 isucon6 kernel: [    0.669278] io scheduler noop registered (default)
+Aug 15 00:21:41 isucon6 kernel: [    0.669281] io scheduler deadline registered
+Aug 15 00:21:41 isucon6 kernel: [    0.669306] io scheduler cfq registered
+Aug 15 00:21:41 isucon6 kernel: [    0.669395] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 15 00:21:41 isucon6 kernel: [    0.669401] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 15 00:21:41 isucon6 kernel: [    0.669431] efifb: probing for efifb
+Aug 15 00:21:41 isucon6 kernel: [    0.669440] efifb: framebuffer at 0xf0000000, mapped to 0xffffc90000200000, using 1408k, total 1408k
+Aug 15 00:21:41 isucon6 kernel: [    0.669441] efifb: mode is 800x600x24, linelength=2400, pages=1
+Aug 15 00:21:41 isucon6 kernel: [    0.669442] efifb: scrolling: redraw
+Aug 15 00:21:41 isucon6 kernel: [    0.669443] efifb: Truecolor: size=0:8:8:8, shift=0:16:8:0
+Aug 15 00:21:41 isucon6 kernel: [    0.671704] Console: switching to colour frame buffer device 100x37
+Aug 15 00:21:41 isucon6 kernel: [    0.673389] fb0: EFI VGA frame buffer device
+Aug 15 00:21:41 isucon6 kernel: [    0.673405] intel_idle: does not run on family 6 model 45
+Aug 15 00:21:41 isucon6 kernel: [    0.673468] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 15 00:21:41 isucon6 kernel: [    0.673475] ACPI: Power Button [PWRF]
+Aug 15 00:21:41 isucon6 kernel: [    0.673662] GHES: HEST is not enabled!
+Aug 15 00:21:41 isucon6 kernel: [    0.673989] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 15 00:21:41 isucon6 kernel: [    0.674039] virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Aug 15 00:21:41 isucon6 kernel: [    0.674326] virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+Aug 15 00:21:41 isucon6 kernel: [    0.674664] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 15 00:21:41 isucon6 kernel: [    0.674710] virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Aug 15 00:21:41 isucon6 kernel: [    0.675345] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.697335] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Aug 15 00:21:41 isucon6 kernel: [    0.698523] Linux agpgart interface v0.103
+Aug 15 00:21:41 isucon6 kernel: [    0.699559] loop: module loaded
+Aug 15 00:21:41 isucon6 kernel: [    0.733243]  vda: vda1 vda2 vda3
+Aug 15 00:21:41 isucon6 kernel: [    0.733614] ata_piix 0000:00:01.1: version 2.13
+Aug 15 00:21:41 isucon6 kernel: [    0.734014] scsi host0: ata_piix
+Aug 15 00:21:41 isucon6 kernel: [    0.734101] scsi host1: ata_piix
+Aug 15 00:21:41 isucon6 kernel: [    0.734138] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc000 irq 14
+Aug 15 00:21:41 isucon6 kernel: [    0.734139] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc008 irq 15
+Aug 15 00:21:41 isucon6 kernel: [    0.734210] libphy: Fixed MDIO Bus: probed
+Aug 15 00:21:41 isucon6 kernel: [    0.734213] tun: Universal TUN/TAP device driver, 1.6
+Aug 15 00:21:41 isucon6 kernel: [    0.734214] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Aug 15 00:21:41 isucon6 kernel: [    0.790710] PPP generic driver version 2.4.2
+Aug 15 00:21:41 isucon6 kernel: [    0.790822] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790831] ehci-pci: EHCI PCI platform driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790845] ehci-platform: EHCI generic platform driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790857] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790863] ohci-pci: OHCI PCI platform driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790876] ohci-platform: OHCI generic platform driver
+Aug 15 00:21:41 isucon6 kernel: [    0.790889] uhci_hcd: USB Universal Host Controller Interface driver
+Aug 15 00:21:41 isucon6 kernel: [    0.791142] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 15 00:21:41 isucon6 kernel: [    0.791149] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 15 00:21:41 isucon6 kernel: [    0.791162] uhci_hcd 0000:00:01.2: detected 2 ports
+Aug 15 00:21:41 isucon6 kernel: [    0.791222] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c020
+Aug 15 00:21:41 isucon6 kernel: [    0.791300] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 15 00:21:41 isucon6 kernel: [    0.791303] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 15 00:21:41 isucon6 kernel: [    0.791305] usb usb1: Product: UHCI Host Controller
+Aug 15 00:21:41 isucon6 kernel: [    0.791307] usb usb1: Manufacturer: Linux 4.4.0-79-generic uhci_hcd
+Aug 15 00:21:41 isucon6 kernel: [    0.791309] usb usb1: SerialNumber: 0000:00:01.2
+Aug 15 00:21:41 isucon6 kernel: [    0.791452] hub 1-0:1.0: USB hub found
+Aug 15 00:21:41 isucon6 kernel: [    0.791463] hub 1-0:1.0: 2 ports detected
+Aug 15 00:21:41 isucon6 kernel: [    0.791649] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 15 00:21:41 isucon6 kernel: [    0.792436] serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 15 00:21:41 isucon6 kernel: [    0.792443] serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 15 00:21:41 isucon6 kernel: [    0.792575] mousedev: PS/2 mouse device common for all mice
+Aug 15 00:21:41 isucon6 kernel: [    0.792814] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Aug 15 00:21:41 isucon6 kernel: [    0.793082] rtc_cmos 00:00: RTC can wake from S4
+Aug 15 00:21:41 isucon6 kernel: [    0.793304] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Aug 15 00:21:41 isucon6 kernel: [    0.793372] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Aug 15 00:21:41 isucon6 kernel: [    0.793380] i2c /dev entries driver
+Aug 15 00:21:41 isucon6 kernel: [    0.793436] device-mapper: uevent: version 1.0.3
+Aug 15 00:21:41 isucon6 kernel: [    0.793504] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Aug 15 00:21:41 isucon6 kernel: [    0.793533] ledtrig-cpu: registered to indicate activity on CPUs
+Aug 15 00:21:41 isucon6 kernel: [    0.793814] NET: Registered protocol family 10
+Aug 15 00:21:41 isucon6 kernel: [    0.793989] NET: Registered protocol family 17
+Aug 15 00:21:41 isucon6 kernel: [    0.794002] Key type dns_resolver registered
+Aug 15 00:21:41 isucon6 kernel: [    0.794163] microcode: CPU0 sig=0x206d7, pf=0x1, revision=0x1
+Aug 15 00:21:41 isucon6 kernel: [    0.794193] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Aug 15 00:21:41 isucon6 kernel: [    0.794365] registered taskstats version 1
+Aug 15 00:21:41 isucon6 kernel: [    0.794380] Loading compiled-in X.509 certificates
+Aug 15 00:21:41 isucon6 kernel: [    0.795255] Loaded X.509 cert 'Build time autogenerated kernel key: 761c03361fb5ffec61c19dca354b3d4126495503'
+Aug 15 00:21:41 isucon6 kernel: [    0.795279] zswap: loaded using pool lzo/zbud
+Aug 15 00:21:41 isucon6 kernel: [    0.796808] Key type trusted registered
+Aug 15 00:21:41 isucon6 kernel: [    0.799338] Key type encrypted registered
+Aug 15 00:21:41 isucon6 kernel: [    0.799343] AppArmor: AppArmor sha1 policy hashing enabled
+Aug 15 00:21:41 isucon6 kernel: [    0.799347] ima: No TPM chip found, activating TPM-bypass!
+Aug 15 00:21:41 isucon6 kernel: [    0.799365] evm: HMAC attrs: 0x1
+Aug 15 00:21:41 isucon6 kernel: [    0.799628]   Magic number: 13:477:386
+Aug 15 00:21:41 isucon6 kernel: [    0.799724] rtc_cmos 00:00: setting system clock to 2017-08-14 15:21:39 UTC (1502724099)
+Aug 15 00:21:41 isucon6 kernel: [    0.799791] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Aug 15 00:21:41 isucon6 kernel: [    0.799793] EDD information not available.
+Aug 15 00:21:41 isucon6 kernel: [    0.888498] ata1.01: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 15 00:21:41 isucon6 kernel: [    0.888947] ata1.01: configured for MWDMA2
+Aug 15 00:21:41 isucon6 kernel: [    0.889380] scsi 0:0:1:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 15 00:21:41 isucon6 kernel: [    0.896625] ata2.01: NODEV after polling detection
+Aug 15 00:21:41 isucon6 kernel: [    0.897016] ata2.00: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 15 00:21:41 isucon6 kernel: [    0.897134] sr 0:0:1:0: [sr0] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 15 00:21:41 isucon6 kernel: [    0.897136] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 15 00:21:41 isucon6 kernel: [    0.897252] sr 0:0:1:0: Attached scsi CD-ROM sr0
+Aug 15 00:21:41 isucon6 kernel: [    0.897715] sr 0:0:1:0: Attached scsi generic sg0 type 5
+Aug 15 00:21:41 isucon6 kernel: [    0.897853] ata2.00: configured for MWDMA2
+Aug 15 00:21:41 isucon6 kernel: [    0.898243] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 15 00:21:41 isucon6 kernel: [    0.904431] sr 1:0:0:0: [sr1] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 15 00:21:41 isucon6 kernel: [    0.904548] sr 1:0:0:0: Attached scsi CD-ROM sr1
+Aug 15 00:21:41 isucon6 kernel: [    0.904833] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Aug 15 00:21:41 isucon6 kernel: [    0.906224] Freeing unused kernel memory: 1484K (ffffffff81f45000 - ffffffff820b8000)
+Aug 15 00:21:41 isucon6 kernel: [    0.906226] Write protecting the kernel read-only data: 14336k
+Aug 15 00:21:41 isucon6 kernel: [    0.906829] Freeing unused kernel memory: 1760K (ffff880001848000 - ffff880001a00000)
+Aug 15 00:21:41 isucon6 kernel: [    0.907106] Freeing unused kernel memory: 112K (ffff880001de4000 - ffff880001e00000)
+Aug 15 00:21:41 isucon6 kernel: [    0.916987] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917055] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917162] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917215] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917271] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917358] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917443] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917500] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917578] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.917634] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 00:21:41 isucon6 kernel: [    0.989517] [drm] Initialized drm 1.1.0 20060810
+Aug 15 00:21:41 isucon6 kernel: [    0.993664] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Aug 15 00:21:41 isucon6 kernel: [    0.993884] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Aug 15 00:21:41 isucon6 kernel: [    0.995494] Floppy drive(s): fd0 is 1.44M
+Aug 15 00:21:41 isucon6 kernel: [    1.009843] FDC 0 is a S82078B
+Aug 15 00:21:41 isucon6 kernel: [    1.100056] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Aug 15 00:21:41 isucon6 kernel: [    1.124738] EXT4-fs (vda3): mounted filesystem with ordered data mode. Opts: (null)
+Aug 15 00:21:41 isucon6 kernel: [    1.454048] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Aug 15 00:21:41 isucon6 kernel: [    1.454051] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Aug 15 00:21:41 isucon6 kernel: [    1.454053] usb 1-1: Product: QEMU USB Tablet
+Aug 15 00:21:41 isucon6 kernel: [    1.454055] usb 1-1: Manufacturer: QEMU 0.12.1
+Aug 15 00:21:41 isucon6 kernel: [    1.454056] usb 1-1: SerialNumber: 42
+Aug 15 00:21:41 isucon6 kernel: [    1.664078] tsc: Refined TSC clocksource calibration: 2499.954 MHz
+Aug 15 00:21:41 isucon6 kernel: [    1.664084] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x24090e318bd, max_idle_ns: 440795215423 ns
+Aug 15 00:21:41 isucon6 kernel: [    1.820713] EXT4-fs (vda3): re-mounted. Opts: errors=remount-ro
+Aug 15 00:21:41 isucon6 kernel: [    2.361355] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Aug 15 00:21:41 isucon6 kernel: [    2.467102] Adding 4194300k swap on /dev/vda2.  Priority:-1 extents:1 across:4194300k FS
+Aug 15 00:21:41 isucon6 kernel: [    2.482961] hidraw: raw HID events driver (C) Jiri Kosina
+Aug 15 00:21:41 isucon6 kernel: [    2.556300] usbcore: registered new interface driver usbhid
+Aug 15 00:21:41 isucon6 kernel: [    2.556304] usbhid: USB HID core driver
+Aug 15 00:21:41 isucon6 kernel: [    2.583259] audit: type=1400 audit(1502724101.280:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=352 comm="apparmor_parser"
+Aug 15 00:21:41 isucon6 kernel: [    2.586108] audit: type=1400 audit(1502724101.284:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=352 comm="apparmor_parser"
+Aug 15 00:21:41 isucon6 kernel: [    2.586481] audit: type=1400 audit(1502724101.284:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=352 comm="apparmor_parser"
+Aug 15 00:21:41 isucon6 kernel: [    2.586809] audit: type=1400 audit(1502724101.284:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=352 comm="apparmor_parser"
+Aug 15 00:21:41 isucon6 kernel: [    2.726371] AVX version of gcm_enc/dec engaged.
+Aug 15 00:21:41 isucon6 kernel: [    2.726377] AES CTR mode by8 optimization enabled
+Aug 15 00:21:41 isucon6 kernel: [    2.775246] ppdev: user-space parallel port driver
+Aug 15 00:21:41 isucon6 kernel: [    2.782704] audit: type=1400 audit(1502724101.480:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ntpd" pid=376 comm="apparmor_parser"
+Aug 15 00:21:41 isucon6 kernel: [    2.812149] input: QEMU 0.12.1 QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+Aug 15 00:21:41 isucon6 kernel: [    2.812703] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU 0.12.1 QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Aug 15 00:21:41 isucon6 kernel: [    2.853755] intel_rapl: no valid rapl domains found in package 0
+Aug 15 00:21:41 isucon6 kernel: [    2.920231] audit: type=1400 audit(1502724101.620:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=437 comm="apparmor_parser"
+Aug 15 00:21:43 isucon6 kernel: [    4.376299] ip_tables: (C) 2000-2006 Netfilter Core Team
+Aug 15 00:22:28 isucon6 kernel: [   47.584339] random: nonblocking pool is initialized
+Aug 15 00:29:05 isucon6 kernel: [  444.923138] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Aug 15 00:29:05 isucon6 kernel: [  444.941096] JFS: nTxBlock = 7938, nTxLock = 63509
+Aug 15 00:29:05 isucon6 kernel: [  444.959714] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Aug 15 00:29:05 isucon6 kernel: [  444.993982] QNX4 filesystem 0.2.3 registered.
+Aug 15 00:29:05 isucon6 kernel: [  445.072024] raid6: sse2x1   gen()  6703 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.140023] raid6: sse2x1   xor()  5106 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.208023] raid6: sse2x2   gen()  8045 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.276014] raid6: sse2x2   xor()  5895 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.344020] raid6: sse2x4   gen()  9806 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.412024] raid6: sse2x4   xor()  6921 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.412027] raid6: using algorithm sse2x4 gen() 9806 MB/s
+Aug 15 00:29:05 isucon6 kernel: [  445.412028] raid6: .... xor() 6921 MB/s, rmw enabled
+Aug 15 00:29:05 isucon6 kernel: [  445.412030] raid6: using ssse3x2 recovery algorithm
+Aug 15 00:29:06 isucon6 kernel: [  445.414867] xor: automatically using best checksumming function:
+Aug 15 00:29:06 isucon6 kernel: [  445.452024]    avx       : 17501.000 MB/sec
+Aug 15 00:29:06 isucon6 kernel: [  445.479550] Btrfs loaded
+Aug 15 00:29:07 isucon6 kernel: [  446.677183] audit: type=1400 audit(1502724547.237:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/ntpd" pid=25371 comm="apparmor_parser"
+Aug 15 01:15:21 isucon6 kernel: [ 3221.136562] audit: type=1400 audit(1502727321.698:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=10418 comm="apparmor_parser"
+Aug 15 01:15:22 isucon6 kernel: [ 3221.956260] audit: type=1400 audit(1502727322.518:10): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/10494/status" pid=10494 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 15 01:15:22 isucon6 kernel: [ 3221.956658] audit: type=1400 audit(1502727322.518:11): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=10494 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=0
+Aug 15 01:15:22 isucon6 kernel: [ 3221.957035] audit: type=1400 audit(1502727322.518:12): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/10494/status" pid=10494 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 15 01:15:32 isucon6 kernel: [ 3232.254070] audit: type=1400 audit(1502727332.814:13): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/10696/status" pid=10696 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 15 01:15:32 isucon6 kernel: [ 3232.254264] audit: type=1400 audit(1502727332.814:14): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=10696 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=0
+Aug 15 01:15:32 isucon6 kernel: [ 3232.254379] audit: type=1400 audit(1502727332.814:15): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/10696/status" pid=10696 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 15 12:47:15 isucon6 kernel: [44734.534662] cfg80211: World regulatory domain updated:
+Aug 15 12:47:15 isucon6 kernel: [44734.534668] cfg80211:  DFS Master region: unset
+Aug 15 12:47:15 isucon6 kernel: [44734.534670] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Aug 15 12:47:15 isucon6 kernel: [44734.534673] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 12:47:15 isucon6 kernel: [44734.534675] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 12:47:15 isucon6 kernel: [44734.534677] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 12:47:15 isucon6 kernel: [44734.534679] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Aug 15 12:47:15 isucon6 kernel: [44734.534681] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Aug 15 12:47:15 isucon6 kernel: [44734.534683] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Aug 15 12:47:15 isucon6 kernel: [44734.534684] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 12:47:15 isucon6 kernel: [44734.534686] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Linux version 4.4.0-91-generic (buildd@lcy01-11) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #114-Ubuntu SMP Tue Aug 8 11:56:56 UTC 2017 (Ubuntu 4.4.0-91.114-generic 4.4.76)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-91-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] KERNEL supported cpus:
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   Intel GenuineIntel
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   AMD AuthenticAMD
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   Centaur CentaurHauls
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Disabled fast string operations
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dbff] usable
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009dc00-0x000000000009ffff] reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffcfff] usable
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x000000003fffd000-0x000000003fffffff] reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] NX (Execute Disable) protection: active
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] SMBIOS 2.4 present.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] DMI: SAKURA Internet Inc. SAKURA CLOUD KVM, BIOS 2.4 04/25/2017
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Hypervisor detected: KVM
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] e820: last_pfn = 0x3fffd max_arch_pfn = 0x400000000
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] MTRR default type: write-back
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] MTRR fixed ranges enabled:
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   00000-9FFFF write-back
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   A0000-BFFFF uncachable
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   C0000-FFFFF write-protect
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] MTRR variable ranges enabled:
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   0 base 0000E0000000 mask 3FFFE0000000 uncachable
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   1 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   2 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   3 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   4 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   5 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   6 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   7 disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] found SMP MP-table at [mem 0x000fda50-0x000fda5f] mapped at [ffff8800000fda50]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Using GB pages for direct mapping
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BRK [0x0220c000, 0x0220cfff] PGTABLE
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BRK [0x0220d000, 0x0220dfff] PGTABLE
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BRK [0x0220e000, 0x0220efff] PGTABLE
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] BRK [0x0220f000, 0x0220ffff] PGTABLE
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] RAMDISK: [mem 0x33eec000-0x35f6dfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: RSDP 0x00000000000FDA00 000014 (v00 BOCHS )
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: RSDT 0x000000003FFFD630 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: FACP 0x000000003FFFFE20 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: DSDT 0x000000003FFFD910 0024A2 (v01 BXPC   BXDSDT   00000001 INTL 20090123)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: FACS 0x000000003FFFFDC0 000040
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: SSDT 0x000000003FFFD870 00009E (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: APIC 0x000000003FFFD780 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: SSDT 0x000000003FFFD670 00010F (v01 BXPC   BXSSDTPC 00000001 INTL 20090123)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] No NUMA configuration found
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003fffcfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3fff8000-0x3fffcfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] kvm-clock: cpu 0, msr 0:3fff0001, primary cpu clock
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Zone ranges:
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003fffcfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   Normal   empty
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   Device   empty
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Movable zone start for each node
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Early memory node ranges
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009cfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003fffcfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003fffcfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] On node 0 totalpages: 262041
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA zone: 21 pages reserved
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA32 zone: 4032 pages used for memmap
+Aug 15 23:00:36 isucon6 kernel: [    0.000000]   DMA32 zone: 258045 pages, LIFO batch:31
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: IRQ5 used by override.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: IRQ10 used by override.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] ACPI: IRQ11 used by override.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] e820: [mem 0x40000000-0xfffbbfff] available for PCI devices
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PERCPU: Embedded 33 pages/cpu @ffff88003fc00000 s98264 r8192 d28712 u2097152
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] pcpu-alloc: s98264 r8192 d28712 u2097152 alloc=1*2097152
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] kvm-stealtime: cpu 0, msr 3fc0d9c0
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257924
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Policy zone: DMA32
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-91-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Memory: 979468K/1048164K available (8474K kernel code, 1294K rwdata, 3984K rodata, 1488K init, 1316K bss, 68696K reserved, 0K cma-reserved)
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Hierarchical RCU implementation.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] Console: colour dummy device 80x25
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] console [tty0] enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.000000] tsc: Detected 2499.998 MHz processor
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=9999992)
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] ACPI: Core revision 20150930
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] ACPI: 3 ACPI AML tables successfully acquired and loaded
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Security Framework initialized
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Yama: becoming mindful.
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] AppArmor: AppArmor initialized
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys io
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys memory
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys devices
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys freezer
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys net_cls
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys perf_event
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys net_prio
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys hugetlb
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Initializing cgroup subsys pids
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Disabled fast string operations
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Aug 15 23:00:36 isucon6 kernel: [    0.008000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Aug 15 23:00:36 isucon6 kernel: [    0.023702] Freeing SMP alternatives memory: 32K (ffffffff820b9000 - ffffffff820c1000)
+Aug 15 23:00:36 isucon6 kernel: [    0.032413] ftrace: allocating 32131 entries in 126 pages
+Aug 15 23:00:36 isucon6 kernel: [    0.044104] smpboot: APIC(0) Converting physical 0 to logical package 0
+Aug 15 23:00:36 isucon6 kernel: [    0.044108] smpboot: Max logical packages: 1
+Aug 15 23:00:36 isucon6 kernel: [    0.044398] x2apic enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.044670] Switched APIC routing to physical x2apic.
+Aug 15 23:00:36 isucon6 kernel: [    0.045987] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 15 23:00:36 isucon6 kernel: [    0.046026] TSC deadline timer enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.046029] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz (family: 0x6, model: 0x2d, stepping: 0x7)
+Aug 15 23:00:36 isucon6 kernel: [    0.046044] Performance Events: 16-deep LBR, SandyBridge events, Intel PMU driver.
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] core: PEBS disabled due to CPU errata, please upgrade microcode
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... version:                2
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... bit width:              48
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... generic registers:      4
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... value mask:             0000ffffffffffff
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... max period:             000000007fffffff
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... fixed-purpose events:   3
+Aug 15 23:00:36 isucon6 kernel: [    0.048000] ... event mask:             000000070000000f
+Aug 15 23:00:36 isucon6 kernel: [    0.048483] x86: Booted up 1 node, 1 CPUs
+Aug 15 23:00:36 isucon6 kernel: [    0.048484] smpboot: Total of 1 processors activated (4999.99 BogoMIPS)
+Aug 15 23:00:36 isucon6 kernel: [    0.048830] devtmpfs: initialized
+Aug 15 23:00:36 isucon6 kernel: [    0.050829] evm: security.selinux
+Aug 15 23:00:36 isucon6 kernel: [    0.050830] evm: security.SMACK64
+Aug 15 23:00:36 isucon6 kernel: [    0.050831] evm: security.SMACK64EXEC
+Aug 15 23:00:36 isucon6 kernel: [    0.050831] evm: security.SMACK64TRANSMUTE
+Aug 15 23:00:36 isucon6 kernel: [    0.050832] evm: security.SMACK64MMAP
+Aug 15 23:00:36 isucon6 kernel: [    0.050832] evm: security.ima
+Aug 15 23:00:36 isucon6 kernel: [    0.050833] evm: security.capability
+Aug 15 23:00:36 isucon6 kernel: [    0.050972] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Aug 15 23:00:36 isucon6 kernel: [    0.050980] futex hash table entries: 256 (order: 2, 16384 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.051046] pinctrl core: initialized pinctrl subsystem
+Aug 15 23:00:36 isucon6 kernel: [    0.051193] RTC time: 14:00:31, date: 08/15/17
+Aug 15 23:00:36 isucon6 kernel: [    0.051303] NET: Registered protocol family 16
+Aug 15 23:00:36 isucon6 kernel: [    0.051481] cpuidle: using governor ladder
+Aug 15 23:00:36 isucon6 kernel: [    0.051483] cpuidle: using governor menu
+Aug 15 23:00:36 isucon6 kernel: [    0.051485] PCCT header not found.
+Aug 15 23:00:36 isucon6 kernel: [    0.051586] ACPI: bus type PCI registered
+Aug 15 23:00:36 isucon6 kernel: [    0.051588] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 15 23:00:36 isucon6 kernel: [    0.051687] PCI: Using configuration type 1 for base access
+Aug 15 23:00:36 isucon6 kernel: [    0.051764] core: PMU erratum BJ122, BV98, HSD29 workaround disabled, HT off
+Aug 15 23:00:36 isucon6 kernel: [    0.053338] ACPI: Added _OSI(Module Device)
+Aug 15 23:00:36 isucon6 kernel: [    0.053340] ACPI: Added _OSI(Processor Device)
+Aug 15 23:00:36 isucon6 kernel: [    0.053341] ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 15 23:00:36 isucon6 kernel: [    0.053342] ACPI: Added _OSI(Processor Aggregator Device)
+Aug 15 23:00:36 isucon6 kernel: [    0.054877] ACPI: Interpreter enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.054886] ACPI: (supports S0 S5)
+Aug 15 23:00:36 isucon6 kernel: [    0.054887] ACPI: Using IOAPIC for interrupt routing
+Aug 15 23:00:36 isucon6 kernel: [    0.054898] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 15 23:00:36 isucon6 kernel: [    0.057572] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 15 23:00:36 isucon6 kernel: [    0.057576] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Aug 15 23:00:36 isucon6 kernel: [    0.057580] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Aug 15 23:00:36 isucon6 kernel: [    0.057586] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Aug 15 23:00:36 isucon6 kernel: [    0.057874] acpiphp: Slot [1] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057896] acpiphp: Slot [2] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057912] acpiphp: Slot [3] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057928] acpiphp: Slot [4] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057944] acpiphp: Slot [5] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057960] acpiphp: Slot [6] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057975] acpiphp: Slot [7] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.057990] acpiphp: Slot [8] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058006] acpiphp: Slot [9] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058022] acpiphp: Slot [10] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058038] acpiphp: Slot [11] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058053] acpiphp: Slot [12] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058069] acpiphp: Slot [13] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058084] acpiphp: Slot [14] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058099] acpiphp: Slot [15] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058114] acpiphp: Slot [16] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058130] acpiphp: Slot [17] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058151] acpiphp: Slot [18] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058167] acpiphp: Slot [19] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058182] acpiphp: Slot [20] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058197] acpiphp: Slot [21] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058213] acpiphp: Slot [22] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058228] acpiphp: Slot [23] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058244] acpiphp: Slot [24] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058259] acpiphp: Slot [25] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058274] acpiphp: Slot [26] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058289] acpiphp: Slot [27] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058305] acpiphp: Slot [28] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058320] acpiphp: Slot [29] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058335] acpiphp: Slot [30] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058351] acpiphp: Slot [31] registered
+Aug 15 23:00:36 isucon6 kernel: [    0.058629] PCI host bridge to bus 0000:00
+Aug 15 23:00:36 isucon6 kernel: [    0.058632] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Aug 15 23:00:36 isucon6 kernel: [    0.058633] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.058635] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.058636] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfebfffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.058638] pci_bus 0000:00: root bus resource [bus 00-ff]
+Aug 15 23:00:36 isucon6 kernel: [    0.058668] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Aug 15 23:00:36 isucon6 kernel: [    0.059014] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Aug 15 23:00:36 isucon6 kernel: [    0.059464] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Aug 15 23:00:36 isucon6 kernel: [    0.059709] pci 0000:00:01.1: reg 0x20: [io  0xc000-0xc00f]
+Aug 15 23:00:36 isucon6 kernel: [    0.059824] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Aug 15 23:00:36 isucon6 kernel: [    0.059826] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Aug 15 23:00:36 isucon6 kernel: [    0.059827] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Aug 15 23:00:36 isucon6 kernel: [    0.059828] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Aug 15 23:00:36 isucon6 kernel: [    0.059960] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Aug 15 23:00:36 isucon6 kernel: [    0.060203] pci 0000:00:01.2: reg 0x20: [io  0xc020-0xc03f]
+Aug 15 23:00:36 isucon6 kernel: [    0.060433] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Aug 15 23:00:36 isucon6 kernel: [    0.060794] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Aug 15 23:00:36 isucon6 kernel: [    0.060802] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Aug 15 23:00:36 isucon6 kernel: [    0.060988] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Aug 15 23:00:36 isucon6 kernel: [    0.068014] pci 0000:00:02.0: reg 0x10: [mem 0xf0000000-0xf1ffffff pref]
+Aug 15 23:00:36 isucon6 kernel: [    0.076019] pci 0000:00:02.0: reg 0x14: [mem 0xf2000000-0xf2000fff]
+Aug 15 23:00:36 isucon6 kernel: [    0.116028] pci 0000:00:02.0: reg 0x30: [mem 0xf2010000-0xf201ffff pref]
+Aug 15 23:00:36 isucon6 kernel: [    0.116417] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+Aug 15 23:00:36 isucon6 kernel: [    0.116729] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc05f]
+Aug 15 23:00:36 isucon6 kernel: [    0.116809] pci 0000:00:03.0: reg 0x14: [mem 0xf2020000-0xf2020fff]
+Aug 15 23:00:36 isucon6 kernel: [    0.117192] pci 0000:00:03.0: reg 0x30: [mem 0xf2030000-0xf203ffff pref]
+Aug 15 23:00:36 isucon6 kernel: [    0.117537] pci 0000:00:04.0: [1af4:1002] type 00 class 0x050000
+Aug 15 23:00:36 isucon6 kernel: [    0.117654] pci 0000:00:04.0: reg 0x10: [io  0xc060-0xc07f]
+Aug 15 23:00:36 isucon6 kernel: [    0.118316] pci 0000:00:05.0: [1af4:1001] type 00 class 0x010000
+Aug 15 23:00:36 isucon6 kernel: [    0.118520] pci 0000:00:05.0: reg 0x10: [io  0xc080-0xc0bf]
+Aug 15 23:00:36 isucon6 kernel: [    0.118605] pci 0000:00:05.0: reg 0x14: [mem 0xf2040000-0xf2040fff]
+Aug 15 23:00:36 isucon6 kernel: [    0.119897] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 15 23:00:36 isucon6 kernel: [    0.120012] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 15 23:00:36 isucon6 kernel: [    0.120126] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 15 23:00:36 isucon6 kernel: [    0.120229] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 15 23:00:36 isucon6 kernel: [    0.120285] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 15 23:00:36 isucon6 kernel: [    0.120698] ACPI: Enabled 16 GPEs in block 00 to 0F
+Aug 15 23:00:36 isucon6 kernel: [    0.120953] vgaarb: setting as boot device: PCI:0000:00:02.0
+Aug 15 23:00:36 isucon6 kernel: [    0.120956] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 15 23:00:36 isucon6 kernel: [    0.120958] vgaarb: loaded
+Aug 15 23:00:36 isucon6 kernel: [    0.120960] vgaarb: bridge control possible 0000:00:02.0
+Aug 15 23:00:36 isucon6 kernel: [    0.121373] SCSI subsystem initialized
+Aug 15 23:00:36 isucon6 kernel: [    0.121457] libata version 3.00 loaded.
+Aug 15 23:00:36 isucon6 kernel: [    0.121504] ACPI: bus type USB registered
+Aug 15 23:00:36 isucon6 kernel: [    0.122259] usbcore: registered new interface driver usbfs
+Aug 15 23:00:36 isucon6 kernel: [    0.122276] usbcore: registered new interface driver hub
+Aug 15 23:00:36 isucon6 kernel: [    0.122295] usbcore: registered new device driver usb
+Aug 15 23:00:36 isucon6 kernel: [    0.122449] ioremap error for 0x3ffff000-0x40000000, requested 0x2, got 0x0
+Aug 15 23:00:36 isucon6 kernel: [    0.122459] dmi: Firmware registration failed.
+Aug 15 23:00:36 isucon6 kernel: [    0.122535] PCI: Using ACPI for IRQ routing
+Aug 15 23:00:36 isucon6 kernel: [    0.122538] PCI: pci_cache_line_size set to 64 bytes
+Aug 15 23:00:36 isucon6 kernel: [    0.122719] e820: reserve RAM buffer [mem 0x0009dc00-0x0009ffff]
+Aug 15 23:00:36 isucon6 kernel: [    0.122722] e820: reserve RAM buffer [mem 0x3fffd000-0x3fffffff]
+Aug 15 23:00:36 isucon6 kernel: [    0.122927] NetLabel: Initializing
+Aug 15 23:00:36 isucon6 kernel: [    0.122929] NetLabel:  domain hash size = 128
+Aug 15 23:00:36 isucon6 kernel: [    0.122931] NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 15 23:00:36 isucon6 kernel: [    0.122949] NetLabel:  unlabeled traffic allowed by default
+Aug 15 23:00:36 isucon6 kernel: [    0.123108] amd_nb: Cannot enumerate AMD northbridges
+Aug 15 23:00:36 isucon6 kernel: [    0.123128] clocksource: Switched to clocksource kvm-clock
+Aug 15 23:00:36 isucon6 kernel: [    0.130782] AppArmor: AppArmor Filesystem Enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.130902] pnp: PnP ACPI init
+Aug 15 23:00:36 isucon6 kernel: [    0.131057] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Aug 15 23:00:36 isucon6 kernel: [    0.131150] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Aug 15 23:00:36 isucon6 kernel: [    0.131212] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Aug 15 23:00:36 isucon6 kernel: [    0.131244] pnp 00:03: [dma 2]
+Aug 15 23:00:36 isucon6 kernel: [    0.131271] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Aug 15 23:00:36 isucon6 kernel: [    0.131423] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Aug 15 23:00:36 isucon6 kernel: [    0.131665] pnp: PnP ACPI: found 5 devices
+Aug 15 23:00:36 isucon6 kernel: [    0.138475] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Aug 15 23:00:36 isucon6 kernel: [    0.138504] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Aug 15 23:00:36 isucon6 kernel: [    0.138507] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.138510] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.138513] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfebfffff window]
+Aug 15 23:00:36 isucon6 kernel: [    0.138571] NET: Registered protocol family 2
+Aug 15 23:00:36 isucon6 kernel: [    0.138859] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.138889] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.138923] TCP: Hash tables configured (established 8192 bind 8192)
+Aug 15 23:00:36 isucon6 kernel: [    0.138959] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.138967] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.139015] NET: Registered protocol family 1
+Aug 15 23:00:36 isucon6 kernel: [    0.139039] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 15 23:00:36 isucon6 kernel: [    0.139060] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 15 23:00:36 isucon6 kernel: [    0.139086] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 15 23:00:36 isucon6 kernel: [    0.139489] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 15 23:00:36 isucon6 kernel: [    0.139794] pci 0000:00:02.0: Video device with shadowed ROM
+Aug 15 23:00:36 isucon6 kernel: [    0.139838] PCI: CLS 0 bytes, default 64
+Aug 15 23:00:36 isucon6 kernel: [    0.139938] Unpacking initramfs...
+Aug 15 23:00:36 isucon6 kernel: [    0.708499] Freeing initrd memory: 33288K (ffff880033eec000 - ffff880035f6e000)
+Aug 15 23:00:36 isucon6 kernel: [    0.709641] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Aug 15 23:00:36 isucon6 kernel: [    0.709644] hw unit of domain pp0-core 2^-0 Joules
+Aug 15 23:00:36 isucon6 kernel: [    0.709644] hw unit of domain package 2^-0 Joules
+Aug 15 23:00:36 isucon6 kernel: [    0.709645] hw unit of domain dram 2^-0 Joules
+Aug 15 23:00:36 isucon6 kernel: [    0.709724] Scanning for low memory corruption every 60 seconds
+Aug 15 23:00:36 isucon6 kernel: [    0.710101] audit: initializing netlink subsys (disabled)
+Aug 15 23:00:36 isucon6 kernel: [    0.710123] audit: type=2000 audit(1502805633.640:1): initialized
+Aug 15 23:00:36 isucon6 kernel: [    0.710445] Initialise system trusted keyring
+Aug 15 23:00:36 isucon6 kernel: [    0.710527] HugeTLB registered 1 GB page size, pre-allocated 0 pages
+Aug 15 23:00:36 isucon6 kernel: [    0.710529] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 15 23:00:36 isucon6 kernel: [    0.711809] zbud: loaded
+Aug 15 23:00:36 isucon6 kernel: [    0.711985] VFS: Disk quotas dquot_6.6.0
+Aug 15 23:00:36 isucon6 kernel: [    0.712039] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 15 23:00:36 isucon6 kernel: [    0.712275] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Aug 15 23:00:36 isucon6 kernel: [    0.712498] fuse init (API version 7.23)
+Aug 15 23:00:36 isucon6 kernel: [    0.712613] Key type big_key registered
+Aug 15 23:00:36 isucon6 kernel: [    0.712629] Allocating IMA MOK and blacklist keyrings.
+Aug 15 23:00:36 isucon6 kernel: [    0.712842] Key type asymmetric registered
+Aug 15 23:00:36 isucon6 kernel: [    0.712845] Asymmetric key parser 'x509' registered
+Aug 15 23:00:36 isucon6 kernel: [    0.712880] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Aug 15 23:00:36 isucon6 kernel: [    0.712903] io scheduler noop registered (default)
+Aug 15 23:00:36 isucon6 kernel: [    0.712905] io scheduler deadline registered
+Aug 15 23:00:36 isucon6 kernel: [    0.712932] io scheduler cfq registered
+Aug 15 23:00:36 isucon6 kernel: [    0.713020] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 15 23:00:36 isucon6 kernel: [    0.713026] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 15 23:00:36 isucon6 kernel: [    0.713051] efifb: probing for efifb
+Aug 15 23:00:36 isucon6 kernel: [    0.713062] efifb: framebuffer at 0xf0000000, mapped to 0xffffc90000200000, using 1408k, total 1408k
+Aug 15 23:00:36 isucon6 kernel: [    0.713063] efifb: mode is 800x600x24, linelength=2400, pages=1
+Aug 15 23:00:36 isucon6 kernel: [    0.713064] efifb: scrolling: redraw
+Aug 15 23:00:36 isucon6 kernel: [    0.713065] efifb: Truecolor: size=0:8:8:8, shift=0:16:8:0
+Aug 15 23:00:36 isucon6 kernel: [    0.715400] Console: switching to colour frame buffer device 100x37
+Aug 15 23:00:36 isucon6 kernel: [    0.717088] fb0: EFI VGA frame buffer device
+Aug 15 23:00:36 isucon6 kernel: [    0.717110] intel_idle: does not run on family 6 model 45
+Aug 15 23:00:36 isucon6 kernel: [    0.717185] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 15 23:00:36 isucon6 kernel: [    0.717190] ACPI: Power Button [PWRF]
+Aug 15 23:00:36 isucon6 kernel: [    0.717368] GHES: HEST is not enabled!
+Aug 15 23:00:36 isucon6 kernel: [    0.717661] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 15 23:00:36 isucon6 kernel: [    0.717702] virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Aug 15 23:00:36 isucon6 kernel: [    0.717921] virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+Aug 15 23:00:36 isucon6 kernel: [    0.718151] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 15 23:00:36 isucon6 kernel: [    0.718183] virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Aug 15 23:00:36 isucon6 kernel: [    0.718705] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.740060] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Aug 15 23:00:36 isucon6 kernel: [    0.741369] Linux agpgart interface v0.103
+Aug 15 23:00:36 isucon6 kernel: [    0.742511] loop: module loaded
+Aug 15 23:00:36 isucon6 kernel: [    0.785229]  vda: vda1 vda2 vda3
+Aug 15 23:00:36 isucon6 kernel: [    0.785745] ata_piix 0000:00:01.1: version 2.13
+Aug 15 23:00:36 isucon6 kernel: [    0.786291] scsi host0: ata_piix
+Aug 15 23:00:36 isucon6 kernel: [    0.786438] scsi host1: ata_piix
+Aug 15 23:00:36 isucon6 kernel: [    0.786476] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc000 irq 14
+Aug 15 23:00:36 isucon6 kernel: [    0.786478] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc008 irq 15
+Aug 15 23:00:36 isucon6 kernel: [    0.786570] libphy: Fixed MDIO Bus: probed
+Aug 15 23:00:36 isucon6 kernel: [    0.786575] tun: Universal TUN/TAP device driver, 1.6
+Aug 15 23:00:36 isucon6 kernel: [    0.786576] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Aug 15 23:00:36 isucon6 kernel: [    0.851696] PPP generic driver version 2.4.2
+Aug 15 23:00:36 isucon6 kernel: [    0.851834] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851844] ehci-pci: EHCI PCI platform driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851855] ehci-platform: EHCI generic platform driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851863] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851868] ohci-pci: OHCI PCI platform driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851876] ohci-platform: OHCI generic platform driver
+Aug 15 23:00:36 isucon6 kernel: [    0.851889] uhci_hcd: USB Universal Host Controller Interface driver
+Aug 15 23:00:36 isucon6 kernel: [    0.852229] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 15 23:00:36 isucon6 kernel: [    0.852237] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 15 23:00:36 isucon6 kernel: [    0.852253] uhci_hcd 0000:00:01.2: detected 2 ports
+Aug 15 23:00:36 isucon6 kernel: [    0.852319] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c020
+Aug 15 23:00:36 isucon6 kernel: [    0.852466] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 15 23:00:36 isucon6 kernel: [    0.852468] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 15 23:00:36 isucon6 kernel: [    0.852470] usb usb1: Product: UHCI Host Controller
+Aug 15 23:00:36 isucon6 kernel: [    0.852471] usb usb1: Manufacturer: Linux 4.4.0-91-generic uhci_hcd
+Aug 15 23:00:36 isucon6 kernel: [    0.852473] usb usb1: SerialNumber: 0000:00:01.2
+Aug 15 23:00:36 isucon6 kernel: [    0.852601] hub 1-0:1.0: USB hub found
+Aug 15 23:00:36 isucon6 kernel: [    0.852613] hub 1-0:1.0: 2 ports detected
+Aug 15 23:00:36 isucon6 kernel: [    0.852809] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 15 23:00:36 isucon6 kernel: [    0.853628] serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 15 23:00:36 isucon6 kernel: [    0.853635] serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 15 23:00:36 isucon6 kernel: [    0.853770] mousedev: PS/2 mouse device common for all mice
+Aug 15 23:00:36 isucon6 kernel: [    0.854066] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Aug 15 23:00:36 isucon6 kernel: [    0.854485] rtc_cmos 00:00: RTC can wake from S4
+Aug 15 23:00:36 isucon6 kernel: [    0.854779] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Aug 15 23:00:36 isucon6 kernel: [    0.854875] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Aug 15 23:00:36 isucon6 kernel: [    0.854885] i2c /dev entries driver
+Aug 15 23:00:36 isucon6 kernel: [    0.854957] device-mapper: uevent: version 1.0.3
+Aug 15 23:00:36 isucon6 kernel: [    0.855014] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Aug 15 23:00:36 isucon6 kernel: [    0.855034] ledtrig-cpu: registered to indicate activity on CPUs
+Aug 15 23:00:36 isucon6 kernel: [    0.855469] NET: Registered protocol family 10
+Aug 15 23:00:36 isucon6 kernel: [    0.855686] NET: Registered protocol family 17
+Aug 15 23:00:36 isucon6 kernel: [    0.855700] Key type dns_resolver registered
+Aug 15 23:00:36 isucon6 kernel: [    0.855882] microcode: CPU0 sig=0x206d7, pf=0x1, revision=0x1
+Aug 15 23:00:36 isucon6 kernel: [    0.855921] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Aug 15 23:00:36 isucon6 kernel: [    0.856144] registered taskstats version 1
+Aug 15 23:00:36 isucon6 kernel: [    0.856164] Loading compiled-in X.509 certificates
+Aug 15 23:00:36 isucon6 kernel: [    0.857170] Loaded X.509 cert 'Build time autogenerated kernel key: 0777615d5208f86b8b4bd2fb3aecc97a191f2831'
+Aug 15 23:00:36 isucon6 kernel: [    0.857194] zswap: loaded using pool lzo/zbud
+Aug 15 23:00:36 isucon6 kernel: [    0.859081] Key type trusted registered
+Aug 15 23:00:36 isucon6 kernel: [    0.862480] Key type encrypted registered
+Aug 15 23:00:36 isucon6 kernel: [    0.862488] AppArmor: AppArmor sha1 policy hashing enabled
+Aug 15 23:00:36 isucon6 kernel: [    0.862492] ima: No TPM chip found, activating TPM-bypass!
+Aug 15 23:00:36 isucon6 kernel: [    0.862519] evm: HMAC attrs: 0x1
+Aug 15 23:00:36 isucon6 kernel: [    0.862829]   Magic number: 13:584:30
+Aug 15 23:00:36 isucon6 kernel: [    0.862987] rtc_cmos 00:00: setting system clock to 2017-08-15 14:00:32 UTC (1502805632)
+Aug 15 23:00:36 isucon6 kernel: [    0.863068] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Aug 15 23:00:36 isucon6 kernel: [    0.863069] EDD information not available.
+Aug 15 23:00:36 isucon6 kernel: [    0.940587] ata1.01: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 15 23:00:36 isucon6 kernel: [    0.941066] ata1.01: configured for MWDMA2
+Aug 15 23:00:36 isucon6 kernel: [    0.941613] scsi 0:0:1:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 15 23:00:36 isucon6 kernel: [    0.948810] sr 0:0:1:0: [sr0] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 15 23:00:36 isucon6 kernel: [    0.948819] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 15 23:00:36 isucon6 kernel: [    0.949007] sr 0:0:1:0: Attached scsi CD-ROM sr0
+Aug 15 23:00:36 isucon6 kernel: [    0.949391] sr 0:0:1:0: Attached scsi generic sg0 type 5
+Aug 15 23:00:36 isucon6 kernel: [    0.960364] ata2.01: NODEV after polling detection
+Aug 15 23:00:36 isucon6 kernel: [    0.960644] ata2.00: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 15 23:00:36 isucon6 kernel: [    0.961166] ata2.00: configured for MWDMA2
+Aug 15 23:00:36 isucon6 kernel: [    0.961749] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 15 23:00:36 isucon6 kernel: [    0.968787] sr 1:0:0:0: [sr1] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 15 23:00:36 isucon6 kernel: [    0.968931] sr 1:0:0:0: Attached scsi CD-ROM sr1
+Aug 15 23:00:36 isucon6 kernel: [    0.969241] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Aug 15 23:00:36 isucon6 kernel: [    0.970911] Freeing unused kernel memory: 1488K (ffffffff81f45000 - ffffffff820b9000)
+Aug 15 23:00:36 isucon6 kernel: [    0.970915] Write protecting the kernel read-only data: 14336k
+Aug 15 23:00:36 isucon6 kernel: [    0.971619] Freeing unused kernel memory: 1752K (ffff88000184a000 - ffff880001a00000)
+Aug 15 23:00:36 isucon6 kernel: [    0.971981] Freeing unused kernel memory: 112K (ffff880001de4000 - ffff880001e00000)
+Aug 15 23:00:36 isucon6 kernel: [    0.983449] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983503] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983590] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983643] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983698] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983769] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983850] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.983933] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.984620] random: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    0.984690] random: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 15 23:00:36 isucon6 kernel: [    1.072148] Floppy drive(s): fd0 is 1.44M
+Aug 15 23:00:36 isucon6 kernel: [    1.072810] [drm] Initialized drm 1.1.0 20060810
+Aug 15 23:00:36 isucon6 kernel: [    1.082505] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Aug 15 23:00:36 isucon6 kernel: [    1.082792] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Aug 15 23:00:36 isucon6 kernel: [    1.088899] FDC 0 is a S82078B
+Aug 15 23:00:36 isucon6 kernel: [    1.164033] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Aug 15 23:00:36 isucon6 kernel: [    1.206987] EXT4-fs (vda3): mounted filesystem with ordered data mode. Opts: (null)
+Aug 15 23:00:36 isucon6 kernel: [    1.453522] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Aug 15 23:00:36 isucon6 kernel: [    1.453528] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Aug 15 23:00:36 isucon6 kernel: [    1.453531] usb 1-1: Product: QEMU USB Tablet
+Aug 15 23:00:36 isucon6 kernel: [    1.453533] usb 1-1: Manufacturer: QEMU 0.12.1
+Aug 15 23:00:36 isucon6 kernel: [    1.453535] usb 1-1: SerialNumber: 42
+Aug 15 23:00:36 isucon6 kernel: [    1.708056] tsc: Refined TSC clocksource calibration: 2499.950 MHz
+Aug 15 23:00:36 isucon6 kernel: [    1.708060] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x24090a63a30, max_idle_ns: 440795243348 ns
+Aug 15 23:00:36 isucon6 kernel: [    1.896193] EXT4-fs (vda3): re-mounted. Opts: errors=remount-ro
+Aug 15 23:00:36 isucon6 kernel: [    2.183784] audit: type=1400 audit(1502805633.816:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=379 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.183792] audit: type=1400 audit(1502805633.816:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=379 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.183796] audit: type=1400 audit(1502805633.816:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=379 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.183800] audit: type=1400 audit(1502805633.816:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=379 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.194864] audit: type=1400 audit(1502805633.828:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=380 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.206503] audit: type=1400 audit(1502805633.840:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ntpd" pid=381 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.215893] audit: type=1400 audit(1502805633.848:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=383 comm="apparmor_parser"
+Aug 15 23:00:36 isucon6 kernel: [    2.219634] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Aug 15 23:00:36 isucon6 kernel: [    2.297072] hidraw: raw HID events driver (C) Jiri Kosina
+Aug 15 23:00:36 isucon6 kernel: [    2.335572] Adding 4194300k swap on /dev/vda2.  Priority:-1 extents:1 across:4194300k FS
+Aug 15 23:00:36 isucon6 kernel: [    2.337826] usbcore: registered new interface driver usbhid
+Aug 15 23:00:36 isucon6 kernel: [    2.337828] usbhid: USB HID core driver
+Aug 15 23:00:36 isucon6 kernel: [    2.487708] AVX version of gcm_enc/dec engaged.
+Aug 15 23:00:36 isucon6 kernel: [    2.487711] AES CTR mode by8 optimization enabled
+Aug 15 23:00:36 isucon6 kernel: [    2.539669] ppdev: user-space parallel port driver
+Aug 15 23:00:36 isucon6 kernel: [    2.555532] input: QEMU 0.12.1 QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+Aug 15 23:00:36 isucon6 kernel: [    2.555646] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU 0.12.1 QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Aug 15 23:00:36 isucon6 kernel: [    2.579551] intel_rapl: no valid rapl domains found in package 0
+Aug 15 23:00:36 isucon6 kernel: [    4.534837] audit: type=1400 audit(1502805636.168:9): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/616/status" pid=616 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 15 23:00:36 isucon6 kernel: [    4.534879] audit: type=1400 audit(1502805636.168:10): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=616 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=0
+Aug 15 23:00:37 isucon6 kernel: [    5.823894] random: nonblocking pool is initialized
+Aug 15 23:00:37 isucon6 kernel: [    6.140041] ip_tables: (C) 2000-2006 Netfilter Core Team
+Aug 15 23:00:38 isucon6 kernel: [    6.999385] cfg80211: World regulatory domain updated:
+Aug 15 23:00:38 isucon6 kernel: [    6.999389] cfg80211:  DFS Master region: unset
+Aug 15 23:00:38 isucon6 kernel: [    6.999390] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Aug 15 23:00:38 isucon6 kernel: [    6.999392] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 23:00:38 isucon6 kernel: [    6.999394] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 23:00:38 isucon6 kernel: [    6.999395] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 23:00:38 isucon6 kernel: [    6.999396] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Aug 15 23:00:38 isucon6 kernel: [    6.999398] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Aug 15 23:00:38 isucon6 kernel: [    6.999399] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Aug 15 23:00:38 isucon6 kernel: [    6.999400] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Aug 15 23:00:38 isucon6 kernel: [    6.999401] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Aug 15 23:09:46 isucon6 kernel: [  553.174347] DCCP: Activated CCID 2 (TCP-like)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Linux version 4.4.0-91-generic (buildd@lcy01-11) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #114-Ubuntu SMP Tue Aug 8 11:56:56 UTC 2017 (Ubuntu 4.4.0-91.114-generic 4.4.76)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-91-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 25 01:28:09 isuconx kernel: [    0.000000] KERNEL supported cpus:
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   Intel GenuineIntel
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   AMD AuthenticAMD
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   Centaur CentaurHauls
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Disabled fast string operations
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dbff] usable
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x000000000009dc00-0x000000000009ffff] reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bfffcfff] usable
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x00000000bfffd000-0x00000000bfffffff] reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffbc000-0x00000000ffffffff] reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000] NX (Execute Disable) protection: active
+Aug 25 01:28:09 isuconx kernel: [    0.000000] SMBIOS 2.4 present.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] DMI: SAKURA Internet Inc. SAKURA CLOUD KVM, BIOS 2.4 08/19/2016
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Hypervisor detected: KVM
+Aug 25 01:28:09 isuconx kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Aug 25 01:28:09 isuconx kernel: [    0.000000] e820: last_pfn = 0xbfffd max_arch_pfn = 0x400000000
+Aug 25 01:28:09 isuconx kernel: [    0.000000] MTRR default type: write-back
+Aug 25 01:28:09 isuconx kernel: [    0.000000] MTRR fixed ranges enabled:
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   00000-9FFFF write-back
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   A0000-BFFFF uncachable
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   C0000-FFFFF write-protect
+Aug 25 01:28:09 isuconx kernel: [    0.000000] MTRR variable ranges enabled:
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   0 base 0000E0000000 mask 3FFFE0000000 uncachable
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   1 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   2 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   3 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   4 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   5 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   6 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   7 disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Aug 25 01:28:09 isuconx kernel: [    0.000000] found SMP MP-table at [mem 0x000fda20-0x000fda2f] mapped at [ffff8800000fda20]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Using GB pages for direct mapping
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BRK [0x0220c000, 0x0220cfff] PGTABLE
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BRK [0x0220d000, 0x0220dfff] PGTABLE
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BRK [0x0220e000, 0x0220efff] PGTABLE
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BRK [0x0220f000, 0x0220ffff] PGTABLE
+Aug 25 01:28:09 isuconx kernel: [    0.000000] BRK [0x02210000, 0x02210fff] PGTABLE
+Aug 25 01:28:09 isuconx kernel: [    0.000000] RAMDISK: [mem 0x33eec000-0x35f6dfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: RSDP 0x00000000000FD9D0 000014 (v00 BOCHS )
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: RSDT 0x00000000BFFFD520 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: FACP 0x00000000BFFFFDD0 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: DSDT 0x00000000BFFFD8D0 0024A2 (v01 BXPC   BXDSDT   00000001 INTL 20090123)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: FACS 0x00000000BFFFFD80 000040
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: SSDT 0x00000000BFFFD770 000160 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: APIC 0x00000000BFFFD670 000088 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: SSDT 0x00000000BFFFD560 00010F (v01 BXPC   BXSSDTPC 00000001 INTL 20090123)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 25 01:28:09 isuconx kernel: [    0.000000] No NUMA configuration found
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x00000000bfffcfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] NODE_DATA(0) allocated [mem 0xbfff8000-0xbfffcfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Aug 25 01:28:09 isuconx kernel: [    0.000000] kvm-clock: cpu 0, msr 0:bfff0001, primary cpu clock
+Aug 25 01:28:09 isuconx kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Zone ranges:
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000bfffcfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   Normal   empty
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   Device   empty
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Movable zone start for each node
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Early memory node ranges
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009cfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000bfffcfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x00000000bfffcfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] On node 0 totalpages: 786329
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA zone: 21 pages reserved
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA32 zone: 12224 pages used for memmap
+Aug 25 01:28:09 isuconx kernel: [    0.000000]   DMA32 zone: 782333 pages, LIFO batch:31
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Aug 25 01:28:09 isuconx kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: IRQ0 used by override.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: IRQ5 used by override.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: IRQ9 used by override.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: IRQ10 used by override.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] ACPI: IRQ11 used by override.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Aug 25 01:28:09 isuconx kernel: [    0.000000] smpboot: Allowing 3 CPUs, 0 hotplug CPUs
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Aug 25 01:28:09 isuconx kernel: [    0.000000] e820: [mem 0xc0000000-0xfffbbfff] available for PCI devices
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Aug 25 01:28:09 isuconx kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Aug 25 01:28:09 isuconx kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:3 nr_node_ids:1
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PERCPU: Embedded 33 pages/cpu @ffff8800bfc00000 s98264 r8192 d28712 u524288
+Aug 25 01:28:09 isuconx kernel: [    0.000000] pcpu-alloc: s98264 r8192 d28712 u524288 alloc=1*2097152
+Aug 25 01:28:09 isuconx kernel: [    0.000000] pcpu-alloc: [0] 0 1 2 - 
+Aug 25 01:28:09 isuconx kernel: [    0.000000] kvm-stealtime: cpu 0, msr bfc0d9c0
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 774020
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Policy zone: DMA32
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-91-generic root=UUID=90234f41-0948-407a-bc42-e4a4208e02d5 ro noresume nomodeset consoleblank=0 quiet transparent_hugepage=always elevator=noop net.ifnames=0 biosdevname=0
+Aug 25 01:28:09 isuconx kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Memory: 3043588K/3145316K available (8474K kernel code, 1294K rwdata, 3984K rodata, 1488K init, 1316K bss, 101728K reserved, 0K cma-reserved)
+Aug 25 01:28:09 isuconx kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=3, Nodes=1
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Hierarchical RCU implementation.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=3.
+Aug 25 01:28:09 isuconx kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=3
+Aug 25 01:28:09 isuconx kernel: [    0.000000] NR_IRQS:33024 nr_irqs:448 16
+Aug 25 01:28:09 isuconx kernel: [    0.000000] Console: colour dummy device 80x25
+Aug 25 01:28:09 isuconx kernel: [    0.000000] console [tty0] enabled
+Aug 25 01:28:09 isuconx kernel: [    0.000000] tsc: Detected 2499.998 MHz processor
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=9999992)
+Aug 25 01:28:09 isuconx kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Aug 25 01:28:09 isuconx kernel: [    0.008000] ACPI: Core revision 20150930
+Aug 25 01:28:09 isuconx kernel: [    0.008000] ACPI: 3 ACPI AML tables successfully acquired and loaded
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Security Framework initialized
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Yama: becoming mindful.
+Aug 25 01:28:09 isuconx kernel: [    0.008000] AppArmor: AppArmor initialized
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.008146] Initializing cgroup subsys io
+Aug 25 01:28:09 isuconx kernel: [    0.008149] Initializing cgroup subsys memory
+Aug 25 01:28:09 isuconx kernel: [    0.008155] Initializing cgroup subsys devices
+Aug 25 01:28:09 isuconx kernel: [    0.008158] Initializing cgroup subsys freezer
+Aug 25 01:28:09 isuconx kernel: [    0.008159] Initializing cgroup subsys net_cls
+Aug 25 01:28:09 isuconx kernel: [    0.008161] Initializing cgroup subsys perf_event
+Aug 25 01:28:09 isuconx kernel: [    0.008163] Initializing cgroup subsys net_prio
+Aug 25 01:28:09 isuconx kernel: [    0.008166] Initializing cgroup subsys hugetlb
+Aug 25 01:28:09 isuconx kernel: [    0.008167] Initializing cgroup subsys pids
+Aug 25 01:28:09 isuconx kernel: [    0.008249] Disabled fast string operations
+Aug 25 01:28:09 isuconx kernel: [    0.008267] mce: CPU supports 10 MCE banks
+Aug 25 01:28:09 isuconx kernel: [    0.008328] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Aug 25 01:28:09 isuconx kernel: [    0.008329] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Aug 25 01:28:09 isuconx kernel: [    0.010574] Freeing SMP alternatives memory: 32K (ffffffff820b9000 - ffffffff820c1000)
+Aug 25 01:28:09 isuconx kernel: [    0.021516] ftrace: allocating 32131 entries in 126 pages
+Aug 25 01:28:09 isuconx kernel: [    0.036106] smpboot: APIC(0) Converting physical 0 to logical package 0
+Aug 25 01:28:09 isuconx kernel: [    0.036109] smpboot: APIC(1) Converting physical 1 to logical package 1
+Aug 25 01:28:09 isuconx kernel: [    0.036110] smpboot: APIC(2) Converting physical 2 to logical package 2
+Aug 25 01:28:09 isuconx kernel: [    0.036111] smpboot: Max logical packages: 3
+Aug 25 01:28:09 isuconx kernel: [    0.036418] x2apic enabled
+Aug 25 01:28:09 isuconx kernel: [    0.036714] Switched APIC routing to physical x2apic.
+Aug 25 01:28:09 isuconx kernel: [    0.038011] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 25 01:28:09 isuconx kernel: [    0.038048] TSC deadline timer enabled
+Aug 25 01:28:09 isuconx kernel: [    0.038052] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz (family: 0x6, model: 0x2d, stepping: 0x7)
+Aug 25 01:28:09 isuconx kernel: [    0.038067] Performance Events: 16-deep LBR, SandyBridge events, Intel PMU driver.
+Aug 25 01:28:09 isuconx kernel: [    0.040000] core: PEBS disabled due to CPU errata, please upgrade microcode
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... version:                2
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... bit width:              48
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... generic registers:      4
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... value mask:             0000ffffffffffff
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... max period:             000000007fffffff
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... fixed-purpose events:   3
+Aug 25 01:28:09 isuconx kernel: [    0.040000] ... event mask:             000000070000000f
+Aug 25 01:28:09 isuconx kernel: [    0.041186] x86: Booting SMP configuration:
+Aug 25 01:28:09 isuconx kernel: [    0.041188] .... node  #0, CPUs:      #1
+Aug 25 01:28:09 isuconx kernel: [    0.008000] kvm-clock: cpu 1, msr 0:bfff0041, secondary cpu clock
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Disabled fast string operations
+Aug 25 01:28:09 isuconx kernel: [    0.044044] kvm-stealtime: cpu 1, msr bfc8d9c0
+Aug 25 01:28:09 isuconx kernel: [    0.044177]  #2
+Aug 25 01:28:09 isuconx kernel: [    0.008000] kvm-clock: cpu 2, msr 0:bfff0081, secondary cpu clock
+Aug 25 01:28:09 isuconx kernel: [    0.008000] Disabled fast string operations
+Aug 25 01:28:09 isuconx kernel: [    0.048045] x86: Booted up 1 node, 3 CPUs
+Aug 25 01:28:09 isuconx kernel: [    0.048050] smpboot: Total of 3 processors activated (14999.98 BogoMIPS)
+Aug 25 01:28:09 isuconx kernel: [    0.048031] kvm-stealtime: cpu 2, msr bfd0d9c0
+Aug 25 01:28:09 isuconx kernel: [    0.048633] devtmpfs: initialized
+Aug 25 01:28:09 isuconx kernel: [    0.050041] evm: security.selinux
+Aug 25 01:28:09 isuconx kernel: [    0.050042] evm: security.SMACK64
+Aug 25 01:28:09 isuconx kernel: [    0.050043] evm: security.SMACK64EXEC
+Aug 25 01:28:09 isuconx kernel: [    0.050044] evm: security.SMACK64TRANSMUTE
+Aug 25 01:28:09 isuconx kernel: [    0.050045] evm: security.SMACK64MMAP
+Aug 25 01:28:09 isuconx kernel: [    0.050045] evm: security.ima
+Aug 25 01:28:09 isuconx kernel: [    0.050046] evm: security.capability
+Aug 25 01:28:09 isuconx kernel: [    0.050082] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Aug 25 01:28:09 isuconx kernel: [    0.050082] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.050082] pinctrl core: initialized pinctrl subsystem
+Aug 25 01:28:09 isuconx kernel: [    0.050082] RTC time: 16:28:07, date: 08/24/17
+Aug 25 01:28:09 isuconx kernel: [    0.050082] NET: Registered protocol family 16
+Aug 25 01:28:09 isuconx kernel: [    0.060023] cpuidle: using governor ladder
+Aug 25 01:28:09 isuconx kernel: [    0.072027] cpuidle: using governor menu
+Aug 25 01:28:09 isuconx kernel: [    0.072037] PCCT header not found.
+Aug 25 01:28:09 isuconx kernel: [    0.072229] ACPI: bus type PCI registered
+Aug 25 01:28:09 isuconx kernel: [    0.072232] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 25 01:28:09 isuconx kernel: [    0.072382] PCI: Using configuration type 1 for base access
+Aug 25 01:28:09 isuconx kernel: [    0.072490] core: PMU erratum BJ122, BV98, HSD29 workaround disabled, HT off
+Aug 25 01:28:09 isuconx kernel: [    0.084157] ACPI: Added _OSI(Module Device)
+Aug 25 01:28:09 isuconx kernel: [    0.084160] ACPI: Added _OSI(Processor Device)
+Aug 25 01:28:09 isuconx kernel: [    0.084161] ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 25 01:28:09 isuconx kernel: [    0.084162] ACPI: Added _OSI(Processor Aggregator Device)
+Aug 25 01:28:09 isuconx kernel: [    0.086099] ACPI: Interpreter enabled
+Aug 25 01:28:09 isuconx kernel: [    0.086108] ACPI: (supports S0 S5)
+Aug 25 01:28:09 isuconx kernel: [    0.086110] ACPI: Using IOAPIC for interrupt routing
+Aug 25 01:28:09 isuconx kernel: [    0.086126] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 25 01:28:09 isuconx kernel: [    0.090073] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 25 01:28:09 isuconx kernel: [    0.090079] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Aug 25 01:28:09 isuconx kernel: [    0.090084] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Aug 25 01:28:09 isuconx kernel: [    0.090091] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Aug 25 01:28:09 isuconx kernel: [    0.090411] acpiphp: Slot [1] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090449] acpiphp: Slot [2] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090472] acpiphp: Slot [3] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090501] acpiphp: Slot [4] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090525] acpiphp: Slot [5] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090543] acpiphp: Slot [6] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090560] acpiphp: Slot [7] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090579] acpiphp: Slot [8] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090595] acpiphp: Slot [9] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090611] acpiphp: Slot [10] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090627] acpiphp: Slot [11] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090645] acpiphp: Slot [12] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090663] acpiphp: Slot [13] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090679] acpiphp: Slot [14] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090695] acpiphp: Slot [15] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090711] acpiphp: Slot [16] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090727] acpiphp: Slot [17] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090753] acpiphp: Slot [18] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090782] acpiphp: Slot [19] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090807] acpiphp: Slot [20] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090824] acpiphp: Slot [21] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090841] acpiphp: Slot [22] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090857] acpiphp: Slot [23] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090873] acpiphp: Slot [24] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090889] acpiphp: Slot [25] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090905] acpiphp: Slot [26] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090922] acpiphp: Slot [27] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090938] acpiphp: Slot [28] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090953] acpiphp: Slot [29] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090969] acpiphp: Slot [30] registered
+Aug 25 01:28:09 isuconx kernel: [    0.090985] acpiphp: Slot [31] registered
+Aug 25 01:28:09 isuconx kernel: [    0.091304] PCI host bridge to bus 0000:00
+Aug 25 01:28:09 isuconx kernel: [    0.091308] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Aug 25 01:28:09 isuconx kernel: [    0.091309] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.091311] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.091312] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfebfffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.091314] pci_bus 0000:00: root bus resource [bus 00-ff]
+Aug 25 01:28:09 isuconx kernel: [    0.091355] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Aug 25 01:28:09 isuconx kernel: [    0.091788] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Aug 25 01:28:09 isuconx kernel: [    0.092285] pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Aug 25 01:28:09 isuconx kernel: [    0.092576] pci 0000:00:01.1: reg 0x20: [io  0xc000-0xc00f]
+Aug 25 01:28:09 isuconx kernel: [    0.092674] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Aug 25 01:28:09 isuconx kernel: [    0.092676] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Aug 25 01:28:09 isuconx kernel: [    0.092677] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Aug 25 01:28:09 isuconx kernel: [    0.092678] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Aug 25 01:28:09 isuconx kernel: [    0.092835] pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Aug 25 01:28:09 isuconx kernel: [    0.093071] pci 0000:00:01.2: reg 0x20: [io  0xc020-0xc03f]
+Aug 25 01:28:09 isuconx kernel: [    0.093337] pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Aug 25 01:28:09 isuconx kernel: [    0.093731] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Aug 25 01:28:09 isuconx kernel: [    0.093746] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Aug 25 01:28:09 isuconx kernel: [    0.093940] pci 0000:00:02.0: [1013:00b8] type 00 class 0x030000
+Aug 25 01:28:09 isuconx kernel: [    0.104022] pci 0000:00:02.0: reg 0x10: [mem 0xf0000000-0xf1ffffff pref]
+Aug 25 01:28:09 isuconx kernel: [    0.115923] pci 0000:00:02.0: reg 0x14: [mem 0xf2000000-0xf2000fff]
+Aug 25 01:28:09 isuconx kernel: [    0.156026] pci 0000:00:02.0: reg 0x30: [mem 0xf2010000-0xf201ffff pref]
+Aug 25 01:28:09 isuconx kernel: [    0.156352] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000
+Aug 25 01:28:09 isuconx kernel: [    0.156578] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc05f]
+Aug 25 01:28:09 isuconx kernel: [    0.156676] pci 0000:00:03.0: reg 0x14: [mem 0xf2020000-0xf2020fff]
+Aug 25 01:28:09 isuconx kernel: [    0.157134] pci 0000:00:03.0: reg 0x30: [mem 0xf2030000-0xf203ffff pref]
+Aug 25 01:28:09 isuconx kernel: [    0.157442] pci 0000:00:04.0: [1af4:1002] type 00 class 0x050000
+Aug 25 01:28:09 isuconx kernel: [    0.157555] pci 0000:00:04.0: reg 0x10: [io  0xc060-0xc07f]
+Aug 25 01:28:09 isuconx kernel: [    0.158155] pci 0000:00:05.0: [1af4:1001] type 00 class 0x010000
+Aug 25 01:28:09 isuconx kernel: [    0.158364] pci 0000:00:05.0: reg 0x10: [io  0xc080-0xc0bf]
+Aug 25 01:28:09 isuconx kernel: [    0.158461] pci 0000:00:05.0: reg 0x14: [mem 0xf2040000-0xf2040fff]
+Aug 25 01:28:09 isuconx kernel: [    0.159736] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Aug 25 01:28:09 isuconx kernel: [    0.159834] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Aug 25 01:28:09 isuconx kernel: [    0.159926] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Aug 25 01:28:09 isuconx kernel: [    0.160022] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Aug 25 01:28:09 isuconx kernel: [    0.160072] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Aug 25 01:28:09 isuconx kernel: [    0.160560] ACPI: Enabled 16 GPEs in block 00 to 0F
+Aug 25 01:28:09 isuconx kernel: [    0.161221] vgaarb: setting as boot device: PCI:0000:00:02.0
+Aug 25 01:28:09 isuconx kernel: [    0.161221] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 25 01:28:09 isuconx kernel: [    0.161221] vgaarb: loaded
+Aug 25 01:28:09 isuconx kernel: [    0.161221] vgaarb: bridge control possible 0000:00:02.0
+Aug 25 01:28:09 isuconx kernel: [    0.161221] SCSI subsystem initialized
+Aug 25 01:28:09 isuconx kernel: [    0.161221] libata version 3.00 loaded.
+Aug 25 01:28:09 isuconx kernel: [    0.161221] ACPI: bus type USB registered
+Aug 25 01:28:09 isuconx kernel: [    0.161221] usbcore: registered new interface driver usbfs
+Aug 25 01:28:09 isuconx kernel: [    0.161221] usbcore: registered new interface driver hub
+Aug 25 01:28:09 isuconx kernel: [    0.161221] usbcore: registered new device driver usb
+Aug 25 01:28:09 isuconx kernel: [    0.161221] ioremap error for 0xbffff000-0xc0000000, requested 0x2, got 0x0
+Aug 25 01:28:09 isuconx kernel: [    0.161221] dmi: Firmware registration failed.
+Aug 25 01:28:09 isuconx kernel: [    0.161221] PCI: Using ACPI for IRQ routing
+Aug 25 01:28:09 isuconx kernel: [    0.161221] PCI: pci_cache_line_size set to 64 bytes
+Aug 25 01:28:09 isuconx kernel: [    0.161221] e820: reserve RAM buffer [mem 0x0009dc00-0x0009ffff]
+Aug 25 01:28:09 isuconx kernel: [    0.161221] e820: reserve RAM buffer [mem 0xbfffd000-0xbfffffff]
+Aug 25 01:28:09 isuconx kernel: [    0.161221] NetLabel: Initializing
+Aug 25 01:28:09 isuconx kernel: [    0.161221] NetLabel:  domain hash size = 128
+Aug 25 01:28:09 isuconx kernel: [    0.161221] NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 25 01:28:09 isuconx kernel: [    0.161221] NetLabel:  unlabeled traffic allowed by default
+Aug 25 01:28:09 isuconx kernel: [    0.161221] amd_nb: Cannot enumerate AMD northbridges
+Aug 25 01:28:09 isuconx kernel: [    0.161221] clocksource: Switched to clocksource kvm-clock
+Aug 25 01:28:09 isuconx kernel: [    0.167539] AppArmor: AppArmor Filesystem Enabled
+Aug 25 01:28:09 isuconx kernel: [    0.167624] pnp: PnP ACPI init
+Aug 25 01:28:09 isuconx kernel: [    0.167713] pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Aug 25 01:28:09 isuconx kernel: [    0.167765] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Aug 25 01:28:09 isuconx kernel: [    0.167797] pnp 00:02: Plug and Play ACPI device, IDs PNP0f13 (active)
+Aug 25 01:28:09 isuconx kernel: [    0.167815] pnp 00:03: [dma 2]
+Aug 25 01:28:09 isuconx kernel: [    0.167831] pnp 00:03: Plug and Play ACPI device, IDs PNP0700 (active)
+Aug 25 01:28:09 isuconx kernel: [    0.167946] pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+Aug 25 01:28:09 isuconx kernel: [    0.168107] pnp: PnP ACPI: found 5 devices
+Aug 25 01:28:09 isuconx kernel: [    0.176489] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Aug 25 01:28:09 isuconx kernel: [    0.176510] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Aug 25 01:28:09 isuconx kernel: [    0.176512] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.176513] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.176515] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfebfffff window]
+Aug 25 01:28:09 isuconx kernel: [    0.176556] NET: Registered protocol family 2
+Aug 25 01:28:09 isuconx kernel: [    0.176780] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.176842] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.176913] TCP: Hash tables configured (established 32768 bind 32768)
+Aug 25 01:28:09 isuconx kernel: [    0.176955] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.176968] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.177015] NET: Registered protocol family 1
+Aug 25 01:28:09 isuconx kernel: [    0.177030] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 25 01:28:09 isuconx kernel: [    0.177049] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 25 01:28:09 isuconx kernel: [    0.177067] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Aug 25 01:28:09 isuconx kernel: [    0.177339] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Aug 25 01:28:09 isuconx kernel: [    0.177550] pci 0000:00:02.0: Video device with shadowed ROM
+Aug 25 01:28:09 isuconx kernel: [    0.177593] PCI: CLS 0 bytes, default 64
+Aug 25 01:28:09 isuconx kernel: [    0.177655] Unpacking initramfs...
+Aug 25 01:28:09 isuconx kernel: [    0.687552] Freeing initrd memory: 33288K (ffff880033eec000 - ffff880035f6e000)
+Aug 25 01:28:09 isuconx kernel: [    0.688816] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 10737418240 ms ovfl timer
+Aug 25 01:28:09 isuconx kernel: [    0.688819] hw unit of domain pp0-core 2^-0 Joules
+Aug 25 01:28:09 isuconx kernel: [    0.688820] hw unit of domain package 2^-0 Joules
+Aug 25 01:28:09 isuconx kernel: [    0.688821] hw unit of domain dram 2^-0 Joules
+Aug 25 01:28:09 isuconx kernel: [    0.688950] Scanning for low memory corruption every 60 seconds
+Aug 25 01:28:09 isuconx kernel: [    0.689402] audit: initializing netlink subsys (disabled)
+Aug 25 01:28:09 isuconx kernel: [    0.689425] audit: type=2000 audit(1503592089.098:1): initialized
+Aug 25 01:28:09 isuconx kernel: [    0.689754] Initialise system trusted keyring
+Aug 25 01:28:09 isuconx kernel: [    0.689940] HugeTLB registered 1 GB page size, pre-allocated 0 pages
+Aug 25 01:28:09 isuconx kernel: [    0.689941] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 25 01:28:09 isuconx kernel: [    0.691355] zbud: loaded
+Aug 25 01:28:09 isuconx kernel: [    0.691603] VFS: Disk quotas dquot_6.6.0
+Aug 25 01:28:09 isuconx kernel: [    0.691637] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 25 01:28:09 isuconx kernel: [    0.691887] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Aug 25 01:28:09 isuconx kernel: [    0.692211] fuse init (API version 7.23)
+Aug 25 01:28:09 isuconx kernel: [    0.692367] Key type big_key registered
+Aug 25 01:28:09 isuconx kernel: [    0.692385] Allocating IMA MOK and blacklist keyrings.
+Aug 25 01:28:09 isuconx kernel: [    0.693074] Key type asymmetric registered
+Aug 25 01:28:09 isuconx kernel: [    0.693077] Asymmetric key parser 'x509' registered
+Aug 25 01:28:09 isuconx kernel: [    0.693116] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Aug 25 01:28:09 isuconx kernel: [    0.693176] io scheduler noop registered (default)
+Aug 25 01:28:09 isuconx kernel: [    0.693180] io scheduler deadline registered
+Aug 25 01:28:09 isuconx kernel: [    0.693209] io scheduler cfq registered
+Aug 25 01:28:09 isuconx kernel: [    0.693314] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 25 01:28:09 isuconx kernel: [    0.693321] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 25 01:28:09 isuconx kernel: [    0.693348] efifb: probing for efifb
+Aug 25 01:28:09 isuconx kernel: [    0.693360] efifb: framebuffer at 0xf0000000, mapped to 0xffffc90000800000, using 1408k, total 1408k
+Aug 25 01:28:09 isuconx kernel: [    0.693361] efifb: mode is 800x600x24, linelength=2400, pages=1
+Aug 25 01:28:09 isuconx kernel: [    0.693362] efifb: scrolling: redraw
+Aug 25 01:28:09 isuconx kernel: [    0.693363] efifb: Truecolor: size=0:8:8:8, shift=0:16:8:0
+Aug 25 01:28:09 isuconx kernel: [    0.695738] Console: switching to colour frame buffer device 100x37
+Aug 25 01:28:09 isuconx kernel: [    0.697440] fb0: EFI VGA frame buffer device
+Aug 25 01:28:09 isuconx kernel: [    0.697451] intel_idle: does not run on family 6 model 45
+Aug 25 01:28:09 isuconx kernel: [    0.697536] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 25 01:28:09 isuconx kernel: [    0.697541] ACPI: Power Button [PWRF]
+Aug 25 01:28:09 isuconx kernel: [    0.697791] GHES: HEST is not enabled!
+Aug 25 01:28:09 isuconx kernel: [    0.698100] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Aug 25 01:28:09 isuconx kernel: [    0.698138] virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Aug 25 01:28:09 isuconx kernel: [    0.698376] virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+Aug 25 01:28:09 isuconx kernel: [    0.698632] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Aug 25 01:28:09 isuconx kernel: [    0.698662] virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Aug 25 01:28:09 isuconx kernel: [    0.699177] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Aug 25 01:28:09 isuconx kernel: [    0.720390] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Aug 25 01:28:09 isuconx kernel: [    0.722544] Linux agpgart interface v0.103
+Aug 25 01:28:09 isuconx kernel: [    0.724621] loop: module loaded
+Aug 25 01:28:09 isuconx kernel: [    0.756909]  vda: vda1 vda2 vda3
+Aug 25 01:28:09 isuconx kernel: [    0.757291] ata_piix 0000:00:01.1: version 2.13
+Aug 25 01:28:09 isuconx kernel: [    0.757748] scsi host0: ata_piix
+Aug 25 01:28:09 isuconx kernel: [    0.757868] scsi host1: ata_piix
+Aug 25 01:28:09 isuconx kernel: [    0.757908] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc000 irq 14
+Aug 25 01:28:09 isuconx kernel: [    0.757910] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc008 irq 15
+Aug 25 01:28:09 isuconx kernel: [    0.758014] libphy: Fixed MDIO Bus: probed
+Aug 25 01:28:09 isuconx kernel: [    0.758018] tun: Universal TUN/TAP device driver, 1.6
+Aug 25 01:28:09 isuconx kernel: [    0.758019] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Aug 25 01:28:09 isuconx kernel: [    0.823192] PPP generic driver version 2.4.2
+Aug 25 01:28:09 isuconx kernel: [    0.823341] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 25 01:28:09 isuconx kernel: [    0.823349] ehci-pci: EHCI PCI platform driver
+Aug 25 01:28:09 isuconx kernel: [    0.823362] ehci-platform: EHCI generic platform driver
+Aug 25 01:28:09 isuconx kernel: [    0.823371] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 25 01:28:09 isuconx kernel: [    0.823375] ohci-pci: OHCI PCI platform driver
+Aug 25 01:28:09 isuconx kernel: [    0.823384] ohci-platform: OHCI generic platform driver
+Aug 25 01:28:09 isuconx kernel: [    0.823391] uhci_hcd: USB Universal Host Controller Interface driver
+Aug 25 01:28:09 isuconx kernel: [    0.823676] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 25 01:28:09 isuconx kernel: [    0.823683] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 25 01:28:09 isuconx kernel: [    0.823696] uhci_hcd 0000:00:01.2: detected 2 ports
+Aug 25 01:28:09 isuconx kernel: [    0.823754] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c020
+Aug 25 01:28:09 isuconx kernel: [    0.823835] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 25 01:28:09 isuconx kernel: [    0.823837] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 25 01:28:09 isuconx kernel: [    0.823839] usb usb1: Product: UHCI Host Controller
+Aug 25 01:28:09 isuconx kernel: [    0.823840] usb usb1: Manufacturer: Linux 4.4.0-91-generic uhci_hcd
+Aug 25 01:28:09 isuconx kernel: [    0.823841] usb usb1: SerialNumber: 0000:00:01.2
+Aug 25 01:28:09 isuconx kernel: [    0.824019] hub 1-0:1.0: USB hub found
+Aug 25 01:28:09 isuconx kernel: [    0.824033] hub 1-0:1.0: 2 ports detected
+Aug 25 01:28:09 isuconx kernel: [    0.824201] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 25 01:28:09 isuconx kernel: [    0.824947] serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 25 01:28:09 isuconx kernel: [    0.824952] serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 25 01:28:09 isuconx kernel: [    0.825142] mousedev: PS/2 mouse device common for all mice
+Aug 25 01:28:09 isuconx kernel: [    0.825427] rtc_cmos 00:00: RTC can wake from S4
+Aug 25 01:28:09 isuconx kernel: [    0.825649] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Aug 25 01:28:09 isuconx kernel: [    0.825986] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Aug 25 01:28:09 isuconx kernel: [    0.826057] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+Aug 25 01:28:09 isuconx kernel: [    0.826066] i2c /dev entries driver
+Aug 25 01:28:09 isuconx kernel: [    0.826123] device-mapper: uevent: version 1.0.3
+Aug 25 01:28:09 isuconx kernel: [    0.826224] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Aug 25 01:28:09 isuconx kernel: [    0.826245] ledtrig-cpu: registered to indicate activity on CPUs
+Aug 25 01:28:09 isuconx kernel: [    0.826638] NET: Registered protocol family 10
+Aug 25 01:28:09 isuconx kernel: [    0.826871] NET: Registered protocol family 17
+Aug 25 01:28:09 isuconx kernel: [    0.826890] Key type dns_resolver registered
+Aug 25 01:28:09 isuconx kernel: [    0.827154] microcode: CPU0 sig=0x206d7, pf=0x1, revision=0x1
+Aug 25 01:28:09 isuconx kernel: [    0.827178] microcode: CPU1 sig=0x206d7, pf=0x1, revision=0x1
+Aug 25 01:28:09 isuconx kernel: [    0.827188] microcode: CPU2 sig=0x206d7, pf=0x1, revision=0x1
+Aug 25 01:28:09 isuconx kernel: [    0.827236] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Aug 25 01:28:09 isuconx kernel: [    0.827504] registered taskstats version 1
+Aug 25 01:28:09 isuconx kernel: [    0.827524] Loading compiled-in X.509 certificates
+Aug 25 01:28:09 isuconx kernel: [    0.828462] Loaded X.509 cert 'Build time autogenerated kernel key: 0777615d5208f86b8b4bd2fb3aecc97a191f2831'
+Aug 25 01:28:09 isuconx kernel: [    0.828492] zswap: loaded using pool lzo/zbud
+Aug 25 01:28:09 isuconx kernel: [    0.830386] Key type trusted registered
+Aug 25 01:28:09 isuconx kernel: [    0.833551] Key type encrypted registered
+Aug 25 01:28:09 isuconx kernel: [    0.833558] AppArmor: AppArmor sha1 policy hashing enabled
+Aug 25 01:28:09 isuconx kernel: [    0.833561] ima: No TPM chip found, activating TPM-bypass!
+Aug 25 01:28:09 isuconx kernel: [    0.833587] evm: HMAC attrs: 0x1
+Aug 25 01:28:09 isuconx kernel: [    0.833842]   Magic number: 13:439:490
+Aug 25 01:28:09 isuconx kernel: [    0.833890] acpi PNP0F13:00: hash matches
+Aug 25 01:28:09 isuconx kernel: [    0.833999] rtc_cmos 00:00: setting system clock to 2017-08-24 16:28:08 UTC (1503592088)
+Aug 25 01:28:09 isuconx kernel: [    0.834113] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Aug 25 01:28:09 isuconx kernel: [    0.834115] EDD information not available.
+Aug 25 01:28:09 isuconx kernel: [    0.912969] ata1.01: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 25 01:28:09 isuconx kernel: [    0.913255] ata2.01: NODEV after polling detection
+Aug 25 01:28:09 isuconx kernel: [    0.913529] ata2.00: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Aug 25 01:28:09 isuconx kernel: [    0.914290] ata1.01: configured for MWDMA2
+Aug 25 01:28:09 isuconx kernel: [    0.914431] ata2.00: configured for MWDMA2
+Aug 25 01:28:09 isuconx kernel: [    0.915193] scsi 0:0:1:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 25 01:28:09 isuconx kernel: [    0.920696] sr 0:0:1:0: [sr0] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 25 01:28:09 isuconx kernel: [    0.920701] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 25 01:28:09 isuconx kernel: [    0.920956] sr 0:0:1:0: Attached scsi CD-ROM sr0
+Aug 25 01:28:09 isuconx kernel: [    0.921079] sr 0:0:1:0: Attached scsi generic sg0 type 5
+Aug 25 01:28:09 isuconx kernel: [    0.921427] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Aug 25 01:28:09 isuconx kernel: [    0.928586] sr 1:0:0:0: [sr1] scsi3-mmc drive: 4x/4x xa/form2 tray
+Aug 25 01:28:09 isuconx kernel: [    0.928781] sr 1:0:0:0: Attached scsi CD-ROM sr1
+Aug 25 01:28:09 isuconx kernel: [    0.929116] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Aug 25 01:28:09 isuconx kernel: [    0.930903] Freeing unused kernel memory: 1488K (ffffffff81f45000 - ffffffff820b9000)
+Aug 25 01:28:09 isuconx kernel: [    0.930906] Write protecting the kernel read-only data: 14336k
+Aug 25 01:28:09 isuconx kernel: [    0.931749] Freeing unused kernel memory: 1752K (ffff88000184a000 - ffff880001a00000)
+Aug 25 01:28:09 isuconx kernel: [    0.932217] Freeing unused kernel memory: 112K (ffff880001de4000 - ffff880001e00000)
+Aug 25 01:28:09 isuconx kernel: [    0.946868] random: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.946999] random: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947018] random: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947500] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947562] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947812] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947875] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.947977] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.948062] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.948111] random: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)
+Aug 25 01:28:09 isuconx kernel: [    0.984247] Floppy drive(s): fd0 is 1.44M
+Aug 25 01:28:09 isuconx kernel: [    0.994998] [drm] Initialized drm 1.1.0 20060810
+Aug 25 01:28:09 isuconx kernel: [    0.996166] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Aug 25 01:28:09 isuconx kernel: [    0.996625] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Aug 25 01:28:09 isuconx kernel: [    1.000425] FDC 0 is a S82078B
+Aug 25 01:28:09 isuconx kernel: [    1.115398] EXT4-fs (vda3): mounted filesystem with ordered data mode. Opts: (null)
+Aug 25 01:28:09 isuconx kernel: [    1.136042] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Aug 25 01:28:09 isuconx kernel: [    1.453873] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Aug 25 01:28:09 isuconx kernel: [    1.453877] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Aug 25 01:28:09 isuconx kernel: [    1.453880] usb 1-1: Product: QEMU USB Tablet
+Aug 25 01:28:09 isuconx kernel: [    1.453882] usb 1-1: Manufacturer: QEMU 0.12.1
+Aug 25 01:28:09 isuconx kernel: [    1.453883] usb 1-1: SerialNumber: 42
+Aug 25 01:28:09 isuconx kernel: [    1.594259] EXT4-fs (vda3): re-mounted. Opts: errors=remount-ro
+Aug 25 01:28:09 isuconx kernel: [    1.596400] hidraw: raw HID events driver (C) Jiri Kosina
+Aug 25 01:28:09 isuconx kernel: [    1.610098] usbcore: registered new interface driver usbhid
+Aug 25 01:28:09 isuconx kernel: [    1.610101] usbhid: USB HID core driver
+Aug 25 01:28:09 isuconx kernel: [    1.622670] input: QEMU 0.12.1 QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input5
+Aug 25 01:28:09 isuconx kernel: [    1.629211] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU 0.12.1 QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Aug 25 01:28:09 isuconx kernel: [    1.688144] tsc: Refined TSC clocksource calibration: 2499.948 MHz
+Aug 25 01:28:09 isuconx kernel: [    1.688148] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x240908cdd78, max_idle_ns: 440795316483 ns
+Aug 25 01:28:09 isuconx kernel: [    1.751551] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Aug 25 01:28:09 isuconx kernel: [    1.772139] audit: type=1400 audit(1503592089.436:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ntpd" pid=399 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.776401] audit: type=1400 audit(1503592089.440:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=397 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.776409] audit: type=1400 audit(1503592089.440:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=397 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.776413] audit: type=1400 audit(1503592089.440:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=397 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.776417] audit: type=1400 audit(1503592089.440:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=397 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.776942] audit: type=1400 audit(1503592089.440:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=398 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.783449] audit: type=1400 audit(1503592089.444:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=407 comm="apparmor_parser"
+Aug 25 01:28:09 isuconx kernel: [    1.823580] AVX version of gcm_enc/dec engaged.
+Aug 25 01:28:09 isuconx kernel: [    1.823583] AES CTR mode by8 optimization enabled
+Aug 25 01:28:09 isuconx kernel: [    1.823733] Adding 4194300k swap on /dev/vda2.  Priority:-1 extents:1 across:4194300k FS
+Aug 25 01:28:09 isuconx kernel: [    1.895387] intel_rapl: no valid rapl domains found in package 0
+Aug 25 01:28:09 isuconx kernel: [    1.902569] ppdev: user-space parallel port driver
+Aug 25 01:28:09 isuconx kernel: [    2.241337] audit: type=1400 audit(1503592089.903:9): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/674/status" pid=674 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=110
+Aug 25 01:28:09 isuconx kernel: [    2.241368] audit: type=1400 audit(1503592089.903:10): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=674 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=110 ouid=0
+Aug 25 01:28:38 isuconx kernel: [   29.624227] random: nonblocking pool is initialized

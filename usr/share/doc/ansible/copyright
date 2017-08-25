@@ -1,0 +1,1613 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ansible
+Upstream-Contact: Michael DeHaan <michael.dehaan@gmail.com>
+Source: https://github.com/ansible/ansible/
+
+Files: *
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/abiquo.py
+Copyright: 2014, Daniel Beneyto <daniel.beneyto@abiquo.com>
+License: GPL-3+
+
+Files: contrib/inventory/apache-libcloud.py
+Copyright: 2013, Sebastien Goasguen <runseb@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/cloudstack.py
+Copyright: 2015, René Moser <mail@renemoser.net>
+License: GPL-3+
+
+Files: contrib/inventory/cobbler.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/collins.py
+Copyright: 2014, Steve Salevan <steve.salevan@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/consul_io.py
+Copyright: 2015, Steve Gargan <steve.gargan@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/docker.py
+Copyright: 2013, Paul Durivage <paul.durivage@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/fleet.py
+Copyright: 2014, Andrew Rothstein <andrew.rothstein at gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/gce.ini
+  contrib/inventory/gce.py
+  contrib/inventory/ovirt.ini
+Copyright: 2013, Google Inc
+License: GPL-3+
+
+Files: contrib/inventory/landscape.py
+  contrib/inventory/serf.py
+Copyright: 2015, Marc Abramowitz <marca@surveymonkey.com>
+License: GPL-3+
+
+Files: contrib/inventory/linode.py
+Copyright: 2013, Dan Slimmon
+License: GPL-3+
+
+Files: contrib/inventory/nagios_ndo.py
+Copyright: 2014, Jonathan Lestrelin <jonathan.lestrelin@gmail.com>
+License: GPL-3+
+
+Files: contrib/inventory/nova.py
+Copyright: 2012, Marco Vito Moscaritolo <marco@agavee.com>
+License: GPL-3+
+
+Files: contrib/inventory/openstack.py
+Copyright: 2015, Hewlett-Packard Development Company, L.P
+  2013, Jesse Keating <jesse.keating@rackspace.com>
+  2012, Marco Vito Moscaritolo <marco@agavee.com>
+License: GPL-3+
+
+Files: contrib/inventory/openvz.py
+Copyright: 2014, jordonr <jordon@beamsyn.net>
+License: GPL-3+
+
+Files: contrib/inventory/ovirt.py
+Copyright: 2015, IIX Inc
+License: GPL-3+
+
+Files: contrib/inventory/proxmox.py
+Copyright: 2014, Mathieu GAUTHIER-LAFAYE <gauthierl@lapth.cnrs.fr>
+License: GPL-3+
+
+Files: contrib/inventory/rax.py
+Copyright: 2013, Jesse Keating <jesse.keating@rackspace.com
+License: GPL-3+
+
+Files: contrib/inventory/rudder.py
+Copyright: 2015, Normation SAS
+License: GPL-3+
+
+Files: contrib/inventory/softlayer.py
+Copyright: 2014, AJ Bourg <aj@ajbourg.com>
+License: GPL-3+
+
+Files: contrib/inventory/spacewalk.py
+Copyright: : 2013, Jon Miller
+License: GPL-2+
+
+Files: contrib/inventory/ssh_config.py
+Copyright: 2014, Tomas Karasek <tomas.karasek@digile.fi>
+License: GPL-3+
+
+Files: contrib/inventory/vagrant.py
+Copyright: 2013, Mark Mandel <mark@compoundtheory.com>
+License: GPL-3+
+
+Files: contrib/inventory/windows_azure.py
+Copyright: 2013, John Whitbeck
+License: GPL-3+
+
+Files: contrib/inventory/zabbix.py
+Copyright: 2013, Greg Buehler
+License: GPL-3+
+
+Files: contrib/inventory/zone.py
+Copyright: 2015, Dagobert Michelsen <dam@baltic-online.de>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2013-2014, Janos Guljas <janos@resenje.org>
+  2013-2014, Michael Vogt <mvo@debian.org>
+  2014-2016, Harlan Lieberman-Berg <hlieberman@setec.io>
+License: GPL-3+
+
+Files: lib/ansible/cli/doc.py
+  lib/ansible/cli/vault.py
+Copyright: 2014, James Tanner <tanner.jc@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/cli/galaxy.py
+Copyright: 2013, James Cammarata <jcammarata@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/compat/*
+Copyright: 2014, Toshio Kuratomi <tkuratomi@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/compat/six/_six.py
+Copyright: 2010-2015, Benjamin Peterson
+License: Expat
+
+Files: lib/ansible/executor/module_common.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2012-2014, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/galaxy/*
+Copyright: 2014, 2015, Brian Coca <bcoca@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/galaxy/api.py
+Copyright: 2013, James Cammarata <jcammarata@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/galaxy/login.py
+  lib/ansible/galaxy/token.py
+Copyright: 2015, Chris Houseknecht <chouse@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/inventory/dir.py
+Copyright: 2014, Serge van Ginderachter <serge@vanginderachter.be>
+  2013, Daniel Hokka Zakrisson <daniel@hozac.com>
+License: GPL-3+
+
+Files: lib/ansible/inventory/expand_hosts.py
+Copyright: 2012, Zettar Inc
+License: GPL-3+
+
+Files: lib/ansible/inventory/ini.py
+Copyright: 2015, Abhijit Menon-Sen <ams@2ndQuadrant.com>
+License: GPL-3+
+
+Files: lib/ansible/inventory/vars_plugins/*
+Copyright: 2014, Serge van Ginderachter <serge@vanginderachter.be>
+  2012-2014, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/module_utils/*
+Copyright: 2015, Peter Sprygada, <psprygada@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/module_utils/a10.py
+  lib/ansible/module_utils/basic.py
+  lib/ansible/module_utils/ec2.py
+  lib/ansible/module_utils/known_hosts.py
+  lib/ansible/module_utils/rax.py
+Copyright:  Michael DeHaan <michael.dehaan@gmail.com>, 2012-2013
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/cloudstack.py
+Copyright: 2015, René Moser <mail@renemoser.net>
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/database.py
+Copyright: 2014, Toshio Kuratomi <tkuratomi@ansible.com>
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/f5.py
+Copyright:  Etienne Carrière <etienne.carriere@gmail.com>,2015
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/facts.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/module_utils/gce.py
+Copyright:  Franck Cuny <franck.cuny@gmail.com>, 2014
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/mysql.py
+Copyright:  Jonathan Mainguy <jon@soh.re>, 2015
+License: BSD-2-Clause
+Comment: Most of this was originally added by Sven Schliesing @muffl0n in the mysql_user.py module
+
+Files: lib/ansible/module_utils/openstack.py
+Copyright: 2014, Hewlett-Packard Development Company, L.P
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/powershell.ps1
+Copyright:  Michael DeHaan <michael.dehaan@gmail.com>, 2014, and others
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/redhat.py
+Copyright:  James Laska
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/service.py
+Copyright: Ansible Inc, 2015
+License: BSD-2-Clause
+
+Files: lib/ansible/module_utils/splitter.py
+Copyright: 2014, James Cammarata, <jcammarata@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/module_utils/urls.py
+Copyright:  Michael DeHaan <michael.dehaan@gmail.com>, 2012-2013,
+  Toshio Kuratomi <tkuratomi@ansible.com>, 2015
+License: PSFLv2 or BSD-2-Clause
+Comment:
+ Specifically, the match_hostname function and its supporting code are
+ under the terms of the PSFLv2, taken from the Python3 standard
+ library and adapted for Python2.  The specific code is delineated in
+ the codebase.
+
+Files: lib/ansible/module_utils/vmware.py
+Copyright: 2015, Joseph Callen <jcallen () csc.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/__init__.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/amazon/_ec2_ami_search.py
+Copyright: 2013, Nimbis Services
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/docker/*
+Copyright: 2014, Pavel Antonov <antonov@adwz.ru>
+  2014, Joshua Conner <joshua.conner@gmail.com>
+  2013, Cove Schneider
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/docker/docker_image.py
+Copyright: 2014, Pavel Antonov <antonov@adwz.ru>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/google/*
+Copyright: 2013, Google Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/*
+Copyright: 2014, 2015, Hewlett-Packard Development Company, L.P
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/_glance_image.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_floating_ip.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_floating_ip_associate.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_network.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_router.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_router_gateway.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_router_interface.py
+  lib/ansible/modules/core/cloud/openstack/_quantum_subnet.py
+  lib/ansible/modules/core/cloud/openstack/os_subnet.py
+Copyright: 2013, 2014, Benno Joy <benno@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/_nova_compute.py
+  lib/ansible/modules/core/cloud/openstack/_nova_keypair.py
+Copyright: 2013, John Dewey <john@dewey.ws>
+  2013, Benno Joy <benno@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/os_image.py
+  lib/ansible/modules/core/cloud/openstack/os_network.py
+  lib/ansible/modules/core/cloud/openstack/os_object.py
+  lib/ansible/modules/core/cloud/openstack/os_security_group.py
+  lib/ansible/modules/core/cloud/openstack/os_security_group_rule.py
+Copyright: 2014, 2015, Hewlett-Packard Development Company, L.P
+  2013, Benno Joy <benno@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/os_keypair.py
+  lib/ansible/modules/core/cloud/openstack/os_server.py
+Copyright: 2014, Hewlett-Packard Development Company, L.P
+  2013, John Dewey <john@dewey.ws>
+  2013, Benno Joy <benno@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/openstack/os_server_actions.py
+Copyright: 2015, Jesse Keating <jlk@derpops.bike>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/cloud/rackspace/rax_files.py
+  lib/ansible/modules/core/cloud/rackspace/rax_files_objects.py
+Copyright: 2013, 2014, Paul Durivage <paul.durivage@rackspace.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/commands/command.py
+Copyright: 2012, Michael DeHaan <michael.dehaan@gmail.com>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/core/database/mysql/*
+Copyright: 2012, Mark Theunissen <mark.theunissen@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/database/mysql/mysql_variables.py
+Copyright: 2013, Balazs Pocze <banyek@gawker.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/assemble.py
+Copyright: 2012, Stephen Fromm <sfromm@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/copy.py
+  lib/ansible/modules/core/files/file.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/find.py
+Copyright: 2015, Brian Coca <bcoca@ansible.com>
+  2014, Ruggero Marchei <ruggero.marchei@daemonzone.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/ini_file.py
+Copyright: 2015, Ales Nosek <anosek.nosek () gmail.com>
+  2012, Jan-Piet Mens <jpmens () gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/lineinfile.py
+Copyright: 2014, Ahti Kitsik <ak@ahtik.com>
+  2012, Daniel Hokka Zakrisson <daniel@hozac.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/replace.py
+Copyright: 2013, Evan Kaufman <evan@digitalflophouse.com
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/synchronize.py
+Copyright: 2012, 2013, Timothy Appnel <tim@appnel.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/files/unarchive.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2013, Dylan Martin <dmartin@seattlecentral.edu>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/network/*
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/network/basics/get_url.py
+Copyright: 2012-2014, Jan-Piet Mens <jpmens () gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/network/basics/uri.py
+Copyright: 2013, Romeo Theriault <romeot () hawaii.edu>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/*
+Copyright: 2012, Matt Wright <matt@nobien.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/language/gem.py
+Copyright: 2013, Johan Wiren <johan.wiren.se@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/*
+Copyright: 2012, Flowroute LLC
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/apt_key.py
+Copyright: 2012, Michael DeHaan <michael.dehaan@gmail.com>
+  2012, Jayson Vantuyl <jayson@aggressive.ly>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/apt_repository.py
+Copyright: 2014, Rutger Spiertz <rutger@kumina.nl>
+  2013, Alexander Saltanov <asd@mokote.com>
+  2012, Matt Wright <matt@nobien.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/apt_rpm.py
+Copyright: 2013, Evgenii Terechkov
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/package.py
+Copyright: 2015, Ansible, inc
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/rhn_channel.py
+Copyright: Vincent Van de Kussen
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/rhn_register.py
+Copyright: James Laska
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/rpm_key.py
+Copyright: 2013, Héctor Acosta <hector.acosta@gazzang.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/packaging/os/yum.py
+Copyright: 2014, Epic Games, Inc
+  2012, Red Hat, Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/core/source_control/*
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/source_control/hg.py
+Copyright: 2014, Nate Coraor <nate@bx.psu.edu>
+  2013, Yeukhon Wong <yeukhon@acm.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/*
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/authorized_key.py
+Copyright: 2012, Brad Olson <brado@movedbylight.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/cron.py
+Copyright: 2015, Evan Kaufman <evan@digitalflophouse.com>
+  2013, Patrick Callahan <pmc@patrickcallahan.com>
+  2013, Mike Grozak <mike.grozak@gmail.com>
+  2012, Dane Summers <dsummers@pinedesk.biz>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/group.py
+  lib/ansible/modules/core/system/seboolean.py
+  lib/ansible/modules/core/system/user.py
+Copyright: 2012, Stephen Fromm <sfromm@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/hostname.py
+Copyright: 2013, Hiroaki Nakamura <hnakamur@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/mount.py
+Copyright: 2012, Red Hat, inc
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/selinux.py
+Copyright: 2012, Derek Carter<goozbach@friocorte.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/system/sysctl.py
+Copyright: 2014, James Tanner <tanner.jc@gmail.com>
+  2012, David "DaviXX" CHANIAL <david.chanial@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/utilities/*
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/utilities/helper/accelerate.py
+Copyright: 2013, James Cammarata <jcammarata@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/utilities/logic/*
+Copyright: 2012, 2013, 2015, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/utilities/logic/async_status.py
+  lib/ansible/modules/core/utilities/logic/async_wrapper.py
+Copyright: 2012, Michael DeHaan <michael.dehaan@gmail.com>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/core/utilities/logic/wait_for.py
+Copyright: 2012, Jeroen Hoekx <jeroen@hoekx.be>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/web_infrastructure/*
+Copyright: 2012, Matt Wright <matt@nobien.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/web_infrastructure/apache2_module.py
+Copyright: 2013, 2014, Christian Berendt <berendt@b1-systems.de>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/web_infrastructure/django_manage.py
+Copyright: 2013, Scott Anderson <scottanderson42@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/web_infrastructure/htpasswd.py
+Copyright: 2013, Nimbis Services, Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_copy.py
+  lib/ansible/modules/core/windows/win_file.py
+Copyright: 2015, Jon Hawkesworth (@jhawkesworth) <figs@unity.demon.co.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_feature.ps1
+  lib/ansible/modules/core/windows/win_user.ps1
+Copyright: 2013, 2014, Paul Durivage <paul.durivage@rackspace.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_feature.py
+Copyright: 2014, Paul Durivage <paul.durivage@rackspace.com>, Trond Hindenes <trond@hindenes.com> and others
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_get_url.ps1
+Copyright: 2013-2014, Paul Durivage <paul.durivage@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_get_url.py
+Copyright: 2014, Paul Durivage <paul.durivage@rackspace.com>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_group.ps1
+  lib/ansible/modules/core/windows/win_group.py
+  lib/ansible/modules/core/windows/win_service.ps1
+  lib/ansible/modules/core/windows/win_service.py
+Copyright: 2014, Chris Hoffman <choffman@chathamfinancial.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_msi.ps1
+  lib/ansible/modules/core/windows/win_msi.py
+  lib/ansible/modules/core/windows/win_user.py
+Copyright: 2014, Matt Martz <matt@sivel.net>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/core/windows/win_ping.py
+Copyright: 2012, Michael DeHaan <michael.dehaan@gmail.com>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/centurylink/*
+Copyright: 2015, CenturyLink
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/cloudstack/*
+Copyright: 2015, René Moser <mail@renemoser.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/cloudstack/cs_ip_address.py
+Copyright: 2015, Darren Worrall <darren@iweb.co.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/cloudstack/cs_loadbalancer_rule.py
+  lib/ansible/modules/extras/cloud/cloudstack/cs_loadbalancer_rule_member.py
+Copyright: 2015, René Moser <mail@renemoser.net>
+  2015, Darren Worrall <darren@iweb.co.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/docker/*
+Copyright: 2015, Olaf Kilian <olaf.kilian@symanex.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/google/*
+Copyright: 2015, Google Inc.
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/lxc/*
+Copyright: 2014, Kevin Carter <kevin.carter@rackspace.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/misc/*
+Copyright: 2014, 2015, Maciej Delmanowski <drybjed@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/misc/ovirt.py
+Copyright: 2013, Vincent Van der Kussen <vincent at vanderkussen.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/misc/virt.py
+Copyright: 2007, 2012, Red Hat, Inc
+License: GPL-2+
+
+Files: lib/ansible/modules/extras/cloud/openstack/*
+Copyright: 2015, IBM Corporation
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/vmware/*
+Copyright: 2015, Joseph Callen <jcallen () csc.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/vmware/vca_fw.py
+  lib/ansible/modules/extras/cloud/vmware/vca_nat.py
+Copyright: 2015, VMware, Inc.
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/vmware/vca_vapp.py
+Copyright: 2012-2015, Ansible, Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/vmware/vmware_vsan_cluster.py
+Copyright: 2015, Russell Teague <rteague2 () csc.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/vmware/vsphere_copy.py
+Copyright: 2012, 2013, 2015, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/webfaction/*
+Copyright: Quentin Stafford-Fraser, 2015
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/cloud/webfaction/webfaction_mailbox.py
+Copyright: Quentin Stafford-Fraser, 2015
+  Andy Baker, 2015
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/clustering/*
+Copyright: 2015, Steve Gargan <steve.gargan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/clustering/znode.py
+Copyright: 2015, WP Engine, Inc.
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/commands/*
+Copyright: 2014, 2015, Matt Martz <matt@sivel.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/database/*
+Copyright: 2014, Epic Games, Inc
+  2012, Elliott Foster <elliott@fourkitchens.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/database/misc/riak.py
+Copyright: 2013, James Martin <jmartin@basho.com>, Drew Kerrigan <dkerrigan@basho.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/database/mysql/*
+Copyright: 2013, Balazs Pocze <banyek@gawker.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/database/postgresql/*
+Copyright: 2014, Jens Depuydt <http:www.jensd.be>
+License: GPL-3+
+Comment:
+ License clarified in upstream devel.
+ https://github.com/ansible/ansible-modules-extras/issues/516
+
+Files: lib/ansible/modules/extras/files/*
+Copyright: 2014, 2015, YAEGASHI Takeshi <yaegashi@debian.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/files/patch.py
+Copyright: 2015, Jakub Jirutka <jakub@jirutka.cz>
+  2012, Luis Alberto Perez Lazaro <luisperlazaro@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/messaging/*
+Copyright: 2013, Chatham Financial <oss@chathamfinancial.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/messaging/rabbitmq_binding.py
+  lib/ansible/modules/extras/messaging/rabbitmq_exchange.py
+  lib/ansible/modules/extras/messaging/rabbitmq_queue.py
+Copyright: 2015, Manuel Sousa <manuel.sousa@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/messaging/rabbitmq_policy.py
+Copyright: 2013, John Dewey <john@dewey.ws>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/airbrake_deployment.py
+Copyright: 2013, Bruce Pennypacker <bruce@pennypacker.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/boundary_meter.py
+Copyright: 2013, curtis <curtis@serverascode.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/circonus_annotation.py
+  lib/ansible/modules/extras/monitoring/zabbix_group.py
+  lib/ansible/modules/extras/monitoring/zabbix_host.py
+  lib/ansible/modules/extras/monitoring/zabbix_hostmacro.py
+  lib/ansible/modules/extras/monitoring/zabbix_screen.py
+Copyright: 2013-2015, Epic Games, Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/datadog_monitor.py
+Copyright: 2015, Sebastian Kornehl <sebastian.kornehl@asideas.de>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/librato_annotation.py
+Copyright: Seth Edwards, 2014, This file is part of Ansible
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/logentries.py
+Copyright: 2013, Ivan Vanderbyl <ivan@app.io>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/monit.py
+Copyright: 2013, Darryl Stoflet <stoflet@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/nagios.py
+Copyright: follows: / 2011, Red Hat, Inc
+License: GPL-2+
+Comment:
+ Licence clarified in upstream ticket
+ https://github.com/ansible/ansible-modules-extras/issues/515
+
+Files: lib/ansible/modules/extras/monitoring/newrelic_deployment.py
+Copyright: 2013, Matt Coddington <coddington@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/rollbar_deployment.py
+Copyright: 2014, Max Riveiro, <kavu13@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/sensu_check.py
+Copyright: 2014, Anders Ingemann <aim@secoya.dk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/monitoring/zabbix_maintenance.py
+Copyright: 2013, Alexander Bulimov <lazywolf0@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/a10/*
+Copyright: 2014, Mischa Peters <mpeters@a10networks.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/citrix/*
+Copyright: 2013, Nandor Sivok <nandor@gawker.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/f5/*
+Copyright: 2013, Matt Hite <mhite@hotmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/f5/bigip_gtm_wide_ip.py
+Copyright: 2015, Michael Perzel
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/f5/bigip_monitor_http.py
+Copyright: 2013, serge van Ginderachter <serge@vanginderachter.be>
+  2013, Matt Hite <mhite@hotmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/f5/bigip_monitor_tcp.py
+Copyright: 2013, serge van Ginderachter <serge@vanginderachter.be>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/haproxy.py
+Copyright: 2014, Ravi Bhure <ravibhure@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/ipify_facts.py
+Copyright: 2015, René Moser <mail@renemoser.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/nmcli.py
+Copyright: 2015, Chris Long <alcamie@gmail.com> <chlong@redhat.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/openvswitch_bridge.py
+  lib/ansible/modules/extras/network/openvswitch_port.py
+Copyright: @ 2015, VMware, Inc / 2013, David Stygstra <david.stygstra@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/network/openvswitch_db.py
+Copyright: @ 2015, VMware, Inc / 2015, Mark Hamilton <mhamilton@vmware.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/flowdock.py
+Copyright: 2013, Matt Coddington <coddington@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/hall.py
+Copyright: 2015, Billy Kimble <basslines@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/irc.py
+  lib/ansible/modules/extras/notification/mqtt.py
+Copyright: 2012-2014, Jan-Piet Mens <jpmens () gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/jabber.py
+Copyright: 2014, 2015, Brian Coca <bcoca@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/mail.py
+Copyright: 2012, 2013, 2015, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/nexmo.py
+Copyright: 2014, 2015, Matt Martz <matt@sivel.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/osx_say.py
+Copyright: 2013, Michael DeHaan <michael@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/pushover.py
+Copyright: 2012, Jim Richardson <weaselkeeper@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/sendgrid.py
+  lib/ansible/modules/extras/notification/twilio.py
+Copyright: 2015, Matt Makai <matthew.makai@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/slack.py
+Copyright: 2015, Stefan Berggren <nsg@nsg.cc>
+  2014, Ramon de la Fuente <ramon@delafuente.nl>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/notification/sns.py
+Copyright: 2014, Michael J. Schultz <mjschultz@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/*
+Copyright: 2015, Mathew Davies <thepixeldeveloper@googlemail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/*
+Copyright: 2014, Michael Warkentin <mwarkentin@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/bundler.py
+Copyright: 2015, Tim Hoiberg <tim.hoiberg@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/composer.py
+Copyright: 2014, Dimitrios Tydeas Mengidis <tydeas.dr@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/cpanm.py
+Copyright: 2012, Franck Cuny <franck@lumberjaph.net>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/maven_artifact.py
+Copyright: 2014, Chris Schmidt <chris.schmidt () contrastsecurity.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/npm.py
+Copyright: 2013, Chris Hoffman <christopher.hoffman@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/language/pear.py
+Copyright: 2015, Jonathan Lestrelin <jonathan.lestrelin@gmail.com>
+  2013, Aaron Bull Schaefer <aaron@elasticdog.com>
+  2012, Afterburn <http:github.com/afterburn>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/*
+Copyright: 2013, Daniel Jaouen <dcj24@cornell.edu>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/apk.py
+Copyright: 2015, Kevin Brebanov <https:github.com/kbrebanov>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/dnf.py
+Copyright: 2015, Igor Gnatenko <i.gnatenko.brain@gmail.com>
+  2015, Cristian van Ee <cristian at cvee.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/homebrew.py
+Copyright: 2015, Indrajit Raychaudhuri <irc+code@indrajit.com>
+  2013, Daniel Jaouen <dcj24@cornell.edu>
+  2013, Andrew Dunham <andrew@du.nham.ca>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/layman.py
+Copyright: 2014, Jakub Jirutka <jakub@jirutka.cz>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/macports.py
+Copyright: 2013, Jimmy Tang <jcftang@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/openbsd_pkg.py
+Copyright: 2013, Patrik Lundin <patrik@sigterm.se>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/opkg.py
+Copyright: 2013, Patrick Pelletier <pp.pelletier@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/pacman.py
+Copyright: 2015, Indrajit Raychaudhuri <irc+code@indrajit.com>
+  2013, Aaron Bull Schaefer <aaron@elasticdog.com>
+  2012, Afterburn <http:github.com/afterburn>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/pkg5.py
+  lib/ansible/modules/extras/packaging/os/pkg5_publisher.py
+Copyright: 2014, Peter Oliver <ansible@mavit.org.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/pkgin.py
+Copyright: 2013, Shaun Zinck <shaun.zinck at gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/pkgng.py
+Copyright: 2013, bleader
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/pkgutil.py
+Copyright: 2013, Alexander Winkler <mail () winkler-alexander.de>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/portage.py
+Copyright: 2013, Yap Sok Ann
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/portinstall.py
+Copyright: 2013, berenddeboer
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/slackpkg.py
+Copyright: 2014, Kim Nørgaard
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/svr4pkg.py
+Copyright: 2012, Boyd Adamson <boyd () boydadamson.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/swdepot.py
+Copyright: 2013, Raul Melo
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/urpmi.py
+Copyright: 2013, Philippe Makowski
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/zypper.py
+Copyright: 2013, Patrik Lundin <patrik.lundin.swe@gmail.com>
+  2013, Patrick Callahan <pmc@patrickcallahan.com>
+  2012, Red Hat, Inc
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/packaging/os/zypper_repository.py
+Copyright: 2014, Justin Lecher <jlec@gentoo.org>
+  2013, Matthias Vogelgesang <matthias.vogelgesang@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/source_control/*
+Copyright: 2013, André Paramés <git@andreparames.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/source_control/github_hooks.py
+Copyright: 2013, Phillip Gentry <phillip@cx.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/*
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/alternatives.py
+Copyright: 2015, David Wittman <dwittman@gmail.com>
+  2014, Gabe Mulley <gabe.mulley@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/at.py
+Copyright: 2014, Richard Isaacson <richard.c.isaacson@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/capabilities.py
+Copyright: 2014, Nate Coraor <nate@bx.psu.edu>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/crypttab.py
+Copyright: 2014, Steve <yo@groks.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/debconf.py
+Copyright: 2014, Brian Coca <briancoca+ansible@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/filesystem.py
+  lib/ansible/modules/extras/system/lvg.py
+Copyright: 2013, Alexander Bulimov <lazywolf0@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/firewalld.py
+Copyright: 2013, Adam Miller (maxamillion@fedoraproject.org)
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/getent.py
+Copyright: 2014, Brian Coca <brian.coca+dev@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/gluster_volume.py
+Copyright: 2014, Taneli Leppä <taneli@crasman.fi>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/iptables.py
+Copyright: 2015, Linus Unnebäck <linus@folkdatorn.se>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/kernel_blacklist.py
+Copyright: 2013, Matthias Vogelgesang <matthias.vogelgesang@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/known_hosts.py
+Copyright: 2014, Matthew Vernon <mcv21@cam.ac.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/lvol.py
+Copyright: 2013, Jeroen Hoekx <jeroen.hoekx@dsquare.be>, Alexander Bulimov <lazywolf0@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/modprobe.py
+Copyright: 2013, David Stygstra <david.stygstra@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/open_iscsi.py
+Copyright: 2013, Serge van Ginderachter <serge@vanginderachter.be>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/osx_defaults.py
+Copyright: 2014, GeekChimp - Franck Nijhof <franck@geekchimp.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/pam_limits.py
+Copyright: 2014, Sebastien Rohaut <sebastien.rohaut@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/puppet.py
+Copyright: 2014, 2015, Hewlett-Packard Development Company, L.P
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/selinux_permissive.py
+Copyright: 2013, 2015, Michael Scherer <misc@zarb.org>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/seport.py
+Copyright: 2014, Dan Keder <dan.keder@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/solaris_zone.py
+Copyright: 2015, Paul Markham <pmarkham@netrefinery.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/svc.py
+Copyright: 2014, 2015, Brian Coca <bcoca@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/ufw.py
+Copyright: 2014, Jarno Keskikangas <jarno.keskikangas@gmail.com>
+  2014, Ahti Kitsik <ak@ahtik.com>
+  2013, James Martin <jmartin@basho.com>
+  2013, Aleksey Ovcharenko <aleksey.ovcharenko@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/system/zfs.py
+Copyright: 2013, Johan Wiren <johan.wiren.se@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/web_infrastructure/*
+Copyright: 2014, Ramon de la Fuente <ramon@delafuente.nl>
+  2014, Jasper N. Brouwer <jasper@nerdsweide.nl>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/web_infrastructure/ejabberd_user.py
+Copyright: 2013, Peter Sprygada <sprygada@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/web_infrastructure/jboss.py
+Copyright: 2013, Jeroen Hoekx <jeroen.hoekx@dsquare.be>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/web_infrastructure/jira.py
+Copyright: 2014, Steve Smith <ssmith@atlassian.com>
+License: GPL-3+
+Comment: Atlassian open-source approval OSR-76.
+
+Files: lib/ansible/modules/extras/web_infrastructure/taiga_issue.py
+Copyright: 2015, Alejandro Guirao <lekumberri@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/*
+Copyright: 2015, Henrik Wallström <henrik@wallstroms.nu>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_acl.ps1
+  lib/ansible/modules/extras/windows/win_acl.py
+  lib/ansible/modules/extras/windows/win_unzip.ps1
+  lib/ansible/modules/extras/windows/win_unzip.py
+Copyright: 2015, Phil Schwartz <schwartzmx@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_chocolatey.ps1
+  lib/ansible/modules/extras/windows/win_chocolatey.py
+Copyright: 2014, Trond Hindenes <trond@hindenes.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_dotnet_ngen.ps1
+  lib/ansible/modules/extras/windows/win_dotnet_ngen.py
+  lib/ansible/modules/extras/windows/win_scheduled_task.ps1
+  lib/ansible/modules/extras/windows/win_webpicmd.ps1
+  lib/ansible/modules/extras/windows/win_webpicmd.py
+Copyright: 2015, Peter Mounce <public@neverrunwithscissors.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_environment.ps1
+  lib/ansible/modules/extras/windows/win_environment.py
+Copyright: 2015, Jon Hawkesworth (@jhawkesworth) <figs@unity.demon.co.uk>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_firewall_rule.ps1
+  lib/ansible/modules/extras/windows/win_firewall_rule.py
+Copyright: 2014, Timothy Vandenbrande <timothy.vandenbrande@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_nssm.ps1
+Copyright: 2015, Hans-Joachim Kliemeck <git@kliemeck.de>
+  2015, George Frank <george@georgefrank.net>
+  2015, Adam Keech <akeech@chathamfinancial.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_nssm.py
+Copyright: 2015, Heyo
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_package.ps1
+  lib/ansible/modules/extras/windows/win_package.py
+Copyright: 2014, Trond Hindenes <trond@hindenes.com>, and others
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_regedit.ps1
+  lib/ansible/modules/extras/windows/win_regedit.py
+Copyright: 2015, Adam Keech <akeech@chathamfinancial.com>, Josh Ludwig <jludwig@chathamfinancial.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_updates.ps1
+Copyright: 2015, Matt Davis <mdavis@rolpdog.com>
+License: GPL-3+
+
+Files: lib/ansible/modules/extras/windows/win_updates.py
+Copyright: 2015, Matt Davis <mdavis_ansible@rolpdog.com>
+License: GPL-3+
+
+Files: lib/ansible/parsing/__init__.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansbile.com>
+License: GPL-3+
+
+Files: lib/ansible/parsing/mod_args.py
+Copyright: 2014, Michael DeHaan, <michael@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/parsing/quoting.py
+  lib/ansible/parsing/splitter.py
+Copyright: 2014, James Cammarata, <jcammarata@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/parsing/utils/addresses.py
+Copyright: 2015, Abhijit Menon-Sen <ams@2ndQuadrant.com>
+License: GPL-3+
+
+Files: lib/ansible/parsing/vault/*
+Copyright: 2014, James Tanner <tanner.jc@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/playbook/role/*
+Copyright: 2014, Michael DeHaan, <michael@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/playbook/role/__init__.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/__init__.py
+Copyright: 2012-2014, Michael DeHaan <michael.dehaan@gmail.com> and others
+  2012, Daniel Hokka Zakrisson <daniel@hozac.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/add_host.py
+Copyright: 2012-2014, Michael DeHaan <michael.dehaan@gmail.com>
+  2012, Seth Vidal <skvidal@fedoraproject.org>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/assert.py
+  lib/ansible/plugins/action/debug.py
+  lib/ansible/plugins/action/set_fact.py
+Copyright: 2012, 2013, 2015, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/fail.py
+Copyright: 2012-2014, Michael DeHaan <michael.dehaan@gmail.com>
+  2012, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/group_by.py
+Copyright: 2012, Jeroen Hoekx <jeroen@hoekx.be>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/include_vars.py
+Copyright: 2013, 2014, Benno Joy <benno@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/package.py
+Copyright: 2015, Ansible Inc
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/patch.py
+Copyright: 2015, Brian Coca <briancoca+dev@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/pause.py
+Copyright: 2012, Tim Bielawa <tbielawa@redhat.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/synchronize.py
+Copyright: 2012, 2013, Timothy Appnel <tim@appnel.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/action/unarchive.py
+Copyright: 2013, Dylan Martin <dmartin@seattlecentral.edu>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/cache/*
+Copyright: 2014, Brian Coca, Josh Drake, et al
+License: GPL-3+
+
+Files: lib/ansible/plugins/cache/__init__.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/context_demo.py
+  lib/ansible/plugins/callback/log_plays.py
+  lib/ansible/plugins/callback/osx_say.py
+Copyright: 2012, Michael DeHaan, <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/hipchat.py
+Copyright: 2014, 2015, Matt Martz <matt@sivel.net>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/logentries.py
+Copyright: 2015, Logentries.com, Jimmy Tang <jimmy.tang@logentries.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/mail.py
+Copyright: 2012, 2013, 2015, Dag Wieers <dag@wieers.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/profile_tasks.py
+Copyright: 2015, Tom Paine, <github@aioue.net>
+  2014, Jharrod LaFon, @JharrodLaFon
+  2012, 2013, Michael DeHaan, <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/callback/tree.py
+Copyright: 2012-2015, Ansible, Inc
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/__init__.py
+  lib/ansible/plugins/connection/local.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2012-2014, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/chroot.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2013, Maykel Moya <mmoya@speedyrails.com>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/docker.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2015, Leendert Brouwer
+  2014, Lorin Hochstein
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/jail.py
+  lib/ansible/plugins/connection/libvirt_lxc.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2013, Michael Scherer <misc@zarb.org>
+  2013, Maykel Moya <mmoya@speedyrails.com>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/ssh.py
+Copyright: 2015, Abhijit Menon-Sen <ams@2ndQuadrant.com>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/winrm.py
+Copyright: 2014, Chris Church <chris@ninemoreminutes.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/connection/zone.py
+Copyright: 2015, Toshio Kuratomi <tkuratomi@ansible.com>
+  2015, Dagobert Michelsen <dam@baltic-online.de>
+  2013, Michael Scherer <misc@zarb.org>
+  2013, Maykel Moya <mmoya@speedyrails.com>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/filter/*
+Copyright: 2014, 2015, Maciej Delmanowski <drybjed@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/filter/core.py
+Copyright: 2012, Jeroen Hoekx <jeroen@hoekx.be>
+License: GPL-3+
+
+Files: lib/ansible/plugins/filter/mathstuff.py
+Copyright: 2014, 2015, Brian Coca <bcoca@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/cartesian.py
+  lib/ansible/plugins/lookup/together.py
+Copyright: 2013, Bradley Young <young.bradley@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/consul_kv.py
+Copyright: 2015, Steve Gargan <steve.gargan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/credstash.py
+Copyright: 2015, Ensighten <infra@ensighten.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/csvfile.py
+  lib/ansible/plugins/lookup/dig.py
+  lib/ansible/plugins/lookup/dnstxt.py
+  lib/ansible/plugins/lookup/env.py
+  lib/ansible/plugins/lookup/etcd.py
+  lib/ansible/plugins/lookup/redis_kv.py
+Copyright: 2012, 2013, 2015, Jan-Piet Mens <jpmens(at)gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/dict.py
+Copyright: 2014, Kent R. Spillner <kspillner@acm.org>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/file.py
+  lib/ansible/plugins/lookup/lines.py
+  lib/ansible/plugins/lookup/pipe.py
+Copyright: 2012, Daniel Hokka Zakrisson <daniel@hozac.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/first_found.py
+Copyright: 2013, seth vidal <skvidal@fedoraproject.org> red hat, inc
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/flattened.py
+  lib/ansible/plugins/lookup/subelements.py
+Copyright: 2013, Serge van Ginderachter <serge@vanginderachter.be>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/hashi_vault.py
+Copyright: 2015, Jonathan Davila <jdavila(at)ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/ini.py
+Copyright: 2015, Yannig Perre <yannig.perre(at)gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/inventory_hostnames.py
+Copyright: 2013, Steven Dossett <sdossett@panath.com>
+  2012, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/list.py
+Copyright: 2012-2015, Ansible, Inc
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/password.py
+Copyright: 2013, Maykel Moya <mmoya@speedyrails.com>
+  2013, Javier Candeira <javier@candeira.com>
+  2012, Daniel Hokka Zakrisson <daniel@hozac.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/sequence.py
+Copyright: 2013, Jayson Vantuyl <jayson@aggressive.ly>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/shelvefile.py
+Copyright: 2015, Alejandro Guirao <lekumberri@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/lookup/url.py
+Copyright: 2014, 2015, Brian Coca <bcoca@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/shell/*
+Copyright: 2014, Chris Church <chris@ninemoreminutes.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/shell/__init__.py
+Copyright: 2012-2015, Michael DeHaan <michael.dehaan@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/plugins/test/*
+Copyright: 2012-2015, Ansible, Inc
+License: GPL-3+
+
+Files: lib/ansible/plugins/test/core.py
+Copyright: 2012, Jeroen Hoekx <jeroen@hoekx.be>
+License: GPL-3+
+
+Files: lib/ansible/utils/listify.py
+Copyright: 2014, Michael DeHaan, <michael@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs.py
+Copyright: 2012-2014, Jan-Piet Mens <jpmens () gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/*
+Copyright: 2015, Peter Sprygada <psprygada@ansible.com>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/aws.py
+Copyright: 2014, Will Thames <will@thames.id.au>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/backup.py
+  lib/ansible/utils/module_docs_fragments/ec2.py
+  lib/ansible/utils/module_docs_fragments/validate.py
+Copyright: 2012-2015, Ansible, Inc
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/cloudstack.py
+Copyright: 2015, René Moser <mail@renemoser.net>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/files.py
+  lib/ansible/utils/module_docs_fragments/rackspace.py
+Copyright: 2014, 2015, Matt Martz <matt@sivel.net>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/mysql.py
+Copyright: 2015, Jonathan Mainguy <jon@soh.re>
+License: GPL-3+
+
+Files: lib/ansible/utils/module_docs_fragments/openstack.py
+Copyright: 2014, 2015, Hewlett-Packard Development Company, L.P
+License: GPL-3+
+
+Files: lib/ansible/utils/shlex.py
+Copyright: 2015, Marius Gedminas <marius@gedmin.as>
+License: GPL-3+
+
+Files: lib/ansible/utils/unicode.py
+Copyright: 2012-2014, Toshio Kuraotmi <a.badger@gmail.com>
+License: GPL-3+
+
+Files: lib/ansible/vars/unsafe_proxy.py
+Copyright: 2001-2014, Python Software Foundation; " are
+License: PSFLv2
+
+License: BSD-2-Clause
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+ WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ The MIT License
+ .
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated
+ documentation files (the "Software"), to deal in the Software
+ without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to
+ whom the Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright notice and this permission notice shall
+ be included in all copies or substantial portions of the
+ Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR
+ PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+ SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+  You should have received a copy of the GNU General Public
+  License along with this package; if not, write to the Free
+  Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+  Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+
+License: PSFLv2
+ PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+ --------------------------------------------
+ .
+ 1. This LICENSE AGREEMENT is between the Python Software Foundation
+ ("PSF"), and the Individual or Organization ("Licensee") accessing
+ and otherwise using this software ("Python") in source or binary form
+ and its associated documentation.
+ .
+ 2. Subject to the terms and conditions of this License Agreement, PSF
+ hereby grants Licensee a nonexclusive, royalty-free, world-wide
+ license to reproduce, analyze, test, perform and/or display publicly,
+ prepare derivative works, distribute, and otherwise use Python alone
+ or in any derivative version, provided, however, that PSF's License
+ Agreement and PSF's notice of copyright, i.e., "Copyright (c) 2001,
+ 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights
+ Reserved" are retained in Python alone or in any derivative version
+ prepared by Licensee.
+ .
+ 3. In the event Licensee prepares a derivative work that is based on
+ or incorporates Python or any part thereof, and wants to make the
+ derivative work available to others as provided herein, then Licensee
+ hereby agrees to include in any such work a brief summary of the
+ changes made to Python.
+ .
+ 4. PSF is making Python available to Licensee on an "AS IS"
+ basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+ IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND
+ DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR
+ FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT
+ INFRINGE ANY THIRD PARTY RIGHTS.
+ .
+ 5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+ FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A
+ RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY
+ DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+ .
+ 6. This License Agreement will automatically terminate upon a material
+ breach of its terms and conditions.
+ .
+ 7. Nothing in this License Agreement shall be deemed to create any
+ relationship of agency, partnership, or joint venture between PSF and
+ Licensee. This License Agreement does not grant permission to use PSF
+ trademarks or trade name in a trademark sense to endorse or promote
+ products or services of Licensee, or any third party.
+ .
+ 8. By copying, installing or otherwise using Python, Licensee agrees
+ to be bound by the terms and conditions of this License Agreement.

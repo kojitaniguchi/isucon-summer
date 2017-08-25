@@ -1,0 +1,141 @@
+Aptitude 0.7.4: log report
+Tue, Aug 15 2017 00:26:35 +0900
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 70 packages, and remove 0 packages.
+297 MB of disk space will be used
+========================================
+[INSTALL, DEPENDENCIES] linux-headers-4.4.0-91:amd64 4.4.0-91.114
+[INSTALL, DEPENDENCIES] linux-headers-4.4.0-91-generic:amd64 4.4.0-91.114
+[INSTALL, DEPENDENCIES] linux-image-4.4.0-91-generic:amd64 4.4.0-91.114
+[INSTALL, DEPENDENCIES] linux-image-extra-4.4.0-91-generic:amd64 4.4.0-91.114
+[UPGRADE] apt:amd64 1.2.20 -> 1.2.24
+[UPGRADE] apt-transport-https:amd64 1.2.20 -> 1.2.24
+[UPGRADE] apt-utils:amd64 1.2.20 -> 1.2.24
+[UPGRADE] base-files:amd64 9.4ubuntu4.4 -> 9.4ubuntu4.5
+[UPGRADE] bind9-host:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] bsdutils:amd64 1:2.27.1-6ubuntu3.2 -> 1:2.27.1-6ubuntu3.3
+[UPGRADE] coreutils:amd64 8.25-2ubuntu2 -> 8.25-2ubuntu3~16.04
+[UPGRADE] dnsutils:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] git-man:amd64 1:2.7.4-0ubuntu1.1 -> 1:2.7.4-0ubuntu1.2
+[UPGRADE] grub-common:amd64 2.02~beta2-36ubuntu3.11 -> 2.02~beta2-36ubuntu3.12
+[UPGRADE] grub-pc:amd64 2.02~beta2-36ubuntu3.11 -> 2.02~beta2-36ubuntu3.12
+[UPGRADE] grub-pc-bin:amd64 2.02~beta2-36ubuntu3.11 -> 2.02~beta2-36ubuntu3.12
+[UPGRADE] grub2-common:amd64 2.02~beta2-36ubuntu3.11 -> 2.02~beta2-36ubuntu3.12
+[UPGRADE] kmod:amd64 22-1ubuntu4 -> 22-1ubuntu5
+[UPGRADE] less:amd64 481-2.1ubuntu0.1 -> 481-2.1ubuntu0.2
+[UPGRADE] libapt-inst2.0:amd64 1.2.20 -> 1.2.24
+[UPGRADE] libapt-pkg5.0:amd64 1.2.20 -> 1.2.24
+[UPGRADE] libasn1-8-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libbind9-140:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libblkid1:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] libc-bin:amd64 2.23-0ubuntu7 -> 2.23-0ubuntu9
+[UPGRADE] libc6:amd64 2.23-0ubuntu7 -> 2.23-0ubuntu9
+[UPGRADE] libdns-export162:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libdns162:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libdrm2:amd64 2.4.70-1~ubuntu16.04.1 -> 2.4.76-1~ubuntu16.04.1
+[UPGRADE] libexpat1:amd64 2.1.0-7ubuntu0.16.04.2 -> 2.1.0-7ubuntu0.16.04.3
+[UPGRADE] libfdisk1:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] libgcrypt20:amd64 1.6.5-2ubuntu0.2 -> 1.6.5-2ubuntu0.3
+[UPGRADE] libgssapi3-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libhcrypto4-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libheimbase1-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libheimntlm0-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libhx509-5-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libisc-export160:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libisc160:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libisccc140:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libisccfg140:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libkmod2:amd64 22-1ubuntu4 -> 22-1ubuntu5
+[UPGRADE] libkrb5-26-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] liblwres141:amd64 1:9.10.3.dfsg.P4-8ubuntu1.6 -> 1:9.10.3.dfsg.P4-8ubuntu1.7
+[UPGRADE] libmount1:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] libnss-myhostname:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] libpam-systemd:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] libroken18-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] libsmartcols1:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] libsystemd0:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] libudev1:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] libuuid1:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] libwind0-heimdal:amd64 1.7~git20150920+dfsg-4ubuntu1 -> 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+[UPGRADE] linux-generic:amd64 4.4.0.79.85 -> 4.4.0.91.96
+[UPGRADE] linux-headers-generic:amd64 4.4.0.79.85 -> 4.4.0.91.96
+[UPGRADE] linux-image-generic:amd64 4.4.0.79.85 -> 4.4.0.91.96
+[UPGRADE] locales:amd64 2.23-0ubuntu7 -> 2.23-0ubuntu9
+[UPGRADE] mount:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] multiarch-support:amd64 2.23-0ubuntu7 -> 2.23-0ubuntu9
+[UPGRADE] ntp:amd64 1:4.2.8p4+dfsg-3ubuntu5.4 -> 1:4.2.8p4+dfsg-3ubuntu5.6
+[UPGRADE] python3-distupgrade:amd64 1:16.04.21 -> 1:16.04.22
+[UPGRADE] python3-update-manager:amd64 1:16.04.6 -> 1:16.04.8
+[UPGRADE] sudo:amd64 1.8.16-0ubuntu1.4 -> 1.8.16-0ubuntu1.5
+[UPGRADE] systemd:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] systemd-sysv:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] ubuntu-release-upgrader-core:amd64 1:16.04.21 -> 1:16.04.22
+[UPGRADE] udev:amd64 229-4ubuntu17 -> 229-4ubuntu19
+[UPGRADE] update-manager-core:amd64 1:16.04.6 -> 1:16.04.8
+[UPGRADE] util-linux:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+[UPGRADE] uuid-runtime:amd64 2.27.1-6ubuntu3.2 -> 2.27.1-6ubuntu3.3
+========================================
+
+Log complete.
+
+===============================================================================
+
+Aptitude 0.7.4: log report
+Tue, Aug 15 2017 00:35:42 +0900
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 0 packages, and remove 0 packages.
+========================================
+========================================
+
+Log complete.
+
+===============================================================================
+
+Aptitude 0.7.4: log report
+Tue, Aug 15 2017 01:27:40 +0900
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 0 packages, and remove 0 packages.
+========================================
+========================================
+
+Log complete.
+
+===============================================================================
+
+Aptitude 0.7.4: log report
+Tue, Aug 15 2017 01:28:25 +0900
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 0 packages, and remove 0 packages.
+========================================
+========================================
+
+Log complete.
+
+===============================================================================
+
+Aptitude 0.7.4: log report
+Tue, Aug 15 2017 01:36:53 +0900
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 0 packages, and remove 0 packages.
+========================================
+========================================
+
+Log complete.
+
+===============================================================================
+

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libtidy.a
+/usr/lib/libtidy.la
+/usr/include
+/usr/include/tidy
+/usr/include/tidy/tidy.h
+/usr/include/tidy/buffio.h
+/usr/include/tidy/platform.h
+/usr/include/tidy/tidyenum.h
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtidy-dev
+/usr/share/doc/libtidy-dev/copyright
+/usr/share/doc/libtidy-dev/changelog.Debian.gz

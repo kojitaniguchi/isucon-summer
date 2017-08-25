@@ -1,0 +1,490 @@
+Aug 25 01:36:53 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 01:36:53 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:36:53 isuconx su[1079]: Successful su for isucon by root
+Aug 25 01:36:53 isuconx su[1079]: + /dev/pts/0 root:isucon
+Aug 25 01:36:53 isuconx su[1079]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 01:36:53 isuconx su[1079]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 01:37:25 isuconx su[1079]: pam_unix(su:session): session closed for user isucon
+Aug 25 01:37:25 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:37:27 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug 25 01:37:27 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:39:54 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:39:59 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 01:39:59 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:39:59 isuconx su[1136]: Successful su for isucon by root
+Aug 25 01:39:59 isuconx su[1136]: + /dev/pts/0 root:isucon
+Aug 25 01:39:59 isuconx su[1136]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 01:39:59 isuconx su[1136]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 01:40:03 isuconx su[1136]: pam_unix(su:session): session closed for user isucon
+Aug 25 01:40:03 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:40:04 isuconx sshd[879]: Received disconnect from 157.107.37.101 port 56996:11: disconnected by user
+Aug 25 01:40:04 isuconx sshd[879]: Disconnected from 157.107.37.101 port 56996
+Aug 25 01:40:04 isuconx sshd[854]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 25 01:40:04 isuconx systemd-logind[553]: Removed session 1.
+Aug 25 01:40:04 isuconx systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Aug 25 01:40:05 isuconx sshd[1161]: Accepted publickey for ubuntu from 157.107.37.101 port 57217 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 25 01:40:05 isuconx sshd[1161]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:40:05 isuconx systemd-logind[553]: New session 2 of user ubuntu.
+Aug 25 01:40:05 isuconx systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:40:07 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug 25 01:40:07 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:40:13 isuconx sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 01:40:13 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:40:13 isuconx su[1210]: Successful su for isucon by root
+Aug 25 01:40:13 isuconx su[1210]: + /dev/pts/0 root:isucon
+Aug 25 01:40:13 isuconx su[1210]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 01:40:13 isuconx su[1210]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 01:42:08 isuconx su[1210]: pam_unix(su:session): session closed for user isucon
+Aug 25 01:42:08 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:42:09 isuconx sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 01:42:09 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:42:09 isuconx su[1290]: Successful su for isucon by root
+Aug 25 01:42:09 isuconx su[1290]: + /dev/pts/0 root:isucon
+Aug 25 01:42:09 isuconx su[1290]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 01:42:09 isuconx su[1290]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 01:42:23 isuconx su[1290]: pam_unix(su:session): session closed for user isucon
+Aug 25 01:42:23 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:42:24 isuconx sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 01:42:24 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:42:24 isuconx su[1307]: Successful su for isucon by root
+Aug 25 01:42:24 isuconx su[1307]: + /dev/pts/0 root:isucon
+Aug 25 01:42:24 isuconx su[1307]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 01:42:24 isuconx su[1307]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 01:43:10 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/bash
+Aug 25 01:43:10 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:43:13 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:46:59 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl stop isuda.perl
+Aug 25 01:46:59 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:46:59 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:04 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl stop isutar.perl
+Aug 25 01:47:04 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:04 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:09 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl stop isuda.go
+Aug 25 01:47:09 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:09 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:12 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl stop isutar.go
+Aug 25 01:47:12 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:12 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:29 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/journalctl -f
+Aug 25 01:47:29 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:34 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:46 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl start isutar.go
+Aug 25 01:47:46 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:47 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:47:48 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl start isuda.go
+Aug 25 01:47:48 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:47:48 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:48:30 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:48:30 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:48:34 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:48:41 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=/sbin/ifconfig
+Aug 25 01:48:41 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:48:41 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:48:48 isuconx sshd[2202]: Accepted publickey for ubuntu from 157.107.37.101 port 57258 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 25 01:48:48 isuconx sshd[2202]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:48:48 isuconx systemd-logind[553]: New session 3 of user ubuntu.
+Aug 25 01:49:03 isuconx sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install unzip
+Aug 25 01:49:03 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:49:06 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:49:09 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:49:09 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:49:16 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:50:43 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl restart isuda.go
+Aug 25 01:50:43 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:50:43 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:50:59 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:50:59 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:51:11 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:51:40 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl restart isuda.go
+Aug 25 01:51:40 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:51:40 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:51:49 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:51:49 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:52:01 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:53:50 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/go ; USER=root ; COMMAND=/bin/systemctl restart isuda.go
+Aug 25 01:53:50 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:53:50 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:54:05 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:54:05 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:55:21 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:56:02 isuconx sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install htop glances
+Aug 25 01:56:02 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:56:18 isuconx groupadd[4247]: group added to /etc/group: name=glances, GID=118
+Aug 25 01:56:18 isuconx groupadd[4247]: group added to /etc/gshadow: name=glances
+Aug 25 01:56:18 isuconx groupadd[4247]: new group: name=glances, GID=118
+Aug 25 01:56:18 isuconx useradd[4253]: new user: name=glances, UID=111, GID=118, home=/var/lib/glances, shell=/bin/false
+Aug 25 01:56:18 isuconx usermod[4258]: change user 'glances' password
+Aug 25 01:56:18 isuconx chage[4263]: changed password expiry for glances
+Aug 25 01:56:20 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:56:26 isuconx sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 01:56:26 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:57:42 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:58:00 isuconx sshd[2219]: Received disconnect from 157.107.37.101 port 57258:11: disconnected by user
+Aug 25 01:58:00 isuconx sshd[2219]: Disconnected from 157.107.37.101 port 57258
+Aug 25 01:58:00 isuconx sshd[2202]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 25 01:58:00 isuconx systemd-logind[553]: Removed session 3.
+Aug 25 01:58:07 isuconx su[1307]: pam_unix(su:session): session closed for user isucon
+Aug 25 01:58:07 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:58:11 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:58:23 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/rm -f /var/log/nginx/access.log /var/log/nginx/error.log
+Aug 25 01:58:23 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:58:23 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:58:38 isuconx sshd[1185]: Received disconnect from 157.107.37.101 port 57217:11: disconnected by user
+Aug 25 01:58:38 isuconx sshd[1185]: Disconnected from 157.107.37.101 port 57217
+Aug 25 01:58:38 isuconx sshd[1161]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 25 01:58:38 isuconx systemd-logind[553]: Removed session 2.
+Aug 25 01:58:38 isuconx systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Aug 25 01:58:44 isuconx sshd[4619]: Accepted publickey for ubuntu from 157.107.37.101 port 57304 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 25 01:58:44 isuconx sshd[4619]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:58:44 isuconx systemd-logind[553]: New session 4 of user ubuntu.
+Aug 25 01:58:44 isuconx systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:58:49 isuconx sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug 25 01:58:49 isuconx sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 01:59:10 isuconx sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 01:59:15 isuconx sshd[4642]: Received disconnect from 157.107.37.101 port 57304:11: disconnected by user
+Aug 25 01:59:15 isuconx sshd[4642]: Disconnected from 157.107.37.101 port 57304
+Aug 25 01:59:15 isuconx sshd[4619]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 25 01:59:15 isuconx systemd-logind[553]: Removed session 4.
+Aug 25 01:59:15 isuconx systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Aug 25 02:01:51 isuconx systemd-logind[553]: Power key pressed.
+Aug 25 02:01:51 isuconx systemd-logind[553]: Powering Off...
+Aug 25 02:01:51 isuconx systemd-logind[553]: System is powering down.
+Aug 25 02:01:51 isuconx sshd[633]: Received signal 15; terminating.
+Aug 25 11:13:51 isucon-summer-0-10 systemd-logind[517]: New seat seat0.
+Aug 25 11:13:51 isucon-summer-0-10 systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 25 11:13:51 isucon-summer-0-10 sshd[646]: Server listening on 0.0.0.0 port 22.
+Aug 25 11:13:51 isucon-summer-0-10 sshd[646]: Server listening on :: port 22.
+Aug 25 12:13:01 isucon-summer-0-10 CRON[945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:13:01 isucon-summer-0-10 CRON[945]: pam_unix(cron:session): session closed for user root
+Aug 25 13:13:01 isucon-summer-0-10 CRON[979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:13:01 isucon-summer-0-10 CRON[979]: pam_unix(cron:session): session closed for user root
+Aug 25 14:13:01 isucon-summer-0-10 CRON[1014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 14:13:01 isucon-summer-0-10 CRON[1014]: pam_unix(cron:session): session closed for user root
+Aug 25 14:53:58 isucon-summer-0-10 sshd[1040]: Connection closed by 111.87.9.150 port 43729 [preauth]
+Aug 25 14:54:11 isucon-summer-0-10 sshd[1043]: Accepted password for ubuntu from 111.87.9.150 port 6213 ssh2
+Aug 25 14:54:11 isucon-summer-0-10 sshd[1043]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 14:54:11 isucon-summer-0-10 systemd-logind[517]: New session 4 of user ubuntu.
+Aug 25 14:54:11 isucon-summer-0-10 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 25 14:54:21 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 14:54:21 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 14:54:21 isucon-summer-0-10 su[1081]: Successful su for isucon by root
+Aug 25 14:54:21 isucon-summer-0-10 su[1081]: + /dev/pts/0 root:isucon
+Aug 25 14:54:21 isucon-summer-0-10 su[1081]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 14:54:21 isucon-summer-0-10 su[1081]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 15:02:02 isucon-summer-0-10 su[1081]: pam_unix(su:session): session closed for user isucon
+Aug 25 15:02:02 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:08:10 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 15:08:10 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:08:10 isucon-summer-0-10 su[1121]: Successful su for isucon by root
+Aug 25 15:08:10 isucon-summer-0-10 su[1121]: + /dev/pts/0 root:isucon
+Aug 25 15:08:10 isucon-summer-0-10 su[1121]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 15:08:10 isucon-summer-0-10 su[1121]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 15:13:00 isucon-summer-0-10 sshd[1184]: Accepted password for ubuntu from 111.87.9.150 port 28870 ssh2
+Aug 25 15:13:00 isucon-summer-0-10 sshd[1184]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 15:13:00 isucon-summer-0-10 systemd-logind[517]: New session 5 of user ubuntu.
+Aug 25 15:13:01 isucon-summer-0-10 CRON[1218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 15:13:01 isucon-summer-0-10 CRON[1218]: pam_unix(cron:session): session closed for user root
+Aug 25 15:13:33 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 15:13:33 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:13:33 isucon-summer-0-10 su[1225]: Successful su for isucon by root
+Aug 25 15:13:33 isucon-summer-0-10 su[1225]: + /dev/pts/1 root:isucon
+Aug 25 15:13:33 isucon-summer-0-10 su[1225]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 15:13:33 isucon-summer-0-10 su[1225]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 15:16:15 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:16:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:18:56 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:21:43 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 15:21:43 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:23:00 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:23:42 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 15:23:42 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:24:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:27:44 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:27:44 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:28:30 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:33:53 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=/usr/bin/install ./alp /usr/local/bin
+Aug 25 15:33:53 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:33:53 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:34:02 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=/usr/bin/install ./alp /usr/local/bin
+Aug 25 15:34:02 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:34:02 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:38:05 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/etc/nginx ; USER=root ; COMMAND=/bin/nano nginx.conf
+Aug 25 15:38:05 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:38:30 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:38:52 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/etc/nginx ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:38:52 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:40:08 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:46:59 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/etc/nginx ; USER=root ; COMMAND=/bin/nano nginx.conf
+Aug 25 15:46:59 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:47:41 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:48:03 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/etc/nginx ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:48:03 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:48:08 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:52:53 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/nano /etc/mysql/my.cnf
+Aug 25 15:52:53 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:53:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:54:22 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:54:22 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:55:00 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:57:10 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/less /var/log/mysql/slow.log
+Aug 25 15:57:10 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:57:43 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 15:58:18 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/bash
+Aug 25 15:58:18 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 15:59:36 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:05:32 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/ls /home/isucon/isucon6q/
+Aug 25 16:05:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:05:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:05:36 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/ls /home/isucon/
+Aug 25 16:05:36 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:05:36 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:06:46 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano /home/isucon/webapp/ruby/app.rb
+Aug 25 16:06:46 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:06:50 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:07:00 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/ls /home/isucon/webapp/ruby/
+Aug 25 16:07:00 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:07:00 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:07:19 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano /home/isucon/webapp/ruby/isuda.ru
+Aug 25 16:07:19 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:07:22 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:07:44 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/ls /home/isucon/webapp/ruby/lib/isuda/
+Aug 25 16:07:44 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:07:44 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:07:57 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano /home/isucon/webapp/ruby/lib/isuda/web.rb
+Aug 25 16:07:57 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:08:50 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:11:43 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 16:11:43 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:12:59 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:13:01 isucon-summer-0-10 CRON[8446]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 16:13:01 isucon-summer-0-10 CRON[8446]: pam_unix(cron:session): session closed for user root
+Aug 25 16:24:42 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano restart.sh
+Aug 25 16:24:42 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:26:03 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:27:01 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 25 16:27:01 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:29:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:30:51 isucon-summer-0-10 sshd[8633]: Accepted password for ubuntu from 111.87.9.150 port 38903 ssh2
+Aug 25 16:30:51 isucon-summer-0-10 sshd[8633]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 16:30:51 isucon-summer-0-10 systemd-logind[517]: New session 8 of user ubuntu.
+Aug 25 16:31:07 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 16:31:07 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:31:07 isucon-summer-0-10 su[8664]: Successful su for isucon by root
+Aug 25 16:31:07 isucon-summer-0-10 su[8664]: + /dev/pts/2 root:isucon
+Aug 25 16:31:07 isucon-summer-0-10 su[8664]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 16:31:07 isucon-summer-0-10 su[8664]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 16:32:09 isucon-summer-0-10 sudo:   isucon : TTY=pts/2 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano isuda.ru
+Aug 25 16:32:09 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:32:12 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:32:27 isucon-summer-0-10 sudo:   isucon : TTY=pts/2 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano /lib/web.rb
+Aug 25 16:32:27 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:32:30 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:33:06 isucon-summer-0-10 sudo:   isucon : TTY=pts/2 ; PWD=/home/isucon/webapp/ruby/lib/isuda ; USER=root ; COMMAND=/bin/nano web.rb
+Aug 25 16:33:06 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:35:04 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:35:46 isucon-summer-0-10 sudo:   isucon : TTY=pts/1 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 16:35:46 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:35:54 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:38:14 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 25 16:38:14 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:49:33 isucon-summer-0-10 sshd[8846]: Accepted password for ubuntu from 111.87.9.150 port 53958 ssh2
+Aug 25 16:49:33 isucon-summer-0-10 sshd[8846]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 16:49:33 isucon-summer-0-10 systemd-logind[517]: New session 9 of user ubuntu.
+Aug 25 16:49:45 isucon-summer-0-10 sshd[8876]: Accepted password for ubuntu from 111.87.9.150 port 1432 ssh2
+Aug 25 16:49:45 isucon-summer-0-10 sshd[8876]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 16:49:45 isucon-summer-0-10 systemd-logind[517]: New session 10 of user ubuntu.
+Aug 25 16:50:24 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 16:50:24 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:50:24 isucon-summer-0-10 su[8911]: Successful su for isucon by root
+Aug 25 16:50:24 isucon-summer-0-10 su[8911]: + /dev/pts/3 root:isucon
+Aug 25 16:50:24 isucon-summer-0-10 su[8911]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 16:50:24 isucon-summer-0-10 su[8911]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 16:51:58 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 16:51:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:52:06 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:52:25 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/4 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 16:52:25 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:52:25 isucon-summer-0-10 su[8988]: Successful su for isucon by root
+Aug 25 16:52:25 isucon-summer-0-10 su[8988]: + /dev/pts/4 root:isucon
+Aug 25 16:52:25 isucon-summer-0-10 su[8988]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 16:52:25 isucon-summer-0-10 su[8988]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 16:52:56 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:53:57 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano /home/isucon/webapp/ruby/lib/isuda/web.rb
+Aug 25 16:53:57 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:54:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:55:07 isucon-summer-0-10 sshd[9025]: Accepted password for ubuntu from 111.87.9.150 port 11074 ssh2
+Aug 25 16:55:07 isucon-summer-0-10 sshd[9025]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 16:55:07 isucon-summer-0-10 systemd-logind[517]: New session 11 of user ubuntu.
+Aug 25 16:55:40 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 16:55:40 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:55:40 isucon-summer-0-10 su[9058]: Successful su for isucon by root
+Aug 25 16:55:40 isucon-summer-0-10 su[9058]: + /dev/pts/5 root:isucon
+Aug 25 16:55:40 isucon-summer-0-10 su[9058]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 16:55:40 isucon-summer-0-10 su[9058]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 16:56:13 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/nano /home/isucon/webapp/ruby/lib/isuda/web.rb
+Aug 25 16:56:13 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:56:14 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:59:47 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/wem.rb
+Aug 25 16:59:47 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 16:59:48 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:59:51 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 16:59:51 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:00:23 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:00:26 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:00:26 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:00:34 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:01:07 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:01:07 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:02:12 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:03:39 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:03:39 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:03:47 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:04:11 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:04:11 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:04:35 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:04:47 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/bash
+Aug 25 17:04:47 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:06:15 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:06:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:07:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:09:14 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:09:24 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/bash
+Aug 25 17:09:24 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:10:49 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:11:58 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/usr/bin/mysqldumpslow /var/log/mysql/slow.log
+Aug 25 17:11:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:11:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:12:18 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/usr/bin/pt-query-digest --limit 10 /var/log/mysql/slow.log
+Aug 25 17:12:18 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:12:19 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:13:01 isucon-summer-0-10 CRON[10205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 17:13:01 isucon-summer-0-10 CRON[10205]: pam_unix(cron:session): session closed for user root
+Aug 25 17:13:54 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:13:54 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:14:16 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:15:53 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 17:15:53 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:15:53 isucon-summer-0-10 su[10223]: Successful su for isucon by root
+Aug 25 17:15:53 isucon-summer-0-10 su[10223]: + /dev/pts/5 root:isucon
+Aug 25 17:15:53 isucon-summer-0-10 su[10223]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 17:15:53 isucon-summer-0-10 su[10223]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 17:16:03 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 25 17:16:03 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:17:39 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:19:15 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/usr/bin/mysql -u root
+Aug 25 17:19:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:19:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:19:27 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 25 17:19:27 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:19:36 isucon-summer-0-10 sudo:     root : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/usr/bin/mysql -u root
+Aug 25 17:19:36 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:19:36 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:19:48 isucon-summer-0-10 sudo:     root : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/usr/bin/mysql -u isucon
+Aug 25 17:19:48 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:19:48 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:19:57 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:20:37 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:20:37 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:21:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:21:22 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 25 17:21:22 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:22:15 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:22:15 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:23:06 isucon-summer-0-10 sshd[11546]: Accepted password for ubuntu from 111.87.9.150 port 22075 ssh2
+Aug 25 17:23:06 isucon-summer-0-10 sshd[11546]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 17:23:06 isucon-summer-0-10 systemd-logind[517]: New session 13 of user ubuntu.
+Aug 25 17:23:19 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/6 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 17:23:19 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:23:19 isucon-summer-0-10 su[12262]: Successful su for isucon by root
+Aug 25 17:23:19 isucon-summer-0-10 su[12262]: + /dev/pts/6 root:isucon
+Aug 25 17:23:19 isucon-summer-0-10 su[12262]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 17:23:19 isucon-summer-0-10 su[12262]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 17:23:31 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:25:22 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:25:22 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:26:38 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:29:25 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:29:25 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:29:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:34:13 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:34:13 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:34:54 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:35:43 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:35:43 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:35:44 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:36:11 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:36:11 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:36:12 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:36:27 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:36:27 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:36:40 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:37:27 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby/config/unicorn ; USER=root ; COMMAND=/usr/bin/less isuda.rb
+Aug 25 17:37:27 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:37:32 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:38:40 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano ./lib/isuda/web.rb
+Aug 25 17:38:40 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:39:03 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:39:23 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/home/isucon/webapp/ruby ; USER=root ; COMMAND=/bin/nano Gemfile
+Aug 25 17:39:23 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:39:37 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:40:09 isucon-summer-0-10 sudo:   isucon : TTY=pts/3 ; PWD=/home/isucon/isucon6q ; USER=root ; COMMAND=./isucon6q-bench
+Aug 25 17:40:09 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:41:25 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:42:23 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:42:58 isucon-summer-0-10 su[10223]: pam_unix(su:session): session closed for user isucon
+Aug 25 17:42:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:43:03 isucon-summer-0-10 su[9058]: pam_unix(su:session): session closed for user isucon
+Aug 25 17:43:03 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:43:06 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 17:43:06 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:43:06 isucon-summer-0-10 su[16652]: Successful su for isucon by root
+Aug 25 17:43:06 isucon-summer-0-10 su[16652]: + /dev/pts/5 root:isucon
+Aug 25 17:43:06 isucon-summer-0-10 su[16652]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 17:43:06 isucon-summer-0-10 su[16652]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 17:43:11 isucon-summer-0-10 su[16652]: pam_unix(su:session): session closed for user isucon
+Aug 25 17:43:11 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:43:15 isucon-summer-0-10 sshd[9042]: Received disconnect from 111.87.9.150 port 11074:11: disconnected by user
+Aug 25 17:43:15 isucon-summer-0-10 sshd[9042]: Disconnected from 111.87.9.150 port 11074
+Aug 25 17:43:15 isucon-summer-0-10 sshd[9025]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 25 17:43:15 isucon-summer-0-10 systemd-logind[517]: Removed session 11.
+Aug 25 17:43:27 isucon-summer-0-10 sshd[16671]: Accepted password for ubuntu from 111.87.9.150 port 27463 ssh2
+Aug 25 17:43:27 isucon-summer-0-10 sshd[16671]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 17:43:27 isucon-summer-0-10 systemd-logind[517]: New session 14 of user ubuntu.
+Aug 25 17:43:37 isucon-summer-0-10 sudo:   ubuntu : TTY=pts/5 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su - isucon
+Aug 25 17:43:37 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:43:37 isucon-summer-0-10 su[16702]: Successful su for isucon by root
+Aug 25 17:43:37 isucon-summer-0-10 su[16702]: + /dev/pts/5 root:isucon
+Aug 25 17:43:37 isucon-summer-0-10 su[16702]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 25 17:43:37 isucon-summer-0-10 su[16702]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 25 17:44:10 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git init
+Aug 25 17:44:10 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:44:10 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:44:24 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Aug 25 17:44:24 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:46:06 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:47:11 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add home
+Aug 25 17:47:11 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:47:35 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:50:18 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/less ginx
+Aug 25 17:50:18 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:50:18 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:50:39 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add etc
+Aug 25 17:50:39 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:50:40 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:51:58 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git commit -m intial commit
+Aug 25 17:51:58 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:52:02 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:52:25 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git remote add origin https://github.com/kojitaniguchi/isucon-summer.git
+Aug 25 17:52:25 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:52:25 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:52:33 isucon-summer-0-10 sudo:   isucon : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git push -u origin master
+Aug 25 17:52:33 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:54:29 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:55:38 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Aug 25 17:55:38 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:55:59 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:58:05 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add lib
+Aug 25 17:58:05 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 25 17:58:08 isucon-summer-0-10 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 17:58:12 isucon-summer-0-10 sudo:   isucon : TTY=pts/5 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add var
+Aug 25 17:58:12 isucon-summer-0-10 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)

@@ -1,0 +1,4 @@
+f534d568640d60f6a165eb15fb823bfa  lib/x86_64-linux-gnu/libnss_myhostname.so.2
+899ff9bf67b85f4106e34c04b64fe424  usr/share/doc/libnss-myhostname/changelog.Debian.gz
+0314d5cb1a26a298c7e02cf3384cd3fc  usr/share/doc/libnss-myhostname/copyright
+c19b400a870efa1d4d000137ae08bf70  usr/share/man/man8/nss-myhostname.8.gz

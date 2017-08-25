@@ -1,0 +1,26 @@
+TODO for sysv-rc-conf:
+
+* "less" like search so you can type in a few letters of the service and the
+    cursor jumps you to that row. Curses::UI supports this, just need to 
+    implement it the right way into the program
+* Colors, which Curses::UI also supports. I just haven't bothered trying
+    to make the program look good with colors.
+* HALF DONE: Speed the program up. Initial thought it that each rl / service
+    shouldn't have it's own ListBox object and should just use one for the
+    whole row. I really want to do this horizontally though, so all rows for
+    the current service will be bolded. Curses::UI doesn't support that at 
+    the moment, I plan to write a ptach to implement this. In the meantime
+    the Listbox objects should get changed to Checkboxes, since that is really
+    all they are, just a single checkbox.
+* DONE: A way to restore symlinks to what they were when the program started
+* Change from priority mode to normal mode on the fly
+* Re-order columns on the fly
+* Re-order rows on the fly
+* Check for unconfigured entries (no-symlink is not allowed)
+* Expand service name on demand to full name (toggle by v)
+* In priority mode: enable PageUp/PageDown. K and S should start overwrite.
+* Enable non-control normal character as alias for each command (vi/emacs)
+* DONE: --version or something to say what version of the program you're
+     currently using.
+* Update xinetd.d/* files
+* Press F1 or something to actually view the script

@@ -1,0 +1,1109 @@
+Aug 15 00:21:41 isucon6 systemd-logind[462]: New seat seat0.
+Aug 15 00:21:41 isucon6 systemd-logind[462]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 15 00:21:41 isucon6 sshd[584]: Server listening on 0.0.0.0 port 22.
+Aug 15 00:21:41 isucon6 sshd[584]: Server listening on :: port 22.
+Aug 15 00:21:44 isucon6 sshd[584]: Received signal 15; terminating.
+Aug 15 00:21:44 isucon6 sshd[739]: Server listening on 0.0.0.0 port 22.
+Aug 15 00:21:44 isucon6 sshd[739]: Server listening on :: port 22.
+Aug 15 00:22:01 isucon6 sshd[772]: Accepted publickey for ubuntu from 157.107.36.157 port 61459 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 00:22:01 isucon6 sshd[772]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 00:22:01 isucon6 systemd-logind[462]: New session 1 of user ubuntu.
+Aug 15 00:22:01 isucon6 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 15 00:23:23 isucon6 sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/0 ruser=ubuntu rhost=  user=ubuntu
+Aug 15 00:23:28 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/qualifier ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Aug 15 00:23:28 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:23:36 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:23:57 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/qualifier ; USER=root ; COMMAND=/bin/sh init.sh
+Aug 15 00:23:57 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:24:15 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:25:47 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/qualifier ; USER=root ; COMMAND=/bin/sh ./init.sh
+Aug 15 00:25:47 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:25:52 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:26:10 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/qualifier ; USER=root ; COMMAND=/bin/sh ./init.sh
+Aug 15 00:26:10 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:27:48 isucon6 sshd[21870]: Accepted publickey for ubuntu from 157.107.36.157 port 61490 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 00:27:48 isucon6 sshd[21870]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 00:27:48 isucon6 systemd-logind[462]: New session 2 of user ubuntu.
+Aug 15 00:31:18 isucon6 groupadd[17204]: group added to /etc/group: name=isucon, GID=1001
+Aug 15 00:31:18 isucon6 groupadd[17204]: group added to /etc/gshadow: name=isucon
+Aug 15 00:31:18 isucon6 groupadd[17204]: new group: name=isucon, GID=1001
+Aug 15 00:31:18 isucon6 useradd[17221]: new user: name=isucon, UID=1001, GID=100, home=/home/isucon, shell=
+Aug 15 00:31:18 isucon6 useradd[17221]: add 'isucon' to group 'isucon'
+Aug 15 00:31:18 isucon6 useradd[17221]: add 'isucon' to shadow group 'isucon'
+Aug 15 00:31:18 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-okeurzicdnmrgphjeybghskbrdrxfarz; rc=flag; [ -r /etc/timezone ] || rc=2; [ -f /etc/timezone ] || rc=1; [ -d /etc/timezone ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/timezone && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/timezone)
+Aug 15 00:31:18 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:31:19 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:31:19 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:35:28 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/qualifier ; USER=root ; COMMAND=/bin/sh ./init.sh
+Aug 15 00:35:28 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:35:47 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zrkscveujhgdlfwvtnovslfhlboogisq; rc=flag; [ -r /etc/timezone ] || rc=2; [ -f /etc/timezone ] || rc=1; [ -d /etc/timezone ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/timezone && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/timezone)
+Aug 15 00:35:47 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:35:47 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:35:47 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gnisbsdufkijvlvukjwgsqjdlrhljxhi; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502724947.59-141524697448012/git
+Aug 15 00:35:47 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:35:50 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 00:35:50 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bqtundkmlcrtkwirzmjfhetkayzuzxey; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502724950.63-115394234333034/command
+Aug 15 00:35:50 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:43:15 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 00:43:15 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jzzwnkilqjgjhhafpqpdepfxhwmiyhuj; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502725395.94-152294550321349/command
+Aug 15 00:43:16 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:43:43 isucon6 sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/2 ruser=ubuntu rhost=  user=ubuntu
+Aug 15 00:43:48 isucon6 sudo:   ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install dstat
+Aug 15 00:43:48 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 00:43:53 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 00:53:24 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 00:53:24 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-slvpbdlfsmgyaqhfwqienuyrpshhfjls; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502726004.92-254013754722177/command
+Aug 15 00:53:24 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:53:41 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 00:53:41 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tulumudaevftqouvmbuefvxctysoosew; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502726021.35-265663198867178/command
+Aug 15 00:53:41 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:53:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 00:53:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oapkupysjxljpbbuimyucsizkkrylkhb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502726028.99-21523881659333/command
+Aug 15 00:53:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 00:59:31 isucon6 sshd[6211]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.141.168.247  user=root
+Aug 15 00:59:33 isucon6 sshd[6211]: Failed password for root from 5.141.168.247 port 38273 ssh2
+Aug 15 00:59:43 isucon6 sshd[6211]: message repeated 5 times: [ Failed password for root from 5.141.168.247 port 38273 ssh2]
+Aug 15 00:59:43 isucon6 sshd[6211]: error: maximum authentication attempts exceeded for root from 5.141.168.247 port 38273 ssh2 [preauth]
+Aug 15 00:59:43 isucon6 sshd[6211]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 00:59:43 isucon6 sshd[6211]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.141.168.247  user=root
+Aug 15 00:59:43 isucon6 sshd[6211]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 01:07:38 isucon6 sshd[26908]: Invalid user mother from 178.187.164.41
+Aug 15 01:07:38 isucon6 sshd[26908]: input_userauth_request: invalid user mother [preauth]
+Aug 15 01:07:38 isucon6 sshd[26908]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:07:38 isucon6 sshd[26908]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.187.164.41
+Aug 15 01:07:40 isucon6 sshd[26908]: Failed password for invalid user mother from 178.187.164.41 port 47517 ssh2
+Aug 15 01:07:40 isucon6 sshd[26908]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:07:42 isucon6 sshd[26908]: Failed password for invalid user mother from 178.187.164.41 port 47517 ssh2
+Aug 15 01:07:43 isucon6 sshd[26908]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:07:44 isucon6 sshd[26908]: Failed password for invalid user mother from 178.187.164.41 port 47517 ssh2
+Aug 15 01:07:45 isucon6 sshd[26908]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:07:46 isucon6 sshd[26908]: Failed password for invalid user mother from 178.187.164.41 port 47517 ssh2
+Aug 15 01:09:50 isucon6 sshd[14967]: Invalid user admin from 1.164.132.245
+Aug 15 01:09:50 isucon6 sshd[14967]: input_userauth_request: invalid user admin [preauth]
+Aug 15 01:09:50 isucon6 sshd[14967]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:09:50 isucon6 sshd[14967]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.164.132.245
+Aug 15 01:09:51 isucon6 sshd[15201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.164.132.245  user=root
+Aug 15 01:09:52 isucon6 sshd[14967]: Failed password for invalid user admin from 1.164.132.245 port 35164 ssh2
+Aug 15 01:09:52 isucon6 sshd[15208]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.164.132.245  user=root
+Aug 15 01:09:54 isucon6 sshd[15201]: Failed password for root from 1.164.132.245 port 35384 ssh2
+Aug 15 01:09:54 isucon6 sshd[15208]: Failed password for root from 1.164.132.245 port 35944 ssh2
+Aug 15 01:13:01 isucon6 CRON[25925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 01:13:01 isucon6 CRON[25925]: pam_unix(cron:session): session closed for user root
+Aug 15 01:14:56 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:15:07 isucon6 groupadd[9128]: group added to /etc/group: name=mysql, GID=117
+Aug 15 01:15:07 isucon6 groupadd[9128]: group added to /etc/gshadow: name=mysql
+Aug 15 01:15:07 isucon6 groupadd[9128]: new group: name=mysql, GID=117
+Aug 15 01:15:07 isucon6 useradd[9134]: new user: name=mysql, UID=110, GID=117, home=/nonexistent, shell=/bin/false
+Aug 15 01:15:07 isucon6 chage[9139]: changed password expiry for mysql
+Aug 15 01:15:07 isucon6 chfn[9142]: changed user 'mysql' information
+Aug 15 01:15:26 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lrwvjdmwoanraxlirbdqbiowiysmddmg; rc=flag; [ -r /etc/mysql/my.cnf ] || rc=2; [ -f /etc/mysql/my.cnf ] || rc=1; [ -d /etc/mysql/my.cnf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/mysql/my.cnf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/mysql/my.cnf)
+Aug 15 01:15:26 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:15:26 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:15:39 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-axrgpiqqcidqrwavkxrxzuatqbqzpbja; rc=flag; [ -r /etc/nginx/nginx.php.conf ] || rc=2; [ -f /etc/nginx/nginx.php.conf ] || rc=1; [ -d /etc/nginx/nginx.php.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.php.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:15:39 isucon6 sudo:     root : (command continued) '/etc/nginx/nginx.php.conf)
+Aug 15 01:15:39 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:15:39 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:15:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-unokcdexsargbqwjgezvgqohazrsaynr; rc=flag; [ -r /etc/nginx/fastcgi_params ] || rc=2; [ -f /etc/nginx/fastcgi_params ] || rc=1; [ -d /etc/nginx/fastcgi_params ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/fastcgi_params && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:15:40 isucon6 sudo:     root : (command continued) '/etc/nginx/fastcgi_params)
+Aug 15 01:15:40 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:15:40 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:15:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hhlwodlpfthiazwmazgipafzekzbeflw; rc=flag; [ -r /etc/nginx/nginx.conf ] || rc=2; [ -f /etc/nginx/nginx.conf ] || rc=1; [ -d /etc/nginx/nginx.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/nginx/nginx.conf)
+Aug 15 01:15:40 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:15:40 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:15:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hdclwsdjvxnahjshetpsazecnjtznlqh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502727340.85-261554872639000/synchronize
+Aug 15 01:15:40 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:15:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:15:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wvugppvkditrrkoehyedtnkzvyfwhked; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502727349.67-112582920870471/synchronize
+Aug 15 01:15:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:15:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:15:50 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:28 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, *.yml --connection=local -t dev
+Aug 15 01:27:28 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:45 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ybcgpzecrzbblbtzutcpuncsbukhjljl; rc=flag; [ -r /etc/timezone ] || rc=2; [ -f /etc/timezone ] || rc=1; [ -d /etc/timezone ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/timezone && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/timezone)
+Aug 15 01:27:46 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:46 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:46 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zutctnjxnuijoaaakbsbfqagcqcvdbjv; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728066.22-12343911463076/git
+Aug 15 01:27:46 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:48 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gcpibskxpweryzwgdzrbsxvbibdbsvcg; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728068.61-221941454810432/command
+Aug 15 01:27:48 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:48 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jqzkfktkgwotrlckucpfnllcogyolbef; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728068.77-141298684310183/command
+Aug 15 01:27:48 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:48 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jtaheytuahlsbcxdtfdytsleazvdomeq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728068.95-263414507329219/command
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dqcluujbjaeirkswbtfthsszwztymizh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728069.14-118692828104587/command
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ivxkjjbdkohjgwjxulsgnmibsqtkkpee; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728069.28-155754207669335/command
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:52 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xoooobtakjsfiwoosruennidwecktyzb; rc=flag; [ -r /etc/mysql/my.cnf ] || rc=2; [ -f /etc/mysql/my.cnf ] || rc=1; [ -d /etc/mysql/my.cnf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/mysql/my.cnf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/mysql/my.cnf)
+Aug 15 01:27:52 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:52 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mjdjxdiipxddkbhwcuzehelljetzdunc; rc=flag; [ -r /etc/nginx/nginx.php.conf ] || rc=2; [ -f /etc/nginx/nginx.php.conf ] || rc=1; [ -d /etc/nginx/nginx.php.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.php.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:27:54 isucon6 sudo:     root : (command continued) '/etc/nginx/nginx.php.conf)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yqlpniynanfcioolokhnpwdkicfvulrt; rc=flag; [ -r /etc/nginx/fastcgi_params ] || rc=2; [ -f /etc/nginx/fastcgi_params ] || rc=1; [ -d /etc/nginx/fastcgi_params ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/fastcgi_params && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:27:54 isucon6 sudo:     root : (command continued) '/etc/nginx/fastcgi_params)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zmolztishvycuvwzpnuohfkrlpinsqda; rc=flag; [ -r /etc/nginx/nginx.conf ] || rc=2; [ -f /etc/nginx/nginx.conf ] || rc=1; [ -d /etc/nginx/nginx.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/nginx/nginx.conf)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:27:54 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:27:55 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-myfxjbpyzzztuotdydesganrxtapzzcy; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728075.24-131613525295797/synchronize
+Aug 15 01:27:55 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:55 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:55 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-flwhtzihjlpgbclusyibnourwobpjpkt; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728075.5-117938891151514/synchronize
+Aug 15 01:27:55 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:27:55 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:27:55 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:19 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, *.yml --connection=local -t dev
+Aug 15 01:28:19 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:30 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oikptfwqsayfrvfbzulaifdyjjbmuhsm; rc=flag; [ -r /etc/timezone ] || rc=2; [ -f /etc/timezone ] || rc=1; [ -d /etc/timezone ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/timezone && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/timezone)
+Aug 15 01:28:30 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:30 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:30 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jngegjhuzqcprhhztfzdfcfwexijsuli; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728110.61-104211622577493/git
+Aug 15 01:28:30 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:32 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wfmjhcvndkhnvplxdtqibkvszxezlefp; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728112.38-209148344507066/command
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:32 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dbexbvddgirwrmevmbqizlfqdmrvrrqb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728112.54-234406371809383/command
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:32 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cdxepboxpjvdghanfpcanhddvjoxirbe; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728112.71-19975865495935/command
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:32 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lqnwgbrsrgmvglcclpgmbzzdiczyogcr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728112.85-115449973405045/command
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:33 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vopbrexnvlruixlqtnewtmhksfiosfcr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728113.0-48719782833327/command
+Aug 15 01:28:33 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:33 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:36 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-szwttxzhfzuavrfnnjfqqzmavlydiviq; rc=flag; [ -r /etc/mysql/my.cnf ] || rc=2; [ -f /etc/mysql/my.cnf ] || rc=1; [ -d /etc/mysql/my.cnf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/mysql/my.cnf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/mysql/my.cnf)
+Aug 15 01:28:36 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:36 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:38 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-drrroisvffiamjdobxznwcisicvtdcyu; rc=flag; [ -r /etc/nginx/nginx.php.conf ] || rc=2; [ -f /etc/nginx/nginx.php.conf ] || rc=1; [ -d /etc/nginx/nginx.php.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.php.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:28:38 isucon6 sudo:     root : (command continued) '/etc/nginx/nginx.php.conf)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:38 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-juvxjyijinhptfojpszjecesqdrkoaxb; rc=flag; [ -r /etc/nginx/fastcgi_params ] || rc=2; [ -f /etc/nginx/fastcgi_params ] || rc=1; [ -d /etc/nginx/fastcgi_params ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/fastcgi_params && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:28:38 isucon6 sudo:     root : (command continued) '/etc/nginx/fastcgi_params)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:38 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fkdwfufyxcmjyswhqtwssuquvekbcfpm; rc=flag; [ -r /etc/nginx/nginx.conf ] || rc=2; [ -f /etc/nginx/nginx.conf ] || rc=1; [ -d /etc/nginx/nginx.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/nginx/nginx.conf)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:28:38 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:28:39 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bslcpgcbfuuuwpybvnijltokfvfcfumw; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728119.13-226494895601291/synchronize
+Aug 15 01:28:39 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:39 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:39 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-chbefluttkstaisxgxvquzpehprgvgvx; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728119.35-103227096350234/synchronize
+Aug 15 01:28:39 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:42 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jfsbsngsiefbtmqjariwuvdhvzunsssh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728122.16-61485770442295/synchronize
+Aug 15 01:28:42 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:28:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:28:53 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-stfvpybzupxsoetoagfhkbkbhuwqcpou; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728133.2-34163079945257/command
+Aug 15 01:28:53 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:31:12 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:31:12 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hnmpyiyhwamnjtdshybgdsjlhmbwhnfr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728272.24-151477356784344/command
+Aug 15 01:31:12 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:31:59 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:32:00 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fyzgdtsnxnelhomerknabssbmrbcmcxy; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728320.03-128242225012623/command
+Aug 15 01:32:00 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:32:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:32:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xuvcndomtsleiljyxupwfgcqknsdjbih; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728369.01-3959013618972/command
+Aug 15 01:32:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:33:25 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:33:25 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ctmavpcmxozraqijuuwtaqtcfaeykbmp; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728405.89-184793036987407/command
+Aug 15 01:33:25 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:33:40 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:33:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-savhaugixlepqwdupjmrzlkhilygkeua; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728420.86-97563442055691/command
+Aug 15 01:33:40 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:33:58 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:33:58 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hxtagnsvwhjsqfwnmvofohsitwdpcigh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728438.95-25745723222896/get_url
+Aug 15 01:33:58 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:34:01 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:34:01 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fksilcqbfufewsdkzdvqldctbznlzxag; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728441.83-3579030005324/command
+Aug 15 01:34:01 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:34:02 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:34:02 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:34:53 isucon6 sshd[21633]: Invalid user user from 207.138.132.44
+Aug 15 01:34:53 isucon6 sshd[21633]: input_userauth_request: invalid user user [preauth]
+Aug 15 01:34:53 isucon6 sshd[21633]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:34:53 isucon6 sshd[21633]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=207.138.132.44
+Aug 15 01:34:56 isucon6 sshd[21633]: Failed password for invalid user user from 207.138.132.44 port 43943 ssh2
+Aug 15 01:34:56 isucon6 sshd[21633]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:34:58 isucon6 sshd[21633]: Failed password for invalid user user from 207.138.132.44 port 43943 ssh2
+Aug 15 01:34:58 isucon6 sshd[21633]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:34:59 isucon6 sshd[21633]: Failed password for invalid user user from 207.138.132.44 port 43943 ssh2
+Aug 15 01:35:00 isucon6 sshd[21633]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:35:02 isucon6 sshd[21633]: Failed password for invalid user user from 207.138.132.44 port 43943 ssh2
+Aug 15 01:36:44 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, *.yml --connection=local -t dev
+Aug 15 01:36:44 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:36:58 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kxknffvnwceitopreyhprtnieapbsith; rc=flag; [ -r /etc/timezone ] || rc=2; [ -f /etc/timezone ] || rc=1; [ -d /etc/timezone ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/timezone && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/timezone'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/timezone)
+Aug 15 01:36:58 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:36:58 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:36:58 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-voilsvcjubqohxtnovtvmniscsdbqzqn; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728618.75-193355565651891/git
+Aug 15 01:36:58 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:00 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:00 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-puuteluawilfvvrebhaxitfledzfphcs; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728620.74-250770590748219/command
+Aug 15 01:37:00 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:00 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:01 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mrjjiruybhfribsaiiajdzulohfjlbjr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728620.99-61396784798325/command
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:01 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-itdlvhidguxvtklotdzonvflkzdvplrv; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728621.18-109210533961040/command
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:01 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jjvnythjufehnyjxqtcindtmwvdceynr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728621.35-1600903929149/command
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:01 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mcvvxpnwazjkwpsylgfebrakmudlrlwm; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728621.52-279899998142293/command
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:01 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:04 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xfbnmiakpcgmdrhppntiqmsxpzxwhzym; rc=flag; [ -r /etc/mysql/my.cnf ] || rc=2; [ -f /etc/mysql/my.cnf ] || rc=1; [ -d /etc/mysql/my.cnf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/mysql/my.cnf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/mysql/my.cnf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/mysql/my.cnf)
+Aug 15 01:37:04 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:37:04 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:37:07 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xrsbnhlweebovgyovsfszqrrwcenajyu; rc=flag; [ -r /etc/nginx/nginx.php.conf ] || rc=2; [ -f /etc/nginx/nginx.php.conf ] || rc=1; [ -d /etc/nginx/nginx.php.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.php.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.php.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:37:07 isucon6 sudo:     root : (command continued) '/etc/nginx/nginx.php.conf)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:37:07 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ihjygqgaltbreghovcbczfyubhklvbaj; rc=flag; [ -r /etc/nginx/fastcgi_params ] || rc=2; [ -f /etc/nginx/fastcgi_params ] || rc=1; [ -d /etc/nginx/fastcgi_params ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/fastcgi_params && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/fastcgi_params'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0
+Aug 15 01:37:07 isucon6 sudo:     root : (command continued) '/etc/nginx/fastcgi_params)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:37:07 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wsvvtzqwuiqkabchwdleoksuszlwbxbg; rc=flag; [ -r /etc/nginx/nginx.conf ] || rc=2; [ -f /etc/nginx/nginx.conf ] || rc=1; [ -d /etc/nginx/nginx.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/nginx/nginx.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/nginx/nginx.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/nginx/nginx.conf)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:37:07 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:37:08 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ofvryxtxarqgprpzshkiktlbpsrabzce; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728628.05-131664320978669/synchronize
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:08 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eualyiuziaapigudauhlhqssjzvecutw; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728628.31-16662465276970/synchronize
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:08 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rmpjtxonztenxgragzrmgxiqujvvtlxt; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728628.54-29015264677283/synchronize
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:08 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:29 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-orhfbkvxinkppdwsmeaijqwfohycuywj; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728649.21-174876401436209/command
+Aug 15 01:37:29 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:30 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:30 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lswpdljlqgquuyjcohgczcscgbrvkgze; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728650.22-73714910392299/command
+Aug 15 01:37:30 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:31 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:31 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kacmybzydnpxuzrpligslglelkzzaksj; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728651.34-68256301086805/command
+Aug 15 01:37:31 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:37:47 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:37:47 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jghlsajusjtkcfekujdctbclzzqvbzjh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728667.21-244188894319241/command
+Aug 15 01:37:47 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:38:18 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:38:18 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-luubbgswyzgksrhzoritinsgweieakqu; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728698.48-193471600335364/command
+Aug 15 01:38:18 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:38:23 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:38:23 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ghwcizvrzaqzbppgvrziodgppwonvylq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728703.44-18008011659154/command
+Aug 15 01:38:23 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:38:30 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kxgbdanvtamefmgmbexxvoeethfmcojl; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728710.27-271503221804296/get_url
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:38:30 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wlscqaiifdgsgspuydqvtxkjlrmfucnq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728710.49-253570617881008/command
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:38:30 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:40:15 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/usr/bin/updatedb
+Aug 15 01:40:15 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:40:26 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:41:36 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 04*.yml --connection=local -t dev
+Aug 15 01:41:36 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:41:37 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ucqfdgimomgqmkbmmlabmtmjsonlawva; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728897.24-100819134407928/synchronize
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:41:37 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gzgvoboejjmekxzjwzfprhfvckgpoasf; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728897.43-132051916309832/synchronize
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:41:37 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bmhgxfhcgpvujpifdsnyrtxiqtgygxqy; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728897.62-231512222735213/synchronize
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:41:37 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:41:47 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vkkxpcwbkxzjnmivxhnclykysvronlsb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728906.98-275152249769097/command
+Aug 15 01:41:47 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:41:47 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:41:47 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mtnkafivlvkzzgfddpueeztnqiiokjdo; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728907.88-179540169856389/command
+Aug 15 01:41:47 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:41:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:41:48 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pqjiwifmigcthhskdfvleegqlgratgpb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728908.88-133914787908291/command
+Aug 15 01:41:48 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:02 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:02 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mutgkhtvruzpxfnczopbndkjrykyybom; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728922.69-7065351175950/command
+Aug 15 01:42:02 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:32 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:32 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fkafmqrstzodbedbncohambobbksoktl; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728952.61-70683398610628/command
+Aug 15 01:42:32 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:37 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:37 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kaoeblmjioyybpnagvcsrocdltpppttu; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728957.33-274300101076015/command
+Aug 15 01:42:37 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:42 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lboffcxeodnaxxumlphppdbcsvaeenje; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728962.33-71217517276375/get_url
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:42 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gdvswxtvdiyqfgnkzuazorunmxkmutma; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502728962.51-43480911852603/command
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:42:42 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:45:25 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/usr/bin/vim /home/isucon/.local/php/etc/php.ini
+Aug 15 01:45:25 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:45:37 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:45:38 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 04*.yml --connection=local -t dev
+Aug 15 01:45:38 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:45:39 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zopabjzzzpicbjfrwfghfknfijoygcty; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729139.51-156332470293839/synchronize
+Aug 15 01:45:39 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:45:39 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:45:39 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wtfahlinoycdsjxjifnmownyvzhecmfn; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729139.81-97668898629356/synchronize
+Aug 15 01:45:39 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:45:39 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:45:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wnrdtmkmpoapcgifakemgzagtlhefgqq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729140.05-136192736027207/synchronize
+Aug 15 01:45:40 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:45:40 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:45:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bxkfzuzrkswfrnhznqzmfenzcnlmkmou; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729154.16-39325573688095/command
+Aug 15 01:45:54 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:45:54 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:45:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zhisyikhadytxiymaandklutvgjmjmsp; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729154.95-222659772971811/command
+Aug 15 01:45:54 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:45:55 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:45:55 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzrvjislmuipfifihbfdnykcglwrpica; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729155.82-197405693332372/command
+Aug 15 01:45:55 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:10 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:10 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-swurttqccjbkfnjqbqpbyiszuunkbclr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729170.06-220933763515264/command
+Aug 15 01:46:10 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:40 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:40 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-soavqrnisdyutrlkrumjgulvchskmfog; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729200.53-186661646680901/command
+Aug 15 01:46:40 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:44 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:44 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wflmbdxqkgsgeevgjfymtywshwagfwbb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729204.8-4492141028157/command
+Aug 15 01:46:44 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:48 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qizuiunqztxxcsoproqnhmwoobgtfjuk; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729208.82-187101754861506/get_url
+Aug 15 01:46:48 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:48 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ihbxtynvzdkbqmhlgmemvxmdjppfozah; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729208.98-266687514061266/command
+Aug 15 01:46:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:46:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:46:49 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:51:00 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/usr/bin/vim /home/isucon/.local/php/etc/php.ini
+Aug 15 01:51:00 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:51:12 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:51:35 isucon6 sshd[23305]: Did not receive identification string from 103.89.88.81
+Aug 15 01:51:36 isucon6 sshd[23306]: Invalid user support from 103.89.88.81
+Aug 15 01:51:36 isucon6 sshd[23306]: input_userauth_request: invalid user support [preauth]
+Aug 15 01:51:36 isucon6 sshd[23306]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:51:36 isucon6 sshd[23306]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 01:51:37 isucon6 sshd[23306]: Failed password for invalid user support from 103.89.88.81 port 60737 ssh2
+Aug 15 01:51:38 isucon6 sshd[23306]: Received disconnect from 103.89.88.81 port 60737:11: Closed due to user request. [preauth]
+Aug 15 01:51:38 isucon6 sshd[23306]: Disconnected from 103.89.88.81 port 60737 [preauth]
+Aug 15 01:51:38 isucon6 sshd[23309]: Invalid user ubnt from 103.89.88.81
+Aug 15 01:51:38 isucon6 sshd[23309]: input_userauth_request: invalid user ubnt [preauth]
+Aug 15 01:51:38 isucon6 sshd[23309]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:51:38 isucon6 sshd[23309]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 01:51:40 isucon6 sshd[23309]: Failed password for invalid user ubnt from 103.89.88.81 port 60915 ssh2
+Aug 15 01:54:40 isucon6 sshd[23338]: Invalid user support from 103.89.88.76
+Aug 15 01:54:40 isucon6 sshd[23338]: input_userauth_request: invalid user support [preauth]
+Aug 15 01:54:40 isucon6 sshd[23338]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:54:40 isucon6 sshd[23338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.76
+Aug 15 01:54:42 isucon6 sshd[23338]: Failed password for invalid user support from 103.89.88.76 port 2685 ssh2
+Aug 15 01:54:42 isucon6 sshd[23338]: error: Received disconnect from 103.89.88.76 port 2685:14: No more user authentication methods available. [preauth]
+Aug 15 01:54:42 isucon6 sshd[23338]: Disconnected from 103.89.88.76 port 2685 [preauth]
+Aug 15 01:54:45 isucon6 sshd[23340]: Invalid user pi from 120.154.75.108
+Aug 15 01:54:45 isucon6 sshd[23340]: input_userauth_request: invalid user pi [preauth]
+Aug 15 01:54:45 isucon6 sshd[23340]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:54:45 isucon6 sshd[23340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=120.154.75.108
+Aug 15 01:54:46 isucon6 sshd[23342]: Invalid user pi from 120.154.75.108
+Aug 15 01:54:46 isucon6 sshd[23342]: input_userauth_request: invalid user pi [preauth]
+Aug 15 01:54:46 isucon6 sshd[23342]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 01:54:46 isucon6 sshd[23342]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=120.154.75.108
+Aug 15 01:54:48 isucon6 sshd[23342]: Failed password for invalid user pi from 120.154.75.108 port 32800 ssh2
+Aug 15 01:54:48 isucon6 sshd[23340]: Failed password for invalid user pi from 120.154.75.108 port 32796 ssh2
+Aug 15 01:54:48 isucon6 sshd[23342]: Connection closed by 120.154.75.108 port 32800 [preauth]
+Aug 15 01:55:40 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/rm -fr /home/isucon/.local/php/
+Aug 15 01:55:40 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:55:40 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 01:55:48 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 04*.yml --connection=local -t dev
+Aug 15 01:55:48 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 01:55:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gsjhnvfnesvadijcyzzjtmnpkbtzrios; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729749.37-170882893384353/synchronize
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:55:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dakeazuxqsmajinbhutjecqphcqdkvxt; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729749.57-216696963680261/synchronize
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:55:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ekggedoavcqyonsxrmrcwwufwicaiirq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729749.78-231659762513355/synchronize
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:55:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:55:59 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kgdyfmshfrdiajuvzbdvpgbykwozaeiq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729758.99-59464067407792/command
+Aug 15 01:55:59 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:55:59 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:55:59 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tqgifxmlkivgsnhwefwyduuwqvqsvbnu; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729759.77-227211671835516/command
+Aug 15 01:55:59 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:00 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:00 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wszzuscxduwabnfdakkcbcunajnihmhm; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729760.62-172225169263651/command
+Aug 15 01:56:00 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:13 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:13 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rntncnxypbwwftrenlzohfocqpccihgr; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729773.81-61423434557343/command
+Aug 15 01:56:13 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:45 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:45 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-erajtcqfrhcbscvyvjsgdyfbuxobzmov; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729805.31-21894191082664/command
+Aug 15 01:56:45 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:49 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dspfsoxdlasblkqszbfrvvnjybcmlexj; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729809.79-131149393676781/command
+Aug 15 01:56:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ponwfqkspzrmycunrjlezfvspdhfddta; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729814.17-171906437971657/get_url
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:54 isucon6 sudo:     root : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zxhfhixwvcbpkbuftgmgmtyexzzqzcqy; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502729814.35-90444509257770/command
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 01:56:54 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 02:13:01 isucon6 CRON[23727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 02:13:01 isucon6 CRON[23727]: pam_unix(cron:session): session closed for user root
+Aug 15 02:14:17 isucon6 sshd[23731]: Received disconnect from 187.115.165.204 port 52462:11: Bye Bye [preauth]
+Aug 15 02:14:17 isucon6 sshd[23731]: Disconnected from 187.115.165.204 port 52462 [preauth]
+Aug 15 02:19:56 isucon6 sshd[23737]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.160.196.107  user=root
+Aug 15 02:19:59 isucon6 sshd[23737]: Failed password for root from 61.160.196.107 port 58112 ssh2
+Aug 15 02:20:03 isucon6 sshd[23737]: message repeated 2 times: [ Failed password for root from 61.160.196.107 port 58112 ssh2]
+Aug 15 02:20:05 isucon6 sshd[23737]: Failed password for root from 61.160.196.107 port 58112 ssh2
+Aug 15 02:20:10 isucon6 sshd[23737]: message repeated 2 times: [ Failed password for root from 61.160.196.107 port 58112 ssh2]
+Aug 15 02:20:10 isucon6 sshd[23737]: error: maximum authentication attempts exceeded for root from 61.160.196.107 port 58112 ssh2 [preauth]
+Aug 15 02:20:10 isucon6 sshd[23737]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 02:20:10 isucon6 sshd[23737]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.160.196.107  user=root
+Aug 15 02:20:10 isucon6 sshd[23737]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 02:30:37 isucon6 sshd[23752]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.112.2.179  user=root
+Aug 15 02:30:39 isucon6 sshd[23752]: Failed password for root from 181.112.2.179 port 43673 ssh2
+Aug 15 02:30:50 isucon6 sshd[23752]: message repeated 5 times: [ Failed password for root from 181.112.2.179 port 43673 ssh2]
+Aug 15 02:30:50 isucon6 sshd[23752]: error: maximum authentication attempts exceeded for root from 181.112.2.179 port 43673 ssh2 [preauth]
+Aug 15 02:30:50 isucon6 sshd[23752]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 02:30:50 isucon6 sshd[23752]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.112.2.179  user=root
+Aug 15 02:30:50 isucon6 sshd[23752]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 02:39:21 isucon6 sshd[23759]: Received disconnect from 106.3.46.105 port 49286:11: Bye Bye [preauth]
+Aug 15 02:39:21 isucon6 sshd[23759]: Disconnected from 106.3.46.105 port 49286 [preauth]
+Aug 15 03:13:01 isucon6 CRON[23778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 03:13:01 isucon6 CRON[23778]: pam_unix(cron:session): session closed for user root
+Aug 15 03:23:09 isucon6 sshd[23784]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=116.236.124.48  user=root
+Aug 15 03:23:11 isucon6 sshd[23784]: Failed password for root from 116.236.124.48 port 39733 ssh2
+Aug 15 03:23:21 isucon6 sshd[23784]: message repeated 5 times: [ Failed password for root from 116.236.124.48 port 39733 ssh2]
+Aug 15 03:23:21 isucon6 sshd[23784]: error: maximum authentication attempts exceeded for root from 116.236.124.48 port 39733 ssh2 [preauth]
+Aug 15 03:23:21 isucon6 sshd[23784]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 03:23:21 isucon6 sshd[23784]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=116.236.124.48  user=root
+Aug 15 03:23:21 isucon6 sshd[23784]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 03:33:39 isucon6 sshd[23792]: Did not receive identification string from 47.90.207.194
+Aug 15 04:03:04 isucon6 sshd[23805]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.197.182  user=root
+Aug 15 04:03:06 isucon6 sshd[23805]: Failed password for root from 201.178.197.182 port 48918 ssh2
+Aug 15 04:03:19 isucon6 sshd[23805]: message repeated 5 times: [ Failed password for root from 201.178.197.182 port 48918 ssh2]
+Aug 15 04:03:19 isucon6 sshd[23805]: error: maximum authentication attempts exceeded for root from 201.178.197.182 port 48918 ssh2 [preauth]
+Aug 15 04:03:19 isucon6 sshd[23805]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 04:03:19 isucon6 sshd[23805]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.197.182  user=root
+Aug 15 04:03:19 isucon6 sshd[23805]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 04:03:55 isucon6 sshd[23807]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.107.217.119  user=root
+Aug 15 04:03:57 isucon6 sshd[23807]: Failed password for root from 109.107.217.119 port 39282 ssh2
+Aug 15 04:04:09 isucon6 sshd[23807]: message repeated 5 times: [ Failed password for root from 109.107.217.119 port 39282 ssh2]
+Aug 15 04:04:09 isucon6 sshd[23807]: error: maximum authentication attempts exceeded for root from 109.107.217.119 port 39282 ssh2 [preauth]
+Aug 15 04:04:09 isucon6 sshd[23807]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 04:04:09 isucon6 sshd[23807]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.107.217.119  user=root
+Aug 15 04:04:09 isucon6 sshd[23807]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 04:13:01 isucon6 CRON[23814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 04:13:01 isucon6 CRON[23814]: pam_unix(cron:session): session closed for user root
+Aug 15 04:17:45 isucon6 sshd[23819]: Did not receive identification string from 103.89.88.81
+Aug 15 04:17:46 isucon6 sshd[23820]: Invalid user support from 103.89.88.81
+Aug 15 04:17:46 isucon6 sshd[23820]: input_userauth_request: invalid user support [preauth]
+Aug 15 04:17:46 isucon6 sshd[23820]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 04:17:46 isucon6 sshd[23820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 04:17:48 isucon6 sshd[23820]: Failed password for invalid user support from 103.89.88.81 port 54789 ssh2
+Aug 15 04:17:48 isucon6 sshd[23820]: Received disconnect from 103.89.88.81 port 54789:11: Closed due to user request. [preauth]
+Aug 15 04:17:48 isucon6 sshd[23820]: Disconnected from 103.89.88.81 port 54789 [preauth]
+Aug 15 04:17:49 isucon6 sshd[23822]: Invalid user ubnt from 103.89.88.81
+Aug 15 04:17:49 isucon6 sshd[23822]: input_userauth_request: invalid user ubnt [preauth]
+Aug 15 04:17:49 isucon6 sshd[23822]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 04:17:49 isucon6 sshd[23822]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 04:17:51 isucon6 sshd[23822]: Failed password for invalid user ubnt from 103.89.88.81 port 55028 ssh2
+Aug 15 05:13:01 isucon6 CRON[23858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 05:13:01 isucon6 CRON[23858]: pam_unix(cron:session): session closed for user root
+Aug 15 05:17:42 isucon6 sshd[23863]: fatal: Unable to negotiate with 103.79.143.171 port 50152: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 05:17:43 isucon6 sshd[23865]: fatal: Unable to negotiate with 103.79.143.171 port 50194: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 05:17:44 isucon6 sshd[23867]: fatal: Unable to negotiate with 103.79.143.171 port 50249: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 06:13:01 isucon6 CRON[23950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 06:13:01 isucon6 CRON[23950]: pam_unix(cron:session): session closed for user root
+Aug 15 06:16:10 isucon6 sshd[23955]: Invalid user support from 103.89.88.76
+Aug 15 06:16:10 isucon6 sshd[23955]: input_userauth_request: invalid user support [preauth]
+Aug 15 06:16:10 isucon6 sshd[23955]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 06:16:10 isucon6 sshd[23955]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.76
+Aug 15 06:16:12 isucon6 sshd[23955]: Failed password for invalid user support from 103.89.88.76 port 65509 ssh2
+Aug 15 06:16:12 isucon6 sshd[23955]: error: Received disconnect from 103.89.88.76 port 65509:14: No more user authentication methods available. [preauth]
+Aug 15 06:16:12 isucon6 sshd[23955]: Disconnected from 103.89.88.76 port 65509 [preauth]
+Aug 15 06:28:45 isucon6 sshd[23961]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.195.145.79  user=root
+Aug 15 06:28:47 isucon6 sshd[23961]: Failed password for root from 113.195.145.79 port 31750 ssh2
+Aug 15 06:29:00 isucon6 sshd[23961]: message repeated 5 times: [ Failed password for root from 113.195.145.79 port 31750 ssh2]
+Aug 15 06:29:00 isucon6 sshd[23961]: error: maximum authentication attempts exceeded for root from 113.195.145.79 port 31750 ssh2 [preauth]
+Aug 15 06:29:00 isucon6 sshd[23961]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 06:29:00 isucon6 sshd[23961]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.195.145.79  user=root
+Aug 15 06:29:00 isucon6 sshd[23961]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 06:29:01 isucon6 sshd[23963]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.195.145.79  user=root
+Aug 15 06:29:03 isucon6 sshd[23963]: Failed password for root from 113.195.145.79 port 6444 ssh2
+Aug 15 06:29:15 isucon6 sshd[23963]: message repeated 5 times: [ Failed password for root from 113.195.145.79 port 6444 ssh2]
+Aug 15 06:29:15 isucon6 sshd[23963]: error: maximum authentication attempts exceeded for root from 113.195.145.79 port 6444 ssh2 [preauth]
+Aug 15 06:29:15 isucon6 sshd[23963]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 06:29:15 isucon6 sshd[23963]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.195.145.79  user=root
+Aug 15 06:29:15 isucon6 sshd[23963]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 06:29:17 isucon6 sshd[23966]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.195.145.79  user=root
+Aug 15 06:29:19 isucon6 sshd[23966]: Failed password for root from 113.195.145.79 port 43738 ssh2
+Aug 15 07:07:14 isucon6 sshd[23996]: Invalid user pi from 86.81.114.251
+Aug 15 07:07:14 isucon6 sshd[23996]: input_userauth_request: invalid user pi [preauth]
+Aug 15 07:07:14 isucon6 sshd[23998]: Invalid user pi from 86.81.114.251
+Aug 15 07:07:14 isucon6 sshd[23998]: input_userauth_request: invalid user pi [preauth]
+Aug 15 07:07:14 isucon6 sshd[23996]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 07:07:14 isucon6 sshd[23996]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=86.81.114.251
+Aug 15 07:07:14 isucon6 sshd[23998]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 07:07:14 isucon6 sshd[23998]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=86.81.114.251
+Aug 15 07:07:16 isucon6 sshd[23996]: Failed password for invalid user pi from 86.81.114.251 port 47714 ssh2
+Aug 15 07:07:16 isucon6 sshd[23996]: Connection closed by 86.81.114.251 port 47714 [preauth]
+Aug 15 07:07:16 isucon6 sshd[23998]: Failed password for invalid user pi from 86.81.114.251 port 47716 ssh2
+Aug 15 07:13:01 isucon6 CRON[24009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 07:13:01 isucon6 CRON[24009]: pam_unix(cron:session): session closed for user root
+Aug 15 07:21:01 isucon6 CRON[24021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 07:21:01 isucon6 CRON[24021]: pam_unix(cron:session): session closed for user root
+Aug 15 07:30:01 isucon6 CRON[24028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 07:30:01 isucon6 CRON[24028]: pam_unix(cron:session): session closed for user root
+Aug 15 07:50:09 isucon6 sshd[24063]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.107.183.45  user=root
+Aug 15 07:50:11 isucon6 sshd[24063]: Failed password for root from 113.107.183.45 port 38983 ssh2
+Aug 15 07:50:23 isucon6 sshd[24063]: message repeated 5 times: [ Failed password for root from 113.107.183.45 port 38983 ssh2]
+Aug 15 07:50:23 isucon6 sshd[24063]: error: maximum authentication attempts exceeded for root from 113.107.183.45 port 38983 ssh2 [preauth]
+Aug 15 07:50:23 isucon6 sshd[24063]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 07:50:23 isucon6 sshd[24063]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.107.183.45  user=root
+Aug 15 07:50:23 isucon6 sshd[24063]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 08:13:01 isucon6 CRON[24073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 08:13:01 isucon6 CRON[24073]: pam_unix(cron:session): session closed for user root
+Aug 15 08:37:32 isucon6 sshd[24087]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.179.15.185  user=root
+Aug 15 08:37:33 isucon6 sshd[24089]: Invalid user admin from 201.179.15.185
+Aug 15 08:37:33 isucon6 sshd[24089]: input_userauth_request: invalid user admin [preauth]
+Aug 15 08:37:33 isucon6 sshd[24089]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 08:37:33 isucon6 sshd[24089]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.179.15.185
+Aug 15 08:37:34 isucon6 sshd[24087]: Failed password for root from 201.179.15.185 port 53410 ssh2
+Aug 15 08:37:35 isucon6 sshd[24089]: Failed password for invalid user admin from 201.179.15.185 port 53414 ssh2
+Aug 15 08:37:35 isucon6 sshd[24091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.179.15.185  user=root
+Aug 15 08:37:35 isucon6 sshd[24089]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 08:37:37 isucon6 sshd[24087]: Failed password for root from 201.179.15.185 port 53410 ssh2
+Aug 15 08:37:37 isucon6 sshd[24091]: Failed password for root from 201.179.15.185 port 53419 ssh2
+Aug 15 08:37:37 isucon6 sshd[24089]: Failed password for invalid user admin from 201.179.15.185 port 53414 ssh2
+Aug 15 08:52:35 isucon6 sshd[24109]: Did not receive identification string from 195.154.51.223
+Aug 15 08:59:26 isucon6 sshd[24116]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.30.60.34  user=root
+Aug 15 08:59:28 isucon6 sshd[24116]: Failed password for root from 60.30.60.34 port 36780 ssh2
+Aug 15 08:59:33 isucon6 sshd[24116]: message repeated 2 times: [ Failed password for root from 60.30.60.34 port 36780 ssh2]
+Aug 15 08:59:35 isucon6 sshd[24116]: Failed password for root from 60.30.60.34 port 36780 ssh2
+Aug 15 08:59:39 isucon6 sshd[24116]: message repeated 2 times: [ Failed password for root from 60.30.60.34 port 36780 ssh2]
+Aug 15 08:59:39 isucon6 sshd[24116]: error: maximum authentication attempts exceeded for root from 60.30.60.34 port 36780 ssh2 [preauth]
+Aug 15 08:59:39 isucon6 sshd[24116]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 08:59:39 isucon6 sshd[24116]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.30.60.34  user=root
+Aug 15 08:59:39 isucon6 sshd[24116]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 09:08:09 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/usr/bin/apt install screen
+Aug 15 09:08:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 09:08:14 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 09:08:50 isucon6 sudo:   ubuntu : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 04*.yml --connection=local -t dev
+Aug 15 09:08:50 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 09:08:51 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jglzbxqandfopngqugjpsaywzuofxioi; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755731.42-63747839105084/synchronize
+Aug 15 09:08:51 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 09:08:51 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:08:51 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eazskanlavkuazfmhdfhyjvstdrdyexl; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755731.77-261770726794132/synchronize
+Aug 15 09:08:51 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 09:08:51 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:08:52 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vbkljdtpvrrbrmkxuflfzvqehjmyddvu; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755732.0-34713842274416/synchronize
+Aug 15 09:08:52 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 09:08:52 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:08:54 isucon6 sshd[794]: Received disconnect from 157.107.36.157 port 61459:11: disconnected by user
+Aug 15 09:08:54 isucon6 sshd[794]: Disconnected from 157.107.36.157 port 61459
+Aug 15 09:08:54 isucon6 sshd[772]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 09:09:02 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sfpryfimoiqwfrkgliliqdggnyrqfvtw; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755742.44-73778142153408/command
+Aug 15 09:09:02 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:03 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:03 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ohjzunvwwjvbwjbozfjxkrimqjsdpkta; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755743.22-222739243232695/command
+Aug 15 09:09:03 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:03 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:03 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ldsredksylawypmdymkpmnlqdjtrghep; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755743.94-81055050486204/command
+Aug 15 09:09:03 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:18 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:18 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pniqqvunaqzjdbrhlznhonmwviacxjau; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755758.24-146986454681973/command
+Aug 15 09:09:18 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:49 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mbyeousskzovaemcmxsuifgkddwzqabz; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755789.13-238994137357902/command
+Aug 15 09:09:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:53 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:53 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gfhwqmpuzxcuyinrmmytzwkhpavdtqsn; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755793.58-84918121520697/command
+Aug 15 09:09:53 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:57 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:58 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bmiwzvzkuolivprmtgkyxvhhovnhcgfq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755798.04-88665108828514/get_url
+Aug 15 09:09:58 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:58 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:58 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mezrwzymvlahakasbzejlszhmcmeiydn; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502755798.25-20046348716367/command
+Aug 15 09:09:58 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 09:09:58 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 09:09:58 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 09:13:01 isucon6 CRON[24879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 09:13:01 isucon6 CRON[24879]: pam_unix(cron:session): session closed for user root
+Aug 15 09:22:11 isucon6 sshd[24885]: fatal: Unable to negotiate with 103.207.39.108 port 60516: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:22:22 isucon6 sshd[24887]: fatal: Unable to negotiate with 103.207.39.108 port 60634: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:22:30 isucon6 sshd[24889]: fatal: Unable to negotiate with 103.207.39.108 port 61062: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:22:43 isucon6 sshd[24891]: fatal: Unable to negotiate with 103.207.39.108 port 61240: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:22:56 isucon6 sshd[24893]: fatal: Unable to negotiate with 103.207.39.108 port 61948: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:10 isucon6 sshd[24895]: fatal: Unable to negotiate with 103.207.39.108 port 62408: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:16 isucon6 sshd[24897]: fatal: Unable to negotiate with 103.207.39.108 port 62654: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:23 isucon6 sshd[24899]: fatal: Unable to negotiate with 103.207.39.108 port 63123: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:29 isucon6 sshd[24901]: fatal: Unable to negotiate with 103.207.39.108 port 63844: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:33 isucon6 sshd[24903]: fatal: Unable to negotiate with 103.207.39.108 port 64259: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:39 isucon6 sshd[24905]: fatal: Unable to negotiate with 103.207.39.108 port 64594: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:23:46 isucon6 sshd[24907]: fatal: Unable to negotiate with 103.207.39.108 port 64939: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1 [preauth]
+Aug 15 09:37:00 isucon6 sshd[24915]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=64.250.197.83  user=root
+Aug 15 09:37:02 isucon6 sshd[24915]: Failed password for root from 64.250.197.83 port 37671 ssh2
+Aug 15 09:37:18 isucon6 sshd[24915]: message repeated 5 times: [ Failed password for root from 64.250.197.83 port 37671 ssh2]
+Aug 15 09:37:18 isucon6 sshd[24915]: error: maximum authentication attempts exceeded for root from 64.250.197.83 port 37671 ssh2 [preauth]
+Aug 15 09:37:18 isucon6 sshd[24915]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 09:37:18 isucon6 sshd[24915]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=64.250.197.83  user=root
+Aug 15 09:37:18 isucon6 sshd[24915]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 09:54:33 isucon6 sshd[24926]: Did not receive identification string from 103.89.88.81
+Aug 15 09:54:34 isucon6 sshd[24927]: Invalid user support from 103.89.88.81
+Aug 15 09:54:34 isucon6 sshd[24927]: input_userauth_request: invalid user support [preauth]
+Aug 15 09:54:34 isucon6 sshd[24927]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 09:54:34 isucon6 sshd[24927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 09:54:36 isucon6 sshd[24927]: Failed password for invalid user support from 103.89.88.81 port 61509 ssh2
+Aug 15 09:54:36 isucon6 sshd[24927]: Received disconnect from 103.89.88.81 port 61509:11: Closed due to user request. [preauth]
+Aug 15 09:54:36 isucon6 sshd[24927]: Disconnected from 103.89.88.81 port 61509 [preauth]
+Aug 15 09:54:37 isucon6 sshd[24929]: Invalid user ubnt from 103.89.88.81
+Aug 15 09:54:37 isucon6 sshd[24929]: input_userauth_request: invalid user ubnt [preauth]
+Aug 15 09:54:37 isucon6 sshd[24929]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 09:54:37 isucon6 sshd[24929]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.81
+Aug 15 09:54:39 isucon6 sshd[24929]: Failed password for invalid user ubnt from 103.89.88.81 port 62511 ssh2
+Aug 15 09:55:51 isucon6 sshd[24936]: Invalid user admin from 104.223.123.98
+Aug 15 09:55:51 isucon6 sshd[24936]: input_userauth_request: invalid user admin [preauth]
+Aug 15 09:55:51 isucon6 sshd[24936]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 09:55:51 isucon6 sshd[24936]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.223.123.98
+Aug 15 09:55:53 isucon6 sshd[24936]: Failed password for invalid user admin from 104.223.123.98 port 13322 ssh2
+Aug 15 09:55:53 isucon6 sshd[24936]: Connection closed by 104.223.123.98 port 13322 [preauth]
+Aug 15 09:55:55 isucon6 sshd[24938]: Invalid user admin from 128.52.128.105
+Aug 15 09:55:55 isucon6 sshd[24938]: input_userauth_request: invalid user admin [preauth]
+Aug 15 09:55:55 isucon6 sshd[24938]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 09:55:55 isucon6 sshd[24938]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=128.52.128.105
+Aug 15 09:55:58 isucon6 sshd[24938]: Failed password for invalid user admin from 128.52.128.105 port 51544 ssh2
+Aug 15 09:55:58 isucon6 sshd[24938]: Connection closed by 128.52.128.105 port 51544 [preauth]
+Aug 15 09:56:00 isucon6 sshd[24940]: Invalid user admin from 5.254.112.154
+Aug 15 09:56:00 isucon6 sshd[24940]: input_userauth_request: invalid user admin [preauth]
+Aug 15 09:56:00 isucon6 sshd[24940]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 09:56:00 isucon6 sshd[24940]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.254.112.154
+Aug 15 09:56:02 isucon6 sshd[24940]: Failed password for invalid user admin from 5.254.112.154 port 52136 ssh2
+Aug 15 09:56:03 isucon6 sshd[24940]: Connection closed by 5.254.112.154 port 52136 [preauth]
+Aug 15 10:03:35 isucon6 sshd[24944]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.221.201.81  user=root
+Aug 15 10:03:37 isucon6 sshd[24944]: Failed password for root from 118.221.201.81 port 41360 ssh2
+Aug 15 10:03:49 isucon6 sshd[24944]: message repeated 5 times: [ Failed password for root from 118.221.201.81 port 41360 ssh2]
+Aug 15 10:03:49 isucon6 sshd[24944]: error: maximum authentication attempts exceeded for root from 118.221.201.81 port 41360 ssh2 [preauth]
+Aug 15 10:03:49 isucon6 sshd[24944]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 10:03:49 isucon6 sshd[24944]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.221.201.81  user=root
+Aug 15 10:03:49 isucon6 sshd[24944]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 10:07:56 isucon6 sshd[24956]: Did not receive identification string from 103.89.88.168
+Aug 15 10:07:57 isucon6 sshd[24957]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.168  user=root
+Aug 15 10:07:59 isucon6 sshd[24957]: Failed password for root from 103.89.88.168 port 61104 ssh2
+Aug 15 10:07:59 isucon6 sshd[24957]: Received disconnect from 103.89.88.168 port 61104:11: Closed due to user request. [preauth]
+Aug 15 10:07:59 isucon6 sshd[24957]: Disconnected from 103.89.88.168 port 61104 [preauth]
+Aug 15 10:08:04 isucon6 sshd[24959]: Invalid user pi from 103.89.88.168
+Aug 15 10:08:04 isucon6 sshd[24959]: input_userauth_request: invalid user pi [preauth]
+Aug 15 10:08:04 isucon6 sshd[24959]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 10:08:04 isucon6 sshd[24959]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.89.88.168
+Aug 15 10:08:06 isucon6 sshd[24959]: Failed password for invalid user pi from 103.89.88.168 port 62491 ssh2
+Aug 15 10:08:07 isucon6 sshd[24959]: Received disconnect from 103.89.88.168 port 62491:11: Closed due to user request. [preauth]
+Aug 15 10:08:07 isucon6 sshd[24959]: Disconnected from 103.89.88.168 port 62491 [preauth]
+Aug 15 10:11:01 isucon6 CRON[24968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 10:11:01 isucon6 CRON[24968]: pam_unix(cron:session): session closed for user root
+Aug 15 10:12:01 isucon6 sshd[24971]: Accepted publickey for ubuntu from 113.36.238.26 port 52468 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 10:12:01 isucon6 sshd[24971]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 10:12:01 isucon6 systemd-logind[462]: New session 15 of user ubuntu.
+Aug 15 10:13:01 isucon6 CRON[25013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 10:13:01 isucon6 CRON[25013]: pam_unix(cron:session): session closed for user root
+Aug 15 10:17:01 isucon6 sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/1 ruser=ubuntu rhost=  user=ubuntu
+Aug 15 10:17:07 isucon6 sudo:   ubuntu : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 04*.yml --connection=local -t dev
+Aug 15 10:17:07 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 10:17:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ntlykcudxpetbiluhrszuwapyivyvnqd; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759828.36-97683634041775/synchronize
+Aug 15 10:17:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:08 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uciusloynfvoqlpasjbynnlubibdfttb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759828.64-55939606754414/synchronize
+Aug 15 10:17:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:08 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-piimwvnuowjzgloemtbolyomwbuyyffg; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759828.84-44873287738544/synchronize
+Aug 15 10:17:08 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:09 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:18 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nchsaqcfhgsjfahcmauijukzvkwafdxp; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759838.12-91034651502513/command
+Aug 15 10:17:18 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:18 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:19 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vctgkrpxxtftdwpjxcrmmjcbvaoasqur; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759838.97-31394722562890/command
+Aug 15 10:17:19 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:19 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:19 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-htjwstcwcgqjsbvbndcosbixxxnjrqzd; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759839.71-225808547081217/command
+Aug 15 10:17:19 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:17:33 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:17:33 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tplpxbtihrevuxdypitwkxlekdyllkpq; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759853.82-38787078409960/command
+Aug 15 10:17:33 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:18:02 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:18:02 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jcxtvzqaulfltjxrsfsblgfmdovtqasc; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759882.22-155972124691196/command
+Aug 15 10:18:02 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:18:06 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:18:06 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rkfizydygddeopywdnguucrcrbbrbnqn; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759886.92-162875952646123/command
+Aug 15 10:18:06 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:18:11 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ssgyrhgvsruarfbxlvthjsfxgblhrgvk; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759891.41-262020277651560/get_url
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:18:11 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-joujysykihqwogvxcprquswfcjjaryyj; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502759891.64-58124735453433/command
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:18:11 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:23:13 isucon6 sudo:   ubuntu : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook -i localhost, 0[24]*.yml --connection=local -t dev
+Aug 15 10:23:13 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 10:23:14 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gsszfnfsmclrlykvbdpshntmotsqioas; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760194.48-15964908974715/git
+Aug 15 10:23:14 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:23:16 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:23:16 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oiwzquzavkubnswcdvdzqwbagfyqjhmz; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760196.86-44764401110703/command
+Aug 15 10:23:16 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:23:17 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-katrzqumfjdsafkazflexrnksyddryun; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760197.04-5673842420420/command
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:23:17 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-crupvellregfwdhgvivoorrfooxnsslm; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760197.19-267598027408073/command
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:23:17 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jsfabscohrekwhqyfjaceyjadprtztoh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760197.33-235046377090182/command
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:23:17 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kuaxxmfwhdwharapwipvcehatwrsdytm; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502760197.48-272871559411578/command
+Aug 15 10:23:17 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 10:34:54 isucon6 sshd[29114]: Accepted publickey for ubuntu from 113.36.238.26 port 53086 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 10:34:54 isucon6 sshd[29114]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 10:34:54 isucon6 systemd-logind[462]: New session 17 of user ubuntu.
+Aug 15 10:38:14 isucon6 sshd[10888]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.22.29.219  user=root
+Aug 15 10:38:16 isucon6 sshd[10888]: Failed password for root from 181.22.29.219 port 49788 ssh2
+Aug 15 10:38:28 isucon6 sshd[10888]: message repeated 5 times: [ Failed password for root from 181.22.29.219 port 49788 ssh2]
+Aug 15 10:38:28 isucon6 sshd[10888]: error: maximum authentication attempts exceeded for root from 181.22.29.219 port 49788 ssh2 [preauth]
+Aug 15 10:38:28 isucon6 sshd[10888]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 10:38:28 isucon6 sshd[10888]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.22.29.219  user=root
+Aug 15 10:38:28 isucon6 sshd[10888]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 10:39:38 isucon6 sshd[27442]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.121.202.41  user=root
+Aug 15 10:39:40 isucon6 sshd[27442]: Failed password for root from 123.121.202.41 port 3046 ssh2
+Aug 15 10:39:49 isucon6 sshd[27442]: message repeated 4 times: [ Failed password for root from 123.121.202.41 port 3046 ssh2]
+Aug 15 10:39:52 isucon6 sshd[27442]: Failed password for root from 123.121.202.41 port 3046 ssh2
+Aug 15 10:39:52 isucon6 sshd[27442]: error: maximum authentication attempts exceeded for root from 123.121.202.41 port 3046 ssh2 [preauth]
+Aug 15 10:39:52 isucon6 sshd[27442]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 10:39:52 isucon6 sshd[27442]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.121.202.41  user=root
+Aug 15 10:39:52 isucon6 sshd[27442]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 10:40:37 isucon6 sshd[29131]: Received disconnect from 113.36.238.26 port 53086:11: disconnected by user
+Aug 15 10:40:37 isucon6 sshd[29131]: Disconnected from 113.36.238.26 port 53086
+Aug 15 10:40:37 isucon6 sshd[29114]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 10:40:37 isucon6 systemd-logind[462]: Removed session 17.
+Aug 15 10:44:24 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:25 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lqatpfieosmrvsubvtsudrnmitlarpve; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761465.04-60668650085660/synchronize
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:25 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qhlytuyyhqubdqvziaqhajuihicauqji; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761465.5-246033687044416/synchronize
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:25 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fppyknvpijufclmrbizhgavtpagsggtl; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761465.74-70175767333331/synchronize
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:44:25 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:51 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jqgpjolohedvuudgmrrnfckjwbnazynk; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761491.28-82360784380323/command
+Aug 15 10:44:51 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:44:52 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:52 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qahmjszqhzhrduieyepqenqcyrgtnirh; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761492.31-253465275549921/command
+Aug 15 10:44:52 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:44:53 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:44:53 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-esjlscsbuptnwxmvpterkkljjzalqeis; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761493.51-260846131531408/command
+Aug 15 10:44:53 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:45:09 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:45:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-awlwrmpeepjappbhfnwrxyukxyoogypg; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761509.87-115862520375355/command
+Aug 15 10:45:09 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:45:38 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:45:38 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wxcbckygqbijvyfjojjhfdpobvvcycvb; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761538.1-47813437848315/command
+Aug 15 10:45:38 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:45:42 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:45:42 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mexftavumrazkafzcybcrwymjeqzmpya; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761542.96-268486022113947/command
+Aug 15 10:45:42 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:45:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:45:49 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ppcrwuunhrlzefmdpvwqxwojynzpmmdv; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761549.47-45914759673713/get_url
+Aug 15 10:45:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:45:49 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:45:49 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-umoirxewxvitxwkwcnzawvhfbcmauhuw; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761549.64-234860050739826/command
+Aug 15 10:45:49 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:46:07 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpqpxlvqtvfhyzotvasmkhevzsyupuqv; rc=flag; [ -r /home/isucon/.local/php/etc/isuda.php-fpm.conf ] || rc=2; [ -f /home/isucon/.local/php/etc/isuda.php-fpm.conf ] || rc=1; [ -d /home/isucon/.local/php/etc/isuda.php-fpm.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/home/isucon/.local/php/etc/isuda.php-fpm.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/home/isucon/.local/php/etc/isuda.php-fpm.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/home/isucon/.local/php/etc/isuda.php-fpm.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(b
+Aug 15 10:46:07 isucon6 sudo:     root : (command continued) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/home/isucon/.local/php/etc/isuda.php-fpm.conf)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:46:07 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fzrqtdwesjuumpnuvhriyenriooxzqog; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761567.71-85558013493191/copy
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:46:07 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sytvgmtqnhmytcyfvffqqarmngfbmwem; rc=flag; [ -r /home/isucon/.local/php/etc/isutar.php-fpm.conf ] || rc=2; [ -f /home/isucon/.local/php/etc/isutar.php-fpm.conf ] || rc=1; [ -d /home/isucon/.local/php/etc/isutar.php-fpm.conf ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/home/isucon/.local/php/etc/isutar.php-fpm.conf && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/home/isucon/.local/php/etc/isutar.php-fpm.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/home/isucon/.local/php/etc/isutar.php-fpm.conf'", "rb")#012buf = afile.read(BLOCKSIZE)#012while
+Aug 15 10:46:07 isucon6 sudo:     root : (command continued) len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/home/isucon/.local/php/etc/isutar.php-fpm.conf)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:46:07 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=isucon ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tfsivycfvqeujnmxtduetqrgorlrzmca; LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 LC_MESSAGES=en_US.UTF-8 /usr/bin/python /tmp/ansible-tmp-1502761567.89-109609530978727/copy
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session opened for user isucon by (uid=0)
+Aug 15 10:46:07 isucon6 sudo: pam_unix(sudo:session): session closed for user isucon
+Aug 15 10:46:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dbhemnvidiqurvapcntdnltmxtkvshbs; rc=flag; [ -r /etc/systemd/system/isupam.service ] || rc=2; [ -f /etc/systemd/system/isupam.service ] || rc=1; [ -d /etc/systemd/system/isupam.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isupam.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isupam.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isupam.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:08 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isupam.service)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jqqgpccusizmnlffvelpwqkhxwkpozfy; rc=flag; [ -r /etc/systemd/system/isuda.perl.service ] || rc=2; [ -f /etc/systemd/system/isuda.perl.service ] || rc=1; [ -d /etc/systemd/system/isuda.perl.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.perl.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.perl.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.perl.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:08 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.perl.service)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eftdrqklfpsjfhqppgjqnorkhphjmljr; rc=flag; [ -r /etc/systemd/system/isutar.perl.service ] || rc=2; [ -f /etc/systemd/system/isutar.perl.service ] || rc=1; [ -d /etc/systemd/system/isutar.perl.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.perl.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.perl.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.perl.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:08 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.perl.service)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fhdevaqroyhdunvxitckrekbxxshufyb; rc=flag; [ -r /etc/systemd/system/isuda.ruby.service ] || rc=2; [ -f /etc/systemd/system/isuda.ruby.service ] || rc=1; [ -d /etc/systemd/system/isuda.ruby.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.ruby.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.ruby.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.ruby.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:08 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.ruby.service)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:08 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qojesbdxnjgklnmgmiaxdrorskviukpn; rc=flag; [ -r /etc/systemd/system/isutar.ruby.service ] || rc=2; [ -f /etc/systemd/system/isutar.ruby.service ] || rc=1; [ -d /etc/systemd/system/isutar.ruby.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.ruby.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.ruby.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.ruby.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:08 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.ruby.service)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:08 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jdogeybpuekbzrsqoxeqfwshdjwjlzrb; rc=flag; [ -r /etc/systemd/system/isuda.js.service ] || rc=2; [ -f /etc/systemd/system/isuda.js.service ] || rc=1; [ -d /etc/systemd/system/isuda.js.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.js.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.js.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.js.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.js.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fthavlhffjchdoewtrnhdugsjpedmnhf; rc=flag; [ -r /etc/systemd/system/isutar.js.service ] || rc=2; [ -f /etc/systemd/system/isutar.js.service ] || rc=1; [ -d /etc/systemd/system/isutar.js.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.js.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.js.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.js.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.js.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gudsnfgbzseqnwvsdbjfzjnradgcjbcf; rc=flag; [ -r /etc/systemd/system/isuda.python.service ] || rc=2; [ -f /etc/systemd/system/isuda.python.service ] || rc=1; [ -d /etc/systemd/system/isuda.python.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.python.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.python.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.python.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.python.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-obajdkrnvfchcabewrcnuxfraisouihr; rc=flag; [ -r /etc/systemd/system/isutar.python.service ] || rc=2; [ -f /etc/systemd/system/isutar.python.service ] || rc=1; [ -d /etc/systemd/system/isutar.python.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.python.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.python.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.python.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011bu
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.python.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zkorvsogkeskyqgsyeklsjypwnyswopg; rc=flag; [ -r /etc/systemd/system/isuda.go.service ] || rc=2; [ -f /etc/systemd/system/isuda.go.service ] || rc=1; [ -d /etc/systemd/system/isuda.go.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.go.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.go.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.go.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.go.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:09 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-swgypxztchzczryztrouwuxccmvhovwm; rc=flag; [ -r /etc/systemd/system/isutar.go.service ] || rc=2; [ -f /etc/systemd/system/isutar.go.service ] || rc=1; [ -d /etc/systemd/system/isutar.go.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.go.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.go.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.go.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:09 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.go.service)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:09 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:10 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-byffeqtvqtoussnykdqvlkiibgcrhwpz; rc=flag; [ -r /etc/systemd/system/isuda.scala.service ] || rc=2; [ -f /etc/systemd/system/isuda.scala.service ] || rc=1; [ -d /etc/systemd/system/isuda.scala.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.scala.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.scala.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.scala.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:10 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.scala.service)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:10 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iagosbtgrvdjladgnhgfrwdhirroueaz; rc=flag; [ -r /etc/systemd/system/isutar.scala.service ] || rc=2; [ -f /etc/systemd/system/isutar.scala.service ] || rc=1; [ -d /etc/systemd/system/isutar.scala.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.scala.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.scala.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.scala.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:10 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.scala.service)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:10 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-genmqkomnmafliajcggtkhjgtekupbuo; rc=flag; [ -r /etc/systemd/system/isuda.php.service ] || rc=2; [ -f /etc/systemd/system/isuda.php.service ] || rc=1; [ -d /etc/systemd/system/isuda.php.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isuda.php.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isuda.php.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isuda.php.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:10 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isuda.php.service)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:10 isucon6 sudo:     root : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zhcjsxqjqzpheajfiadgtgqmiienbjiq; rc=flag; [ -r /etc/systemd/system/isutar.php.service ] || rc=2; [ -f /etc/systemd/system/isutar.php.service ] || rc=1; [ -d /etc/systemd/system/isutar.php.service ] && rc=3; python -V 2>/dev/null || rc=4; [ x"$rc" != "xflag" ] && echo "${rc}  "/etc/systemd/system/isutar.php.service && exit 0; (python -c 'import hashlib; BLOCKSIZE = 65536; hasher = hashlib.sha1();#012afile = open("'/etc/systemd/system/isutar.php.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf = afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (python -c 'import sha; BLOCKSIZE = 65536; hasher = sha.sha();#012afile = open("'/etc/systemd/system/isutar.php.service'", "rb")#012buf = afile.read(BLOCKSIZE)#012while len(buf) > 0:#012#011hasher.update(buf)#012#011buf =
+Aug 15 10:46:10 isucon6 sudo:     root : (command continued) afile.read(BLOCKSIZE)#012afile.close()#012print(hasher.hexdigest())' 2>/dev/null) || (echo '0  '/etc/systemd/system/isutar.php.service)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 15 10:46:10 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:46:12 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 10:57:16 isucon6 sshd[19269]: Received disconnect from 103.212.223.42 port 33165:11: Bye Bye [preauth]
+Aug 15 10:57:16 isucon6 sshd[19269]: Disconnected from 103.212.223.42 port 33165 [preauth]
+Aug 15 11:03:34 isucon6 sudo:   ubuntu : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image/ansible ; USER=root ; COMMAND=/bin/bash
+Aug 15 11:03:34 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 11:04:57 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 11:05:29 isucon6 sudo:   ubuntu : TTY=pts/1 ; PWD=/tmp/isucon6-qualify/provisioning/image ; USER=root ; COMMAND=/bin/bash
+Aug 15 11:05:29 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 11:13:01 isucon6 CRON[19385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 11:13:01 isucon6 CRON[19385]: pam_unix(cron:session): session closed for user root
+Aug 15 11:18:35 isucon6 sshd[19433]: Accepted publickey for ubuntu from 113.36.238.26 port 53836 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 11:18:35 isucon6 sshd[19433]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 11:18:35 isucon6 systemd-logind[462]: New session 19 of user ubuntu.
+Aug 15 11:18:51 isucon6 sshd[21870]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 11:18:51 isucon6 systemd-logind[462]: Removed session 2.
+Aug 15 11:20:44 isucon6 sshd[19499]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.212.135.3  user=root
+Aug 15 11:20:45 isucon6 sshd[19499]: Failed password for root from 118.212.135.3 port 7537 ssh2
+Aug 15 11:20:58 isucon6 sshd[19499]: message repeated 5 times: [ Failed password for root from 118.212.135.3 port 7537 ssh2]
+Aug 15 11:20:58 isucon6 sshd[19499]: error: maximum authentication attempts exceeded for root from 118.212.135.3 port 7537 ssh2 [preauth]
+Aug 15 11:20:58 isucon6 sshd[19499]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 11:20:58 isucon6 sshd[19499]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.212.135.3  user=root
+Aug 15 11:20:58 isucon6 sshd[19499]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 11:21:00 isucon6 sshd[19501]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.212.135.3  user=root
+Aug 15 11:21:03 isucon6 sshd[19501]: Failed password for root from 118.212.135.3 port 28089 ssh2
+Aug 15 11:21:16 isucon6 sshd[19501]: message repeated 5 times: [ Failed password for root from 118.212.135.3 port 28089 ssh2]
+Aug 15 11:21:16 isucon6 sshd[19501]: error: maximum authentication attempts exceeded for root from 118.212.135.3 port 28089 ssh2 [preauth]
+Aug 15 11:21:16 isucon6 sshd[19501]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 11:21:16 isucon6 sshd[19501]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.212.135.3  user=root
+Aug 15 11:21:16 isucon6 sshd[19501]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 11:21:18 isucon6 sshd[19503]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.212.135.3  user=root
+Aug 15 11:21:20 isucon6 sshd[19503]: Failed password for root from 118.212.135.3 port 52093 ssh2
+Aug 15 11:35:06 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 11:35:07 isucon6 systemd-logind[462]: Removed session 1.
+Aug 15 11:35:09 isucon6 sshd[24988]: Received disconnect from 113.36.238.26 port 52468:11: disconnected by user
+Aug 15 11:35:09 isucon6 sshd[24988]: Disconnected from 113.36.238.26 port 52468
+Aug 15 11:35:09 isucon6 sshd[24971]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 11:35:09 isucon6 systemd-logind[462]: Removed session 15.
+Aug 15 11:36:05 isucon6 sudo: pam_unix(sudo:auth): auth could not identify password for [ubuntu]
+Aug 15 11:36:09 isucon6 sudo:   ubuntu : TTY=pts/3 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su - isucon
+Aug 15 11:36:09 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 11:36:09 isucon6 su[19530]: Successful su for isucon by root
+Aug 15 11:36:09 isucon6 su[19530]: + /dev/pts/3 root:isucon
+Aug 15 11:36:09 isucon6 su[19530]: pam_unix(su:session): session opened for user isucon by ubuntu(uid=0)
+Aug 15 11:36:09 isucon6 su[19530]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 11:46:30 isucon6 sshd[19553]: Invalid user admin from 81.214.57.138
+Aug 15 11:46:30 isucon6 sshd[19553]: input_userauth_request: invalid user admin [preauth]
+Aug 15 11:46:30 isucon6 sshd[19553]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 11:46:30 isucon6 sshd[19553]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=81.214.57.138
+Aug 15 11:46:32 isucon6 sshd[19553]: Failed password for invalid user admin from 81.214.57.138 port 35079 ssh2
+Aug 15 11:46:33 isucon6 sshd[19553]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 11:46:35 isucon6 sshd[19553]: Failed password for invalid user admin from 81.214.57.138 port 35079 ssh2
+Aug 15 11:46:35 isucon6 sshd[19553]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 11:46:37 isucon6 sshd[19553]: Failed password for invalid user admin from 81.214.57.138 port 35079 ssh2
+Aug 15 11:46:38 isucon6 sshd[19553]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 11:46:40 isucon6 sshd[19553]: Failed password for invalid user admin from 81.214.57.138 port 35079 ssh2
+Aug 15 12:10:07 isucon6 sshd[19578]: Did not receive identification string from 195.154.39.188
+Aug 15 12:13:01 isucon6 CRON[19581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 12:13:01 isucon6 CRON[19581]: pam_unix(cron:session): session closed for user root
+Aug 15 12:15:39 isucon6 sshd[19585]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.173.23.27  user=root
+Aug 15 12:15:42 isucon6 sshd[19585]: Failed password for root from 180.173.23.27 port 45008 ssh2
+Aug 15 12:15:53 isucon6 sshd[19585]: message repeated 5 times: [ Failed password for root from 180.173.23.27 port 45008 ssh2]
+Aug 15 12:15:53 isucon6 sshd[19585]: error: maximum authentication attempts exceeded for root from 180.173.23.27 port 45008 ssh2 [preauth]
+Aug 15 12:15:53 isucon6 sshd[19585]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 12:15:53 isucon6 sshd[19585]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.173.23.27  user=root
+Aug 15 12:15:53 isucon6 sshd[19585]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 12:19:09 isucon6 sshd[19588]: Invalid user admin from 192.0.194.201
+Aug 15 12:19:09 isucon6 sshd[19588]: input_userauth_request: invalid user admin [preauth]
+Aug 15 12:19:09 isucon6 sshd[19588]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 12:19:09 isucon6 sshd[19588]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.194.201
+Aug 15 12:19:11 isucon6 sshd[19588]: Failed password for invalid user admin from 192.0.194.201 port 51116 ssh2
+Aug 15 12:19:11 isucon6 sshd[19588]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 12:19:13 isucon6 sshd[19588]: Failed password for invalid user admin from 192.0.194.201 port 51116 ssh2
+Aug 15 12:19:13 isucon6 sshd[19588]: pam_unix(sshd:auth): check pass; user unknown
+Aug 15 12:19:15 isucon6 sshd[19588]: Failed password for invalid user admin from 192.0.194.201 port 51116 ssh2
+Aug 15 12:42:11 isucon6 sudo: pam_unix(sudo:auth): auth could not identify password for [isucon]
+Aug 15 12:42:11 isucon6 sudo:   isucon : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 15 12:42:15 isucon6 sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1001 euid=0 tty=/dev/pts/3 ruser=isucon rhost=  user=isucon
+Aug 15 12:42:17 isucon6 sudo:   isucon : user NOT in sudoers ; TTY=pts/3 ; PWD=/home/isucon ; USER=root ; COMMAND=/bin/bash
+Aug 15 12:42:18 isucon6 su[19530]: pam_unix(su:session): session closed for user isucon
+Aug 15 12:42:18 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 12:42:21 isucon6 sudo: pam_unix(sudo:auth): auth could not identify password for [ubuntu]
+Aug 15 12:42:25 isucon6 sudo:   ubuntu : TTY=pts/3 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su -
+Aug 15 12:42:25 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 12:42:25 isucon6 su[19613]: Successful su for root by root
+Aug 15 12:42:25 isucon6 su[19613]: + /dev/pts/3 root:root
+Aug 15 12:42:25 isucon6 su[19613]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Aug 15 12:42:25 isucon6 su[19613]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 12:47:13 isucon6 groupadd[20055]: group added to /etc/group: name=netdata, GID=999
+Aug 15 12:47:13 isucon6 groupadd[20055]: group added to /etc/gshadow: name=netdata
+Aug 15 12:47:13 isucon6 groupadd[20055]: new group: name=netdata, GID=999
+Aug 15 12:47:13 isucon6 useradd[20063]: new user: name=netdata, UID=999, GID=999, home=/, shell=/usr/sbin/nologin
+Aug 15 12:47:13 isucon6 usermod[20077]: add 'netdata' to group 'adm'
+Aug 15 12:47:13 isucon6 usermod[20077]: add 'netdata' to shadow group 'adm'
+Aug 15 12:47:14 isucon6 usermod[20088]: add 'netdata' to group 'proxy'
+Aug 15 12:47:14 isucon6 usermod[20088]: add 'netdata' to shadow group 'proxy'
+Aug 15 12:51:18 isucon6 sshd[20421]: Did not receive identification string from 163.172.119.28
+Aug 15 12:51:49 isucon6 su[19613]: pam_unix(su:session): session closed for user root
+Aug 15 12:51:49 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 12:53:11 isucon6 sshd[20428]: error: Received disconnect from 163.172.119.28 port 56959:3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process. [preauth]
+Aug 15 12:53:11 isucon6 sshd[20428]: Disconnected from 163.172.119.28 port 56959 [preauth]
+Aug 15 12:55:17 isucon6 sudo:   ubuntu : TTY=pts/3 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug 15 12:55:18 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 12:55:45 isucon6 sshd[20478]: Accepted publickey for ubuntu from 113.36.238.26 port 55101 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 12:55:45 isucon6 sshd[20478]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 12:55:45 isucon6 systemd-logind[462]: New session 21 of user ubuntu.
+Aug 15 12:58:04 isucon6 systemd-logind[462]: Power key pressed.
+Aug 15 12:58:04 isucon6 systemd-logind[462]: Powering Off...
+Aug 15 12:58:04 isucon6 systemd-logind[462]: System is powering down.
+Aug 15 12:58:04 isucon6 sshd[19433]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 12:58:04 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 12:58:04 isucon6 sshd[20478]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 12:58:04 isucon6 sshd[20478]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Aug 15 23:00:36 isucon6 sshd[557]: Server listening on 0.0.0.0 port 22.
+Aug 15 23:00:36 isucon6 sshd[557]: Server listening on :: port 22.
+Aug 15 23:00:36 isucon6 systemd-logind[612]: New seat seat0.
+Aug 15 23:00:36 isucon6 systemd-logind[612]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 15 23:02:40 isucon6 sshd[1032]: Accepted publickey for ubuntu from 157.107.36.157 port 61901 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:02:40 isucon6 sshd[1032]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:02:40 isucon6 systemd-logind[612]: New session 1 of user ubuntu.
+Aug 15 23:02:40 isucon6 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:04:49 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Aug 15 23:04:49 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 23:08:23 isucon6 sshd[1152]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=93.232.200.175  user=root
+Aug 15 23:08:25 isucon6 sshd[1152]: Failed password for root from 93.232.200.175 port 32801 ssh2
+Aug 15 23:08:34 isucon6 sshd[1152]: message repeated 4 times: [ Failed password for root from 93.232.200.175 port 32801 ssh2]
+Aug 15 23:08:37 isucon6 sshd[1152]: Failed password for root from 93.232.200.175 port 32801 ssh2
+Aug 15 23:08:37 isucon6 sshd[1152]: error: maximum authentication attempts exceeded for root from 93.232.200.175 port 32801 ssh2 [preauth]
+Aug 15 23:08:37 isucon6 sshd[1152]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 23:08:37 isucon6 sshd[1152]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=93.232.200.175  user=root
+Aug 15 23:08:37 isucon6 sshd[1152]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 23:11:38 isucon6 sshd[1601]: Accepted publickey for ubuntu from 157.107.36.157 port 62015 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:11:38 isucon6 sshd[1601]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:11:38 isucon6 systemd-logind[612]: New session 2 of user ubuntu.
+Aug 15 23:13:01 isucon6 CRON[1639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 15 23:13:01 isucon6 CRON[1639]: pam_unix(cron:session): session closed for user root
+Aug 15 23:13:44 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 23:14:10 isucon6 sshd[1056]: Received disconnect from 157.107.36.157 port 61901:11: disconnected by user
+Aug 15 23:14:10 isucon6 sshd[1056]: Disconnected from 157.107.36.157 port 61901
+Aug 15 23:14:10 isucon6 sshd[1032]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:14:10 isucon6 systemd-logind[612]: Removed session 1.
+Aug 15 23:14:12 isucon6 sshd[1681]: Accepted publickey for ubuntu from 157.107.36.157 port 62054 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:14:12 isucon6 sshd[1681]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:14:12 isucon6 systemd-logind[612]: New session 4 of user ubuntu.
+Aug 15 23:14:27 isucon6 sshd[1699]: Received disconnect from 157.107.36.157 port 62054:11: disconnected by user
+Aug 15 23:14:27 isucon6 sshd[1699]: Disconnected from 157.107.36.157 port 62054
+Aug 15 23:14:27 isucon6 sshd[1681]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:14:27 isucon6 systemd-logind[612]: Removed session 4.
+Aug 15 23:14:28 isucon6 sshd[1714]: Accepted publickey for ubuntu from 157.107.36.157 port 62055 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:14:28 isucon6 sshd[1714]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:14:28 isucon6 systemd-logind[612]: New session 5 of user ubuntu.
+Aug 15 23:15:29 isucon6 sshd[1732]: Received disconnect from 157.107.36.157 port 62055:11: disconnected by user
+Aug 15 23:15:29 isucon6 sshd[1732]: Disconnected from 157.107.36.157 port 62055
+Aug 15 23:15:29 isucon6 sshd[1714]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:15:29 isucon6 systemd-logind[612]: Removed session 5.
+Aug 15 23:15:30 isucon6 sshd[1779]: Accepted publickey for ubuntu from 157.107.36.157 port 62062 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:15:30 isucon6 sshd[1779]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:15:30 isucon6 systemd-logind[612]: New session 6 of user ubuntu.
+Aug 15 23:15:48 isucon6 sshd[1797]: Received disconnect from 157.107.36.157 port 62062:11: disconnected by user
+Aug 15 23:15:48 isucon6 sshd[1797]: Disconnected from 157.107.36.157 port 62062
+Aug 15 23:15:48 isucon6 sshd[1779]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:15:48 isucon6 systemd-logind[612]: Removed session 6.
+Aug 15 23:15:51 isucon6 sshd[1824]: Accepted publickey for ubuntu from 157.107.36.157 port 62065 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 15 23:15:51 isucon6 sshd[1824]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 15 23:15:51 isucon6 systemd-logind[612]: New session 7 of user ubuntu.
+Aug 15 23:16:06 isucon6 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su -
+Aug 15 23:16:06 isucon6 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Aug 15 23:16:06 isucon6 su[1857]: Successful su for root by root
+Aug 15 23:16:06 isucon6 su[1857]: + /dev/pts/0 root:root
+Aug 15 23:16:06 isucon6 su[1857]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Aug 15 23:16:06 isucon6 su[1857]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 15 23:16:13 isucon6 su[1857]: pam_unix(su:session): session closed for user root
+Aug 15 23:16:13 isucon6 sudo: pam_unix(sudo:session): session closed for user root
+Aug 15 23:16:20 isucon6 sshd[1841]: Received disconnect from 157.107.36.157 port 62065:11: disconnected by user
+Aug 15 23:16:20 isucon6 sshd[1841]: Disconnected from 157.107.36.157 port 62065
+Aug 15 23:16:20 isucon6 sshd[1824]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:16:20 isucon6 systemd-logind[612]: Removed session 7.
+Aug 15 23:17:48 isucon6 sshd[1876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=39.162.46.169  user=root
+Aug 15 23:17:50 isucon6 sshd[1876]: Failed password for root from 39.162.46.169 port 32842 ssh2
+Aug 15 23:18:05 isucon6 sshd[1876]: message repeated 5 times: [ Failed password for root from 39.162.46.169 port 32842 ssh2]
+Aug 15 23:18:05 isucon6 sshd[1876]: error: maximum authentication attempts exceeded for root from 39.162.46.169 port 32842 ssh2 [preauth]
+Aug 15 23:18:05 isucon6 sshd[1876]: Disconnecting: Too many authentication failures [preauth]
+Aug 15 23:18:05 isucon6 sshd[1876]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=39.162.46.169  user=root
+Aug 15 23:18:05 isucon6 sshd[1876]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 15 23:18:17 isucon6 systemd-logind[612]: Power key pressed.
+Aug 15 23:18:17 isucon6 systemd-logind[612]: Powering Off...
+Aug 15 23:18:17 isucon6 systemd-logind[612]: System is powering down.
+Aug 15 23:18:18 isucon6 systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Aug 15 23:18:18 isucon6 sshd[1601]: pam_unix(sshd:session): session closed for user ubuntu
+Aug 15 23:18:18 isucon6 sshd[557]: Received signal 15; terminating.
+Aug 25 01:28:09 isuconx systemd-logind[553]: New seat seat0.
+Aug 25 01:28:09 isuconx systemd-logind[553]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 25 01:28:09 isuconx sshd[633]: Server listening on 0.0.0.0 port 22.
+Aug 25 01:28:09 isuconx sshd[633]: Server listening on :: port 22.
+Aug 25 01:32:46 isuconx sshd[854]: Accepted publickey for ubuntu from 157.107.37.101 port 56996 ssh2: RSA SHA256:h5c+5f6xvb+R2+3nwrWnmAlCwfDb66qwu2JvD/OIYZM
+Aug 25 01:32:46 isuconx sshd[854]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Aug 25 01:32:46 isuconx systemd-logind[553]: New session 1 of user ubuntu.
+Aug 25 01:32:46 isuconx systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)

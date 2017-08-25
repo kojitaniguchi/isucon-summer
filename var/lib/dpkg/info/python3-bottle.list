@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-bottle
+/usr/share/doc/python3-bottle/changelog.Debian.gz
+/usr/share/doc/python3-bottle/copyright
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/bottle.py
+/usr/lib/python3/dist-packages/bottle-0.12.7.egg-info

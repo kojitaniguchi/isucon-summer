@@ -1,0 +1,12 @@
+20668ac77abdd3367d341aeb04b674c2  usr/include/vpx/vp8.h
+bd4e19b7f1bf2b66d045f63e71b08753  usr/include/vpx/vp8cx.h
+0fd2d274e12eb75b16f641eff44b967c  usr/include/vpx/vp8dx.h
+c1c3ac9016ca36c2d36616c2bbfe980e  usr/include/vpx/vpx_codec.h
+2cf2c8620bbf1d6e0ce296146fd4f954  usr/include/vpx/vpx_decoder.h
+3c93f841757f1376f36426d92024ea8a  usr/include/vpx/vpx_encoder.h
+c8a31671d257660762482b5f8f9c1520  usr/include/vpx/vpx_frame_buffer.h
+4acc148202259e679690b3e949e09c17  usr/include/vpx/vpx_image.h
+6bdbd79e646b77bfd53ab683cfa2a685  usr/include/vpx/vpx_integer.h
+5a95e8127c21030e3f9ab87126285d85  usr/lib/pkgconfig/vpx.pc
+bea7da55651042061275ab31c96033e6  usr/lib/x86_64-linux-gnu/libvpx.a
+290f52a059b9918e072d579be9c13016  usr/share/doc/libvpx-dev/copyright
