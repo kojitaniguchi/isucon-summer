@@ -1,0 +1,18 @@
+TARGETS = rsyslog glances uuidd killprocs mysql hddtemp nginx irqbalance ntp single rsync dbus anacron acpid cron ssh plymouth rc.local ondemand grub-common
+INTERACTIVE =
+mysql: rsyslog
+hddtemp: rsyslog
+nginx: rsyslog
+irqbalance: rsyslog
+ntp: rsyslog
+single: killprocs
+rsync: rsyslog
+dbus: rsyslog
+anacron: rsyslog
+acpid: rsyslog
+cron: rsyslog
+ssh: rsyslog
+plymouth: mysql rsyslog hddtemp glances nginx irqbalance uuidd ntp rsync dbus anacron acpid cron ssh
+rc.local: mysql rsyslog hddtemp glances nginx irqbalance uuidd ntp rsync dbus anacron acpid cron ssh
+ondemand: mysql rsyslog hddtemp glances nginx irqbalance uuidd ntp rsync dbus anacron acpid cron ssh
+grub-common: mysql rsyslog hddtemp glances nginx irqbalance uuidd ntp rsync dbus anacron acpid cron ssh

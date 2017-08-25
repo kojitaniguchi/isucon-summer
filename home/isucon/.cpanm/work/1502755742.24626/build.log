@@ -1,0 +1,28 @@
+cpanm (App::cpanminus) 1.7043 on perl 5.024000 built for x86_64-linux
+Work directory is /home/isucon/.cpanm/work/1502755742.24626
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.28
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+--> Working on /home/isucon/webapp/perl/
+Entering /home/isucon/webapp/perl
+Configuring /home/isucon/webapp/perl
+-> OK
+Checking if you have DBIx::Sunny 0 ... Yes (0.22)
+Checking if you have DBD::mysql 0 ... Yes (4.036)
+Checking if you have Digest::SHA1 0 ... Yes (2.13)
+Checking if you have String::Random 0 ... Yes (0.29)
+Checking if you have Plack::Builder 0 ... Yes (undef)
+Checking if you have Starlet 0 ... Yes (0.30)
+Checking if you have Kossy 0 ... Yes (0.40)
+Checking if you have URI::Escape 0 ... Yes (3.31)
+Checking if you have Plack::Middleware::Session 0 ... Yes (0.30)
+Checking if you have Furl 0 ... Yes (3.09)
+Checking if you have JSON::XS 0 ... Yes (3.02)
+Checking if you have Plack::Middleware::ReverseProxy 0 ... Yes (0.15)
+<== Installed dependencies for /home/isucon/webapp/perl/. Finishing.
